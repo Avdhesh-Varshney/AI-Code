@@ -1,0 +1,8 @@
+order_id,product_id,quantity,name,price,total
+1001,004,2,laptop,3400.0,6800.0
+1002,001,1,mobile phone,1490.0,1490.0
+1003,001,1,mobile phone,1490.0,1490.0
+1006,001,1,mobile phone,1490.0,1490.0
+1004,007,3,mouse,59.99,179.97
+1007,007,1,mouse,59.99,59.99
+1005,010,2,tablet,999.0,1998.0

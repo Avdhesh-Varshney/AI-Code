@@ -36,7 +36,8 @@ python3 test.py
 ```
 #### Output
 
-![alt text](image-1.png)
+<img width="447" alt="Screenshot 2024-06-02 at 5 23 15 PM" src="https://github.com/KamakshiOjha/AI-Code/assets/114620432/1b2af762-ec1e-4ed1-a496-d682c39fc200">
+
 
 ## Coded By 
 

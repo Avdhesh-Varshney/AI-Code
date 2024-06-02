@@ -34,6 +34,9 @@ To run the Elastic Net Regression module and the tests, use the following comman
 python3 ElasticNetRegression.py
 python3 test.py
 ```
+#### Output
+
+![alt text](image-1.png)
 
 ## Coded By 
 

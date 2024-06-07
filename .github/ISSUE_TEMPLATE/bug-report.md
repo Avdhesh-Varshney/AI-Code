@@ -20,7 +20,6 @@ assignees:
 ***********************************************************************
 :white_check_mark: **To be Mentioned while taking the issue :**
 - Full name : 
-- GitHub Profile Link : 
 - What is your participant role? (Mention the Open Source Program name. Eg. GSOC, GSSOC, SSOC, JWOC, etc.)
 
 ***********************************************************************

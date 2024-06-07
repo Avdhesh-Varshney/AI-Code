@@ -2,7 +2,6 @@ Closes: <!-- #issue number  -->
 
 - **Title** : 
 - **Name:** <!--Mention Your name-->
-- **GitHub ID:** <!-- Mention your GitHub ID -->
 - **Idenitfy yourself:** <!-- Mention your role (like GSOC, GSSOC, SSOC, etc. Contributor) -->
 
 

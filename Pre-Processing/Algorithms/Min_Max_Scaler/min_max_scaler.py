@@ -15,7 +15,7 @@ class MinMaxScaling:
                 pass
             return data
         except:
-            raise "ValueError:Input given to StandardScaling.fit_transform() should be pandas.Dataframe or numpy.ndarray"
+            raise "ValueError:Input given to MinMaxScaling.fit_transform() should be pandas.Dataframe or numpy.ndarray"
         
     # fit function to calculate minimum and maximum values for each column
     def fit(self, data):

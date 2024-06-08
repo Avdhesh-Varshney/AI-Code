@@ -1,12 +1,10 @@
-
 import numpy as np
 import pandas as pd
 
-class StandardScaling:
+class MinMaxScaling:
     def __init__(self):
-        self.mean = None
-        self.std = None
-
+        self.min = None
+        self.max = None
 
     # data type check and conversion
     def check_type(self, data):
@@ -17,13 +15,12 @@ class StandardScaling:
                 pass
             return data
         except:
-            raise "ValueError:Input given to StandardScaling.fit_transform() should be pandas.Dataframe or numpy.ndarray" 
-
-
-    # fit function to calculate mean and standard deviation
+            raise "ValueError:Input given to StandardScaling.fit_transform() should be pandas.Dataframe or numpy.ndarray"
+        
+    # fit function to calculate minimum and maximum values for each column
     def fit(self, data):
-        self.mean = data.mean(axis=0)
-        self.std = np.sqrt(data.var(axis=0))
+        self.min = np.min(data, axis=0)
+        self.max = np.max(data, axis=0)
 
 
     # fit_transform code
@@ -35,10 +32,10 @@ class StandardScaling:
             if np.isnan(data).any() == True:
                 raise Exception
             self.fit(data)
-            return (data - self.mean)/self.std
+            return (data - self.min)/(self.max - self.min)
         except Exception as e:
             print(f"Exception in line number {e.__traceback__.tb_lineno} : {e}")
-
+                          
 
     # transform code
     def transform(self, data):
@@ -47,23 +44,22 @@ class StandardScaling:
             # exception handling for any null values in the data 
             if np.isnan(data).any() == True:
                 raise Exception
-            if self.mean == None or self.std == None:
+            if self.min == None or self.max == None:
                 raise Exception
-            return (data - self.mean)/self.std
+            return (data - self.min)/(self.max - self.min)
         
         except Exception as e:
-            print(e)
+            print(e) 
 
     
-    # return mean and standard deviation for current dataset
+    # return minimum and maximum values for current dataset
     def get_params(self):
         return {
-            'mean' : self.mean,
-            'standard deviation' : self.std,
+            'minimum' : self.min,
+            'maximum' : self.max,
         }
 
-
     # set custom mean and standard deviation values
-    def set_params(self, mean, std):
-        self.mean = mean
-        self.std = std
+    def set_params(self, min, max):
+        self.min = min
+        self.max = max

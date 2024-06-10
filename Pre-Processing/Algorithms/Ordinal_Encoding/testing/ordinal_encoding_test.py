@@ -17,13 +17,15 @@ data = {
 }
 df = pd.DataFrame(data)
 
+print(f"Original Data : \n{df}")
+
 # Initialize the custom OrdinalEncoder
 encoder = OrdinalEncoding()
 
 # Fit the encoder to the data and transform it
 try:
     encoded_df = encoder.fit_transform(df)
-    print("\nEncoded DataFrame:")
+    print("\nEncoded Data:")
     print(encoded_df)
 except ValueError as e:
     print(f"\nException: {e}")

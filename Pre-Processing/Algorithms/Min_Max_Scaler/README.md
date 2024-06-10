@@ -1,35 +1,24 @@
-# **STANDARD SCALER**
+# MinMaxScaling
 
-The `StandardScaler` is a feature scaling method in machine learning provided by the `scikit-learn` library in Python. It standardizes features by removing the mean and scaling to unit variance. Specifically, it transforms the data so that the distribution has a mean of 0 and a standard deviation of 1.
+`MinMaxScaling` is a custom implementation of feature scaling that normalizes features to a given range, typically [0, 1]. This is similar to the `MinMaxScaler` in `scikit-learn`.
 
-![Standard Scaler Scikit-learn Example](images/st_scaler_scikit_learn.png)
-
-### **MATHEMATICAL INTUITION**
-
-Standardization formula : 
- - Standardized_feature_value = (Original_feature_value - mean_of_the_feature) / Standard_deviation_of_the_feature
-
-Purpose :
- - Ensures that each feature contributes equally to the model.
- - Improves the performance and convergence speed of many machine learning algorithms that rely on distance calculations (e.g., linear regression, logistic regression, k-nearest neighbors).
-
-### **Creating Custom Standard Scaler**
+![Min Max Scaler Scikit-Learn Example](images/mm_scaler_scikit-learn_ex.png)
 
 ## Features
 
-- **Standardization**: Transform data to have a mean of 0 and standard deviation of 1.
+- **Normalization**: Transforms data to fit within a specified range, typically [0, 1].
 - **Data Type Compatibility**: Works with both pandas DataFrames and NumPy arrays.
-- **Parameter Handling**: Allows getting and setting custom mean and standard deviation values.
+- **Parameter Handling**: Allows getting and setting custom minimum and maximum values.
 - **Exception Handling**: Includes basic exception handling for null values and incorrect data types.
 
 ## Methods
 
 - `check_type(data)`: Checks and converts data type to NumPy array if it is a pandas DataFrame.
-- `fit(data)`: Computes the mean and standard deviation of the data.
+- `fit(data)`: Computes the minimum and maximum values of the data.
 - `fit_transform(data)`: Fits the data and then transforms it.
-- `transform(data)`: Transforms the data using previously computed mean and standard deviation.
-- `get_params()`: Returns the mean and standard deviation.
-- `set_params(mean, std)`: Sets custom mean and standard deviation.
+- `transform(data)`: Transforms the data using previously computed minimum and maximum values.
+- `get_params()`: Returns the minimum and maximum values.
+- `set_params(min, max)`: Sets custom minimum and maximum values.
 
 ## Exception Handling
 
@@ -61,7 +50,7 @@ Just run these command in the Algorithms directory
 
 ## Testing
 
-1. Load all the required libraries and Custom StandardScaling class
+1. Load all the required libraries and Custom MinMaxScaling class
 
 ![Load required libraries and StandardScaling Class](images/testing_1.png)
 
@@ -69,7 +58,7 @@ Just run these command in the Algorithms directory
 
 ![Create a custom dataframe](images/testing_2.png)
 
-3. Create a StandardScaling Class's object and call the desired functions
+3. Create a MinMaxScaling Class's object and call the desired functions
 
 ![Creating object and calling functions](images/testing_3.png)
 
@@ -82,8 +71,8 @@ Just run these command in the Algorithms directory
 ![Associated Parameters](images/out_3.png)
 
 ### Notes
-1. **Ensure the class definition is available**: Include the `StandardScaling` class in your script or save it in a module (e.g., `your_module.py`) and import it accordingly.
+1. **Ensure the class definition is available**: Include the `MinMaxScaling` class in your script or save it in a module (e.g., `your_module.py`) and import it accordingly.
 2. **Adjust paths**: Make sure to adjust the import path if you save the class in a different module.
 3. **License**: Replace the placeholder in the License section with the actual license text or file link.
 
-This README provides a comprehensive overview of the `StandardScaling` class, including its features, usage examples, and how to handle potential issues.
+This README provides a comprehensive overview of the `MinMaxScaling` class, including its features, usage examples, and how to handle potential issues.

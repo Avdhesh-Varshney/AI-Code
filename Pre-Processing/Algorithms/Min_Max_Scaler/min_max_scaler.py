@@ -59,7 +59,7 @@ class MinMaxScaling:
             'maximum' : self.max,
         }
 
-    # set custom mean and standard deviation values
+    # set custom minimum and maximum values
     def set_params(self, min, max):
         self.min = min
         self.max = max

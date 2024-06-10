@@ -13,9 +13,11 @@ from Standard_Scaler.standard_scaler import StandardScaling
 data = np.random.uniform(0,10000, size=(100000, 5))
 data = pd.DataFrame(data, columns=["1", "2", "3", "4", "5"])
 
+print(f"Original Data : \n{data}")
+
 scaler = StandardScaling()
 
 scaled_data = scaler.fit_transform(data)
 
-print(scaled_data)
-print(scaler.get_params())
+print(f"Scaled Data : \n{scaled_data}")
+print(f"Associated Parameters : \n{scaler.get_params()}")

@@ -19,8 +19,8 @@
 
 | S.No  | Algorithm | S.No. | Algorithm | S.No. | Algorithm |
 |-------|-----------|-------|-----------|-------|-----------|
-|   1   | [Mean Squared Error](./Algorithms/Losses/MeanSquaredError) |   2   | [R2 Squared](./Algorithms/Losses/R2Squared) |   3   |    |
-|   4   |    |   5   |    |   6   |    |
+|   1   | [Mean Squared Error](./Algorithms/Losses/MeanSquaredError) |   2   | [R2 Squared](./Algorithms/Losses/R2Squared) |   3   |[Mean Absolute Error](./Algorithms/Losses/MeanAbsoluteError)   |
+|   4   | [Root Mean Squared Error](./Algorithms/Losses/RootMeanSquaredError)   |   5   |    |   6   |    |
 
 ## Available Documentations
 

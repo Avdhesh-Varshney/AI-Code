@@ -19,8 +19,10 @@
 
 | S.No  | Algorithm | S.No. | Algorithm | S.No. | Algorithm |
 |-------|-----------|-------|-----------|-------|-----------|
-|   1   | [Mean Squared Error](./Algorithms/Losses/MeanSquaredError) |   2   | [R2 Squared](./Algorithms/Losses/R2Squared) |   3   |[Mean Absolute Error](./Algorithms/Losses/MeanAbsoluteError)   |
-|   4   | [Root Mean Squared Error](./Algorithms/Losses/RootMeanSquaredError)   |   5   |    |   6   |    |
+|   1   | [Mean Squared Error](./Algorithms/Losses/MeanSquaredError) |   2   | [R2 Squared](./Algorithms/Losses/R2Squared) |   3   | [Cross Entropy Loss](./Algorithms/Losses/CrossEntropyLoss) |
+|   4   | [Hinge Loss](./Algorithms/Losses/HingeLoss) |   5   | [Kullback Leibler (KL) Divergence Loss](./Algorithms/Losses/KullbackLeiblerDivergenceLoss) |   6   | [Mean Absolute Error](./Algorithms/Losses/MeanAbsoluteError) |
+|   7   | [Root Mean Squared Error](./Algorithms/Losses/RootMeanSquaredError) |   8   |    |   9   |   |
+
 
 ## Available Documentations
 

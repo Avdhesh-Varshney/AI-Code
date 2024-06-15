@@ -35,10 +35,10 @@
 
 - A variety of projects to demonstrate real-world applications of AI algorithms. These projects include datasets, code, and step-by-step explanations to help users apply their knowledge and develop practical skills.
 
-| S.No  | Project | S.No  | Project | S.No | Project |
-|-------|---------|-------|---------|------|---------|
-|   1   |         |   2   |         |   3  |         |
-|   4   |         |   5   |         |   6  |         |
+| S.No | Project                    | S.No | Project                    | S.No | Project                    |
+|------|----------------------------|------|----------------------------|------|----------------------------|
+|  1   |Air_Quality_Prediction_Model|  2   |                            |  3   |                            |
+|  4   |                            |  5   |                            |  6   |                            |
 
 
 <div align="center">

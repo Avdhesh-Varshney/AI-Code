@@ -56,18 +56,11 @@ The main aim of the project is to use 3-4 algorithms to implement the models and
 
 ## **VISUAL PLOTS**
 
-![](../IMAGES/Satisfaction_level_of_people_pre_covid.jpg)
+
+![](/ML/Projects/Air_Quality_Prediction_Model/IMAGES/most_polluted_cities_pre_covid.jpg)
 
 
-![](../IMAGES/Satisfaction_level_of_people_post_covid.jpg)
-
-
-
-![](../IMAGES/most_polluted_cities_pre_covid.jpg)
-
-
-
-![](../IMAGES/most_polluted_cities_post_covid.jpg)
+![](/ML/Projects/Air_Quality_Prediction_Model/IMAGES/most_polluted_cities_post_covid.jpg)
 
 
 

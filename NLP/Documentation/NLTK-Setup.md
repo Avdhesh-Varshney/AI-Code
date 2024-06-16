@@ -1,9 +1,3 @@
----
-noteId: "ff0943102ba511ef93cf01c1a686b7f2"
-tags: []
-
----
-
 # Introduction to NLTK
 Hello there! 🌟 Welcome to your first step into the fascinating world of Natural Language Processing (NLP) with the Natural Language Toolkit (NLTK). This guide is designed to be super beginner-friendly. We’ll cover everything from installation to basic operations with lots of explanations along the way. Let's get started!
 

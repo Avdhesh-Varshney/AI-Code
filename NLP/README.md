@@ -15,7 +15,7 @@
 
 | S.No  | Documentation | S.No  | Documentation | S.No | Documentation |
 |-------|---------------|-------|---------------|------|---------------|
-|   1   | [NLP Introduction](./Documentation/NLP_Introduction.md) |   2   |               |   3  |               |
+|   1   | [NLP Introduction](./Documentation/NLP_Introduction.md) |   2   | [NLTK Setup](./Documentation/NLTK-Setup.md)              |   3  |               |
 |   4   |               |   5   |               |   6  |               |
 
 ## Available Projects

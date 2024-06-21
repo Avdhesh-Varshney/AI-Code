@@ -4,19 +4,19 @@
 
 - A diverse collection of algorithms, each with clear explanations, test cases and practical examples.
 
-| S.No  | Algorithm | S.No. | Algorithm | S.No. | Algorithm |
-|-------|-----------|-------|-----------|-------|-----------|
-|   1   |           |   2   |           |   3   |           |
-|   4   |           |   5   |           |   6   |           |
+| S.No  |    Algorithm   | S.No. |    Algorithm    | S.No. |    Algorithm    |
+|-------|----------------|-------|-----------------|-------|-----------------|
+|   1   | Min Max Scaler |   2   | Ordinal Encoder |   3   | Standard Scaler |
+|   4   |                |   5   |                 |   6   |                 |
 
 ## Available Documentations
 
 - Detailed guides and tutorials on various topics. These resources are designed to assist both beginners and advanced learners in understanding complex concepts and implementing AI solutions.
 
-| S.No  | Documentation | S.No  | Documentation | S.No | Documentation |
-|-------|---------------|-------|---------------|------|---------------|
-|   1   |               |   2   |               |   3  |               |
-|   4   |               |   5   |               |   6  |               |
+| S.No  |    Algorithm   | S.No. |    Algorithm    | S.No. |    Algorithm    |
+|-------|----------------|-------|-----------------|-------|-----------------|
+|   1   | Min Max Scaler |   2   | Ordinal Encoder |   3   | Standard Scaler |
+|   4   |                |   5   |                 |   6   |                 |
 
 ## Available Projects
 

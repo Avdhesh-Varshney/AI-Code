@@ -11,7 +11,7 @@ class OrdinalEncoding:
             raise f"Type of data should be Pandas.DataFrame; {type(data)} found"
         for column in data.columns:
             unique_categories = sorted(set(data[column]))
-        self.category_mapping = {category: idx for idx, category in enumerate(unique_categories)}
+            self.category_mapping[column] = {category: idx for idx, category in enumerate(unique_categories)}
     
     def transform(self, data):
         # Transform the data (pandas DataFrame) to ordinal integers.

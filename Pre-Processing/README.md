@@ -6,7 +6,7 @@
 
 | S.No  |    Algorithm   | S.No. |    Algorithm    | S.No. |    Algorithm    |
 |-------|----------------|-------|-----------------|-------|-----------------|
-|   1   | Min Max Scaler |   2   | Ordinal Encoder |   3   | Standard Scaler |
+|   1   | [Min Max Scaler](./Algorithms/Min_Max_Scaler) |   2   | [Ordinal Encoder](./Algorithms/Ordinal_Encoder) |   3   | [Standard Scaler](./Algorithms/Standard_Scaler) |
 |   4   |                |   5   |                 |   6   |                 |
 
 ## Available Documentations
@@ -15,7 +15,7 @@
 
 | S.No  |    Algorithm   | S.No. |    Algorithm    | S.No. |    Algorithm    |
 |-------|----------------|-------|-----------------|-------|-----------------|
-|   1   | Min Max Scaler |   2   | Ordinal Encoder |   3   | Standard Scaler |
+|   1   | [Min Max Scaler](./Documentation/Min_Max_Scaler) |   2   | [Ordinal Encoder](./Documentation/Ordinal_Encoder) |   3   | [Standard Scaler](./Documentation/Standard_Scaler) |
 |   4   |                |   5   |                 |   6   |                 |
 
 ## Available Projects

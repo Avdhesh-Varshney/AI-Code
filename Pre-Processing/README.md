@@ -24,7 +24,7 @@
 
 | S.No  | Project | S.No  | Project | S.No | Project |
 |-------|---------|-------|---------|------|---------|
-|   1   |         |   2   |         |   3  |         |
+|   1   | [Bangladesh Premier League Analysis](./Projects/bangladesh_premier_league_analysis) |   2   |         |   3  |         |
 |   4   |         |   5   |         |   6  |         |
 
 

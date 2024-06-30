@@ -2,14 +2,14 @@
 
 ## AIM
 <!-- In 1 single line -->
-To be able to classify musical data based on the genre they are from.
+The objective of this project is to develop a precise and effective music genre classification model using different machine learning algorithms for the Kaggle GTZAN Dataset Music Genre Classification. 
 
 ## DATASET LINK
 <!-- Attach the link of the Dataset -->
 [GTZAN Dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification/data)
 ## MY NOTEBOOK LINK
 <!-- Mention your notebook link where you have solve it either on Kaggle or Collab Link or Drive Link. -->
-[Music Genre Classification Model](https://colab.research.google.com/drive/1j8RZccP2ee5XlWEFSkTyJ98lFyNrezHS?usp=sharing)
+[music.ipynb](https://colab.research.google.com/drive/1j8RZccP2ee5XlWEFSkTyJ98lFyNrezHS?usp=sharing)
 
 
 ## DESCRIPTION
@@ -52,7 +52,7 @@ etc. -->
 
 ### DETAILS OF THE DIFFERENT FEATURES
 <!-- Elaborate the features as mentioned in the issues, perfoming any googling to learn about the features -->
-There are 3 different types of the datasets.
+There are 4 different types of the datasets.
 
 - genres_original
 - images_original
@@ -125,14 +125,34 @@ There are 60 features in `features_30_sec.csv`
 ### SCREENSHOTS
 <!-- Attach the screenshots and images of tree diagram of project approaching,
 Visualization and EDA of different features, etc. -->
-![img](./assets/Top-5-Player-of-Match.png)
-![img](./assets/Top-5-Batsman-Runners.png)
-![img](./assets/Top-5-Four-Runners.png)
-![img](./assets/Top-5-Overs.png)
-![img](./assets/Top-5-Runs.png)
-![img](./assets/Top-5-Umpires.png)
-![img](./assets/Top-5-Wickets.png)
-![img](./assets/Toss-Winners.png)
+<table>
+    <tr>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/530dadf4ac11c318e4267f91685ba4d056266cd5/OpenCV/Projects/Music%20Genre%20Classification%20Model/assets/Sound%20Wave.jpg"></td>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/530dadf4ac11c318e4267f91685ba4d056266cd5/OpenCV/Projects/Music%20Genre%20Classification%20Model/assets/stft.jpg"></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/530dadf4ac11c318e4267f91685ba4d056266cd5/OpenCV/Projects/Music%20Genre%20Classification%20Model/assets/Pop%20Mel-Spec.jpg"></td>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/530dadf4ac11c318e4267f91685ba4d056266cd5/OpenCV/Projects/Music%20Genre%20Classification%20Model/assets/Blues%20Mel-Spec.jpg"></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/530dadf4ac11c318e4267f91685ba4d056266cd5/OpenCV/Projects/Music%20Genre%20Classification%20Model/assets/Spec%20Cent.jpg"></td>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/530dadf4ac11c318e4267f91685ba4d056266cd5/OpenCV/Projects/Music%20Genre%20Classification%20Model/assets/Spec%20Rolloff.jpg"></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/530dadf4ac11c318e4267f91685ba4d056266cd5/OpenCV/Projects/Music%20Genre%20Classification%20Model/assets/MFCC.jpg"></td>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/530dadf4ac11c318e4267f91685ba4d056266cd5/OpenCV/Projects/Music%20Genre%20Classification%20Model/assets/Chromogram.jpg"></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align: center;"><img src="https://github.com/fspzar123/AI-Code/blob/530dadf4ac11c318e4267f91685ba4d056266cd5/OpenCV/Projects/Music%20Genre%20Classification%20Model/assets/Corr%20Heatmap.jpg" alt="Heatmap of Correlation" style="width: 70%;"></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/530dadf4ac11c318e4267f91685ba4d056266cd5/OpenCV/Projects/Music%20Genre%20Classification%20Model/assets/BPM%20Boxplot.jpg"></td>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/530dadf4ac11c318e4267f91685ba4d056266cd5/OpenCV/Projects/Music%20Genre%20Classification%20Model/assets/PCA%20Scattert.jpg"></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align: center;"><img src="https://github.com/fspzar123/AI-Code/blob/530dadf4ac11c318e4267f91685ba4d056266cd5/OpenCV/Projects/Music%20Genre%20Classification%20Model/assets/conf%20matrix.png" alt="Confusion Matrix of each Genre" style="width: 70%;"></td>
+    </tr>
+</table>
 
 ### MODELS USED AND THEIR ACCURACIES
 <!-- If you have used any model, Provide this data in tabular form with,
@@ -146,8 +166,14 @@ Accuracy, MSE, R2 Score -->
 
 ### MODELS COMPARISON GRAPHS 
 <!-- Attach the images and screenshots of models accuracy and losses graphs. -->
+<table>
+    <tr>
+        <td style="padding-right: 20px; vertical-align: top;">
+            <img src="https://github.com/fspzar123/AI-Code/blob/530dadf4ac11c318e4267f91685ba4d056266cd5/OpenCV/Projects/Music%20Genre%20Classification%20Model/assets/accplot.png" alt="Accuracies of Models" style="max-width: 100px; max-height: 100px;">
+        </td>
+    </tr>
+</table>
 
-![img](./assets/RF_Regression_Plot.png)
 
 ## CONCLUSION
 

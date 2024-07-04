@@ -2,7 +2,7 @@
 
 ## AIM
 <!-- In 1 single line -->
-To be able to classify musical data based on the genre they are from.
+The aim of this project is to develop a precise and effective music genre classification model using Convolutional Neural Networks (CNN), Support Vector Machines (SVM), Random Forest and XGBoost Classifier algorithms for the Kaggle GTZAN Dataset Music Genre Classification. 
 
 ## DATASET LINK
 <!-- Attach the link of the Dataset -->
@@ -125,14 +125,34 @@ There are 60 features in `features_30_sec.csv`
 ### SCREENSHOTS
 <!-- Attach the screenshots and images of tree diagram of project approaching,
 Visualization and EDA of different features, etc. -->
-![img](./assets/Top-5-Player-of-Match.png)
-![img](./assets/Top-5-Batsman-Runners.png)
-![img](./assets/Top-5-Four-Runners.png)
-![img](./assets/Top-5-Overs.png)
-![img](./assets/Top-5-Runs.png)
-![img](./assets/Top-5-Umpires.png)
-![img](./assets/Top-5-Wickets.png)
-![img](./assets/Toss-Winners.png)
+<table>
+    <tr>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/668aeb1038286b6f74a4dac2323e5528c71ac89a/Music%20Genre%20Classification%20Model/assets/Sound%20Wave.jpg"></td>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/668aeb1038286b6f74a4dac2323e5528c71ac89a/Music%20Genre%20Classification%20Model/assets/stft.jpg" ></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/668aeb1038286b6f74a4dac2323e5528c71ac89a/Music%20Genre%20Classification%20Model/assets/Pop%20Mel-Spec.jpg"></td>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/668aeb1038286b6f74a4dac2323e5528c71ac89a/Music%20Genre%20Classification%20Model/assets/Blues%20Mel-Spec.jpg" ></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/668aeb1038286b6f74a4dac2323e5528c71ac89a/Music%20Genre%20Classification%20Model/assets/Spec%20Cent.jpg"></td>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/668aeb1038286b6f74a4dac2323e5528c71ac89a/Music%20Genre%20Classification%20Model/assets/Spec%20Rolloff.jpg" ></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/668aeb1038286b6f74a4dac2323e5528c71ac89a/Music%20Genre%20Classification%20Model/assets/MFCC.jpg"></td>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/668aeb1038286b6f74a4dac2323e5528c71ac89a/Music%20Genre%20Classification%20Model/assets/Chromogram.jpg" ></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align: center;"><img src="https://github.com/fspzar123/AI-Code/blob/668aeb1038286b6f74a4dac2323e5528c71ac89a/Music%20Genre%20Classification%20Model/assets/Corr%20Heatmap.jpg" style="width: 70%;"></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/668aeb1038286b6f74a4dac2323e5528c71ac89a/Music%20Genre%20Classification%20Model/assets/BPM%20Boxplot.jpg"></td>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/668aeb1038286b6f74a4dac2323e5528c71ac89a/Music%20Genre%20Classification%20Model/assets/PCA%20Scattert.jpg" ></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align: center;"><img src="https://github.com/fspzar123/AI-Code/blob/668aeb1038286b6f74a4dac2323e5528c71ac89a/Music%20Genre%20Classification%20Model/assets/conf%20matrix.png" style="width: 70%;"></td>
+    </tr>
+</table>
 
 ### MODELS USED AND THEIR ACCURACIES
 <!-- If you have used any model, Provide this data in tabular form with,
@@ -146,10 +166,13 @@ Accuracy, MSE, R2 Score -->
 
 ### MODELS COMPARISON GRAPHS 
 <!-- Attach the images and screenshots of models accuracy and losses graphs. -->
+<table>
+    <tr>
+        <td><img src="https://github.com/fspzar123/AI-Code/blob/668aeb1038286b6f74a4dac2323e5528c71ac89a/Music%20Genre%20Classification%20Model/assets/accplot.png"></td>
+    </tr>
+</table>
 
-![img](./assets/RF_Regression_Plot.png)
-
-## CONCLUSION
+### CONCLUSION
 
 * Here we can see that Accuracy plots of the different models
 * Here, XGB Classifier can predict most accurate results for predicting the Genre of the music

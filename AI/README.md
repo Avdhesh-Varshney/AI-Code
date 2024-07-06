@@ -6,7 +6,7 @@
 
 | S.No  | Algorithm | S.No. | Algorithm | S.No. | Algorithm |
 |-------|-----------|-------|-----------|-------|-----------|
-|   1   |           |   2   |           |   3   |           |
+|   1   | Simple Hill Climbing |   2   | Steepest Ascent Hill Climbing |   3   |           |
 |   4   |           |   5   |           |   6   |           |
 
 ## Available Documentations

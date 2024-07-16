@@ -6,8 +6,8 @@
 
 | S.No  | Algorithm | S.No. | Algorithm | S.No. | Algorithm |
 |-------|-----------|-------|-----------|-------|-----------|
-|   1   |           |   2   |           |   3   |           |
-|   4   |           |   5   |           |   6   |           |
+|   1   | [BasicGAN](./Algorithms/BasicGAN) |   2   | [ACGAN](./Algorithms/ACGAN) |   3   | [EBGAN](./Algorithms/EBGAN) |
+|   4   | [InfoGAN](./Algorithms/InfoGAN) |   5   | [cGAN](./Algorithms/cGAN) |   6   |           |
 
 ## Available Documentations
 

@@ -4,19 +4,19 @@
 
 - A diverse collection of algorithms, each with clear explanations, test cases and practical examples.
 
-| S.No  | Algorithm | S.No. | Algorithm | S.No. | Algorithm |
-|-------|-----------|-------|-----------|-------|-----------|
-|   1   |           |   2   |           |   3   |           |
-|   4   |           |   5   |           |   6   |           |
+| S.No  |    Algorithm   | S.No. |    Algorithm    | S.No. |    Algorithm    |
+|-------|----------------|-------|-----------------|-------|-----------------|
+|   1   | [Min Max Scaler](./Algorithms/Min_Max_Scaler) |   2   | [Ordinal Encoder](./Algorithms/Ordinal_Encoder) |   3   | [Standard Scaler](./Algorithms/Standard_Scaler) |
+|   4   |                |   5   |                 |   6   |                 |
 
 ## Available Documentations
 
 - Detailed guides and tutorials on various topics. These resources are designed to assist both beginners and advanced learners in understanding complex concepts and implementing AI solutions.
 
-| S.No  | Documentation | S.No  | Documentation | S.No | Documentation |
-|-------|---------------|-------|---------------|------|---------------|
-|   1   |               |   2   |               |   3  |               |
-|   4   |               |   5   |               |   6  |               |
+| S.No  |    Algorithm   | S.No. |    Algorithm    | S.No. |    Algorithm    |
+|-------|----------------|-------|-----------------|-------|-----------------|
+|   1   | [Min Max Scaler](./Documentation/Min_Max_Scaler) |   2   | [Ordinal Encoder](./Documentation/Ordinal_Encoder) |   3   | [Standard Scaler](./Documentation/Standard_Scaler) |
+|   4   |                |   5   |                 |   6   |                 |
 
 ## Available Projects
 
@@ -24,7 +24,7 @@
 
 | S.No  | Project | S.No  | Project | S.No | Project |
 |-------|---------|-------|---------|------|---------|
-|   1   |         |   2   |         |   3  |         |
+|   1   | [Bangladesh Premier League Analysis](./Projects/bangladesh_premier_league_analysis) |   2   |         |   3  |         |
 |   4   |         |   5   |         |   6  |         |
 
 

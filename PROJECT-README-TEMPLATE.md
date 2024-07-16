@@ -26,7 +26,6 @@ Provide a comprehensive overview of the project:
 - Why is it necessary?
 - How is it beneficial and used?
 - How did you start approaching this project? (Initial thoughts and planning)
-- What are the traids are you 
 - Mention any additional resources used (blogs, books, chapters, articles, research papers, etc.).
 
 
@@ -46,7 +45,7 @@ Outline the steps taken during the project:
 5. Step 5: Model optimization and fine-tuning.
 6. Step 6: Validation and testing.
 
-## PROJECT TRADE-OFFS AND SOLUTIONS
+### PROJECT TRADE-OFFS AND SOLUTIONS
 <!-- Explain the trade-offs encountered during the project and how you addressed them -->
 Discuss the trade-offs faced during the project and the solutions implemented to manage them:
 1. **Trade-off 1**: Describe the trade-off encountered (e.g., accuracy vs. computational efficiency).

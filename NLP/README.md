@@ -24,7 +24,7 @@
 
 | S.No  | Project | S.No  | Project | S.No | Project |
 |-------|---------|-------|---------|------|---------|
-|   1   |         |   2   |         |   3  |         |
+|   1   |[SMS-Spam_detectio](NLP\Projects\SMS-Spam-Detection\SMS-Spam.md)       |   2   |         |   3  |         |
 |   4   |         |   5   |         |   6  |         |
 
 

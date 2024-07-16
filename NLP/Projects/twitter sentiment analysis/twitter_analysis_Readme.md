@@ -10,7 +10,7 @@ To analyze sentiment in Twitter data using natural language processing technique
 
 ## MY NOTEBOOK LINK
 
-Provide the link to the notebook used for the project.
+[NoteBook Link](https://drive.google.com/drive/folders/1F6BLxvp6qIAgGZOZ2rC370EmKhj5W1FC?usp=sharing)
 
 ## DESCRIPTION
 

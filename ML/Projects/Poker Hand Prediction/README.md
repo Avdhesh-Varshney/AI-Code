@@ -1,4 +1,4 @@
-# Pokerman
+# Poker hand prediction
 
 TL;DR, predicting poker hands.
 

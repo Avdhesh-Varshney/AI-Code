@@ -6,7 +6,7 @@
 
 | S.No  | Algorithm | S.No. | Algorithm | S.No. | Algorithm |
 |-------|-----------|-------|-----------|-------|-----------|
-|   1   | [Bag of Words](./Algorithms/BagOfWords) |   2   |           |   3   |           |
+|   1   | [Bag of Words](./Algorithms/BagOfWords) |   2   | [TF-IDF](./Algorithms/TF-IDF/tf-idf.ipynb)          |   3   | [Word2Vec](./Algorithms/Word2Vec/word2vec.ipynb)           |
 |   4   |           |   5   |           |   6   |           |
 
 ## Available Documentations

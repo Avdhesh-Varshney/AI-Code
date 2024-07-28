@@ -7,7 +7,7 @@
 | S.No  | Algorithm | S.No. | Algorithm | S.No. | Algorithm |
 |-------|-----------|-------|-----------|-------|-----------|
 |   1   | [Bag of Words](./Algorithms/BagOfWords) |   2   | [TF-IDF](./Algorithms/TF-IDF)          |   3   | [Word2Vec](./Algorithms/Word2Vec)           |
-|   4   |           |   5   |           |   6   |           |
+|   4   | [GloVe](./Algorithms/GloVe) |   5   | [FastText](./Algorithms/FastText)          |   6   |          |
 
 ## Available Documentations
 
@@ -16,7 +16,7 @@
 | S.No  | Documentation | S.No  | Documentation | S.No | Documentation |
 |-------|---------------|-------|---------------|------|---------------|
 |   1   | [NLP Introduction](./Documentation/NLP_Introduction.md) |   2   | [NLTK Setup](./Documentation/NLTK-Setup.md) |   3  | [Text Preprocessing Techniques](./Documentation/Text_Preprocessing_Techniques.md) |
-|   4   |               |   5   |               |   6  |               |
+|   4   | [Word Embeddings](./Documentation/Word_Embeddings.md) |   5   |               |   6  |               |
 
 ## Available Projects
 

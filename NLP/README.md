@@ -7,7 +7,8 @@
 | S.No  | Algorithm | S.No. | Algorithm | S.No. | Algorithm |
 |-------|-----------|-------|-----------|-------|-----------|
 |   1   | [Bag of Words](./Algorithms/BagOfWords) |   2   | [TF-IDF](./Algorithms/TF-IDF)          |   3   | [Word2Vec](./Algorithms/Word2Vec)           |
-|   4   | [GloVe](./Algorithms/GloVe) |   5   | [FastText](./Algorithms/FastText)          |   6   |          |
+|   4   | [GloVe](./Algorithms/GloVe) |   5   | [FastText](./Algorithms/FastText)          |   6   |  [Text Classification](./Algorithms/Text_Classification)        |
+|   7   | [Named Entity Recognition](./Algorithms/Named_Entity_Recognition) |   8   |           |   9   |          |
 
 ## Available Documentations
 
@@ -16,7 +17,7 @@
 | S.No  | Documentation | S.No  | Documentation | S.No | Documentation |
 |-------|---------------|-------|---------------|------|---------------|
 |   1   | [NLP Introduction](./Documentation/NLP_Introduction.md) |   2   | [NLTK Setup](./Documentation/NLTK-Setup.md) |   3  | [Text Preprocessing Techniques](./Documentation/Text_Preprocessing_Techniques.md) |
-|   4   | [Word Embeddings](./Documentation/Word_Embeddings.md) |   5   |               |   6  |               |
+|   4   | [Word Embeddings](./Documentation/Word_Embeddings.md) |   5   | [Transformers Overview](./Documentation/Transformers.md) |   6  |               |
 
 ## Available Projects
 

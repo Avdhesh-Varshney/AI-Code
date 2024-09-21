@@ -24,7 +24,7 @@
 
 | S.No  | Project | S.No  | Project | S.No | Project |
 |-------|---------|-------|---------|------|---------|
-|   1   | [Music Genre Classification Model](./Projects/Music%20Genre%20Classification%20Model) |   2   |         |   3  |         |
+|   1   | [Music Genre Classification Model](./Projects/music_genre_classification_model) |   2   |         |   3  |         |
 |   4   |         |   5   |         |   6  |         |
 
 

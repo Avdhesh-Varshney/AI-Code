@@ -1,6 +1,7 @@
 # Virtual environment files
 */venv/
 venv/
+myenv/
 etc/
 Include/
 Lib/
@@ -9,12 +10,9 @@ share/
 pyvenv.cfg
 __pycache__\
 
-# Name of my Virtual environment
-aiml
-
 # Others extension files or caches
 *.ini
 .ipynb_checkpoints/
 
-# Necessory files
+# Secret files
 kaggle.json

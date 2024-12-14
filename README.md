@@ -1,4 +1,4 @@
-# AI-Code 
+# AI-Code
 
 ![AI](https://img.shields.io/badge/AI-ff5733?style=flat-square) 
 ![DL](https://img.shields.io/badge/DL-007bff?style=flat-square) 
@@ -10,7 +10,7 @@
 
 ---
 
-### 🌟 **Overview** 
+### 🌟 **Overview**
 **AI-Code** simplifies learning AI technologies with **easy-to-follow** code and **real-world project** guides for ML, DL, GAN, NLP, OpenCV, and more.
 
 ---
@@ -23,8 +23,37 @@
 
 ---
 
+### ⚡ **Setup the Project**
+1. Go through the [Contributing Guidelines](./CONTRIBUTING.md) to fork and clone the project.
+2. After forking and cloning the project in your local system:
+   - Create a virtual environment:
+     ```bash
+     python -m venv myenv
+     ```
+   - Activate the virtual environment:
+     - On Windows:
+       ```bash
+       myenv\Scripts\activate
+       ```
+     - On macOS/Linux:
+       ```bash
+       source myenv/bin/activate
+       ```
+   - Install the required Python package:
+     ```bash
+     pip install mkdocs-material
+     ```
+3. After installing the package, run the following command to start the development server:
+   ```bash
+   mkdocs serve
+   ```
+4. Open the local server URL (usually `http://127.0.0.1:8000`) in your browser. You are now ready to work on the project.
+
+---
+
 ### 🛠️ **Tech Stack**
 - **Python 3.8+**
+- **Markdown**
 - **Git/GitHub**
 - **VS Code**
 

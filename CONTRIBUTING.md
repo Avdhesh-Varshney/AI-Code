@@ -40,14 +40,12 @@ git push -u origin <your_branch_name>
 
 We want your work to be readable by others; therefore, we encourage you to note the following:
 
-1. Directory names should be in `snake-case` letters (e.g., `music_genre_classification_model`, `insurance_cross_sell_prediction`).
-2. Add a `README` file in the project directory.
+1. Directory & file names should be in `snake_case` letters (e.g., `music_genre_classification_model`, `insurance_cross_sell_prediction`).
+2. Add a `README` file in the project directory and `README` file name to be in capital letters.
 3. Follow the [***PROJECT README TEMPLATE***](./PROJECT-README-TEMPLATE.md).
 4. Add the images/videos/others things organized in `assets` folder.
-5. Regularly updates the respective README file of each folder i.e., `ML`, `DL`, etc. and enlist your project/code there.
-6. Don't create more than 3-4 commits until not permitted by Admin and Mentors of the project.
-7. Commit message should be clear. Never write un-necessary things in the commit messages.
-
+5. Don't create more than 3-4 commits until not permitted by Admin and Mentors of the project.
+6. Commit message should be clear. Never write un-necessary things in the commit messages.
 
 ### Pull Requests Review Criteria 🧲 
 

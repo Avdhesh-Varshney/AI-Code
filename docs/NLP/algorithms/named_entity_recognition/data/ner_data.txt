@@ -1,0 +1,1015 @@
+I O
+love O
+programming O
+in O
+Python B-LANG
+. O
+
+Machine B-SKILL
+learning I-SKILL
+is O
+fascinating O
+. O
+
+Spacy B-TECH
+is O
+a O
+useful O
+library O
+. O
+
+Python B-LANG
+is O
+a O
+versatile O
+language O
+. O
+
+Named B-TASK
+Entity I-TASK
+Recognition I-TASK
+is O
+important O
+. O
+
+Google B-ORG
+is O
+a O
+leading O
+tech B-INDUSTRY
+company O
+. O
+
+Elon B-PER
+Musk I-PER
+is O
+the O
+CEO O
+of O
+Tesla B-ORG
+. O
+
+The O
+COVID-19 B-EVENT
+pandemic I-EVENT
+has O
+impacted O
+the O
+world O
+significantly O
+. O
+
+Microsoft B-ORG
+was O
+founded O
+by O
+Bill B-PER
+Gates I-PER
+. O
+
+Apple B-ORG
+introduced O
+the O
+iPhone B-PROD
+in O
+2007 B-DATE
+. O
+
+Amazon B-ORG
+is O
+a O
+global O
+e-commerce B-INDUSTRY
+giant O
+. O
+
+Facebook B-ORG
+rebranded O
+to O
+Meta B-ORG
+in O
+2021 B-DATE
+. O
+
+New B-GPE
+York I-GPE
+City I-GPE
+is O
+a O
+major O
+financial B-INDUSTRY
+hub O
+. O
+
+SpaceX B-ORG
+launched O
+the O
+Falcon B-PROD
+Heavy I-PROD
+rocket I-PROD
+. O
+
+The O
+Olympics B-EVENT
+are O
+held O
+every O
+four O
+years O
+. O
+
+Python B-LANG
+and O
+Java B-LANG
+are O
+popular O
+programming O
+languages O
+. O
+
+NASA B-ORG
+is O
+planning O
+a O
+mission O
+to O
+Mars B-LOC
+. O
+
+The O
+Great B-LOC
+Wall I-LOC
+of I-LOC
+China I-LOC
+is O
+a O
+historic O
+landmark O
+. O
+
+Tesla B-ORG
+produces O
+electric B-PROD
+vehicles I-PROD
+. O
+
+The O
+Eiffel B-LOC
+Tower I-LOC
+is O
+in O
+Paris B-GPE
+. O
+
+Google B-ORG
+Maps I-PROD
+is O
+a O
+widely O
+used O
+navigation O
+app O
+. O
+
+The O
+Amazon B-LOC
+Rainforest I-LOC
+is O
+the O
+largest O
+tropical O
+rainforest O
+. O
+
+Lionel B-PER
+Messi I-PER
+is O
+a O
+famous O
+football B-SPORT
+player O
+. O
+
+The O
+United B-ORG
+Nations I-ORG
+is O
+an O
+international O
+organization O
+. O
+
+The O
+stock B-INDUSTRY
+market O
+can O
+be O
+volatile O
+. O
+
+The O
+Academy B-EVENT
+Awards I-EVENT
+celebrate O
+cinematic B-INDUSTRY
+achievements O
+. O
+
+Mount B-LOC
+Everest I-LOC
+is O
+the O
+highest O
+mountain O
+in O
+the O
+world O
+. O
+
+Jeff B-PER
+Bezos I-PER
+is O
+the O
+founder O
+of O
+Amazon B-ORG
+. O
+
+The O
+Pacific B-LOC
+Ocean I-LOC
+is O
+the O
+largest O
+ocean O
+. O
+
+The O
+Sahara B-LOC
+Desert I-LOC
+is O
+in O
+Africa B-LOC
+. O
+
+Harvard B-ORG
+University I-ORG
+is O
+an O
+Ivy B-INDUSTRY
+League I-INDUSTRY
+school O
+. O
+
+The O
+World B-ORG
+Health I-ORG
+Organization I-ORG
+monitors O
+global O
+health O
+trends O
+. O
+
+The O
+Wright B-PER
+Brothers I-PER
+invented O
+the O
+airplane B-PROD
+. O
+
+Python B-LANG
+is O
+used O
+in O
+data B-TASK
+science I-TASK
+. O
+
+The O
+Taj B-LOC
+Mahal I-LOC
+is O
+in O
+India B-GPE
+. O
+
+Tesla B-ORG
+is O
+known O
+for O
+its O
+electric B-PROD
+cars I-PROD
+. O
+
+The O
+Google B-ORG
+search B-TASK
+engine I-TASK
+is O
+widely O
+used O
+. O
+
+NASA B-ORG
+is O
+exploring O
+space B-LOC
+. O
+
+The O
+Great B-LOC
+Barrier I-LOC
+Reef I-LOC
+is O
+in O
+Australia B-GPE
+. O
+
+The O
+United B-GPE
+States I-GPE
+of I-GPE
+America I-GPE
+is O
+a O
+large O
+country O
+. O
+
+The O
+Silicon B-LOC
+Valley I-LOC
+is O
+a O
+tech B-INDUSTRY
+hub O
+. O
+
+The O
+European B-ORG
+Union I-ORG
+is O
+a O
+political B-INDUSTRY
+and O
+economic B-INDUSTRY
+union O
+. O
+
+Python B-LANG
+is O
+great O
+for O
+machine B-TASK
+learning I-TASK
+. O
+
+The O
+Sphinx B-LOC
+is O
+a O
+historic O
+monument O
+in O
+Egypt B-GPE
+. O
+
+New B-GPE
+York I-GPE
+is O
+a O
+busy O
+city O
+. O
+
+The O
+Grand B-LOC
+Canyon I-LOC
+is O
+a O
+natural O
+wonder O
+. O
+
+Python B-LANG
+supports O
+multiple O
+programming O
+paradigms O
+. O
+
+Amazon B-ORG
+Prime I-PROD
+offers O
+fast O
+shipping O
+. O
+
+The O
+Mona B-PROD
+Lisa I-PROD
+is O
+a O
+famous O
+painting O
+. O
+
+The O
+Berlin B-LOC
+Wall I-LOC
+fell O
+in O
+1989 B-DATE
+. O
+
+Elon B-PER
+Musk I-PER
+founded O
+SpaceX B-ORG
+. O
+
+The O
+Great B-LOC
+Lakes I-LOC
+are O
+a O
+group O
+of O
+five O
+large O
+lakes O
+. O
+
+Python B-LANG
+is O
+used O
+for O
+web B-TASK
+development I-TASK
+. O
+
+The O
+Rocky B-LOC
+Mountains I-LOC
+are O
+in O
+North B-LOC
+America I-LOC
+. O
+
+Microsoft B-ORG
+Office I-PROD
+is O
+a O
+suite O
+of O
+productivity O
+tools O
+. O
+
+Python B-LANG
+is O
+popular O
+in O
+data B-TASK
+analysis I-TASK
+. O
+
+The O
+Golden B-LOC
+Gate I-LOC
+Bridge I-LOC
+is O
+in O
+San B-GPE
+Francisco I-GPE
+. O
+
+The O
+Big B-LOC
+Ben I-LOC
+is O
+in O
+London B-GPE
+. O
+
+Python B-LANG
+is O
+known O
+for O
+its O
+simplicity O
+. O
+
+The O
+Statue B-LOC
+of I-LOC
+Liberty I-LOC
+is O
+in O
+New B-GPE
+York I-GPE
+. O
+
+The O
+Great B-LOC
+Pyramids I-LOC
+are O
+in O
+Giza B-LOC
+. O
+
+The O
+Amazon B-LOC
+River I-LOC
+is O
+the O
+second O
+longest O
+river O
+. O
+
+Python B-LANG
+is O
+widely O
+used O
+in O
+scientific B-TASK
+computing I-TASK
+. O
+
+The O
+Great B-LOC
+Barrier I-LOC
+Reef I-LOC
+is O
+in O
+Australia B-GPE
+. O
+
+The O
+Sydney B-LOC
+Opera I-LOC
+House I-LOC
+is O
+a O
+famous O
+landmark O
+. O
+
+Amazon B-ORG
+Web I-PROD
+Services I-PROD
+is O
+a O
+cloud B-INDUSTRY
+computing I-INDUSTRY
+platform O
+. O
+
+Python B-LANG
+is O
+used O
+for O
+AI B-TASK
+research I-TASK
+. O
+
+The O
+Empire B-LOC
+State I-LOC
+Building I-LOC
+is O
+in O
+New B-GPE
+York I-GPE
+. O
+
+The O
+Great B-LOC
+Wall I-LOC
+of I-LOC
+China I-LOC
+is O
+a O
+historic O
+landmark O
+. O
+
+Google B-ORG
+Drive I-PROD
+is O
+a O
+cloud B-INDUSTRY
+storage I-INDUSTRY
+service O
+. O
+
+The O
+Amazon B-LOC
+Rainforest I-LOC
+is O
+the O
+largest O
+tropical O
+rainforest O
+. O
+
+Python B-LANG
+is O
+known O
+for O
+its O
+extensive O
+libraries O
+. O
+
+The O
+Colosseum B-LOC
+is O
+in O
+Rome B-GPE
+. O
+
+Tesla B-ORG
+produces O
+electric B-PROD
+cars I-PROD
+. O
+
+The O
+United B-ORG
+Nations I-ORG
+was O
+founded O
+in O
+1945 B-DATE
+. O
+
+Python B-LANG
+is O
+great O
+for O
+data B-TASK
+visualization I-TASK
+. O
+
+The O
+Sphinx B-LOC
+is O
+a O
+historic O
+monument O
+in O
+Egypt B-GPE
+. O
+
+The O
+Rocky B-LOC
+Mountains I-LOC
+are O
+in O
+North B-LOC
+America I-LOC
+. O
+
+The O
+World B-ORG
+Health I-ORG
+Organization I-ORG
+monitors O
+global O
+health O
+trends O
+. O
+
+Python B-LANG
+is O
+used O
+in O
+natural B-TASK
+language I-TASK
+processing I-TASK
+. O
+
+The O
+Grand B-LOC
+Canyon I-LOC
+is O
+a O
+natural O
+wonder O
+. O
+
+The O
+Pacific B-LOC
+Ocean I-LOC
+is O
+the O
+largest O
+ocean O
+. O
+
+The O
+Wright B-PER
+Brothers I-PER
+invented O
+the O
+airplane B-PROD
+. O
+
+The O
+Great B-LOC
+Lakes I-LOC
+are O
+a O
+group O
+of O
+five O
+large O
+lakes O
+. O
+
+Python B-LANG
+is O
+used O
+for O
+web B-TASK
+development I-TASK
+. O
+
+Amazon B-ORG
+Prime I-PROD
+offers O
+fast O
+shipping O
+. O
+
+The O
+Eiffel B-LOC
+Tower I-LOC
+is O
+in O
+Paris B-GPE
+. O
+
+The O
+United B-GPE
+Kingdom I-GPE
+is O
+a O
+country O
+in O
+Europe B-LOC
+. O
+
+Python B-LANG
+is O
+known O
+for O
+its O
+simplicity O
+. O
+
+The O
+Great B-LOC
+Pyramids I-LOC
+are O
+in O
+Giza B-LOC
+. O
+
+Google B-ORG
+Maps I-PROD
+is O
+a O
+widely O
+used O
+navigation O
+app O
+. O
+
+The O
+Amazon B-LOC
+River I-LOC
+is O
+the O
+second O
+longest O
+river O
+. O
+
+Python B-LANG
+is O
+widely O
+used O
+in O
+scientific B-TASK
+computing I-TASK
+. O
+
+The O
+Berlin B-LOC
+Wall I-LOC
+fell O
+in O
+1989 B-DATE
+. O
+
+The O
+Olympics B-EVENT
+are O
+held O
+every O
+four O
+years O
+. O
+
+Python B-LANG
+and O
+Java B-LANG
+are O
+popular O
+programming O
+languages O
+. O
+
+The O
+Mona B-PROD
+Lisa I-PROD
+is O
+a O
+famous O
+painting O
+. O
+
+The O
+Great B-LOC
+Barrier I-LOC
+Reef I-LOC
+is O
+in O
+Australia B-GPE
+. O
+
+The O
+Sydney B-LOC
+Opera I-LOC
+House I-LOC
+is O
+a O
+famous O
+landmark O
+. O
+
+Elon B-PER
+Musk I-PER
+is O
+the O
+CEO O
+of O
+Tesla B-ORG
+. O
+
+Microsoft B-ORG
+was O
+founded O
+by O
+Bill B-PER
+Gates I-PER
+. O
+
+The O
+Academy B-EVENT
+Awards I-EVENT
+celebrate O
+cinematic B-INDUSTRY
+achievements O
+. O
+
+The O
+Great B-LOC
+Wall I-LOC
+of I-LOC
+China I-LOC
+is O
+a O
+historic O
+landmark O
+. O
+
+Jeff B-PER
+Bezos I-PER
+is O
+the O
+founder O
+of O
+Amazon B-ORG
+. O
+
+The O
+Pacific B-LOC
+Ocean I-LOC
+is O
+the O
+largest O
+ocean O
+. O
+
+Lionel B-PER
+Messi I-PER
+is O
+a O
+famous O
+football B-SPORT
+player O
+. O
+
+The O
+United B-GPE
+States I-GPE
+of I-GPE
+America I-GPE
+is O
+a O
+large O
+country O
+. O
+
+The O
+Silicon B-LOC
+Valley I-LOC
+is O
+a O
+tech B-INDUSTRY
+hub O
+. O
+
+The O
+World B-ORG
+Health I-ORG
+Organization I-ORG
+monitors O
+global O
+health O
+trends O
+. O
+
+The O
+Golden B-LOC
+Gate I-LOC
+Bridge I-LOC
+is O
+in O
+San B-GPE
+Francisco I-GPE
+. O
+
+The O
+Empire B-LOC
+State I-LOC
+Building I-LOC
+is O
+in O
+New B-GPE
+York I-GPE
+. O
+
+Python B-LANG
+is O
+great O
+for O
+machine B-TASK
+learning I-TASK
+. O
+
+NASA B-ORG
+is O
+planning O
+a O
+mission O
+to O
+Mars B-LOC
+. O
+
+The O
+Olympics B-EVENT
+are O
+held O
+every O
+four O
+years O
+. O
+
+The O
+COVID-19 B-EVENT
+pandemic I-EVENT
+has O
+impacted O
+the O
+world O
+significantly O
+. O

@@ -5,11 +5,11 @@
 To develop a machine learning-based system that classifies email content as spam or ham (not spam).
 
 ### DATASET LINK 
-[https://www.kaggle.com/datasets/ashfakyeafi/spam-email-classification](link)
+[https://www.kaggle.com/datasets/ashfakyeafi/spam-email-classification](https://www.kaggle.com/datasets/ashfakyeafi/spam-email-classification)
 
 
 ### NOTEBOOK LINK 
-[https://www.kaggle.com/code/inshak9/email-spam-detection](link)
+[https://www.kaggle.com/code/inshak9/email-spam-detection](https://www.kaggle.com/code/inshak9/email-spam-detection)
 
 
 ### LIBRARIES NEEDED
@@ -199,7 +199,7 @@ The dataset contains features like word frequency, capital letter counts, and ot
 ---
 
 ### **DEVELOPER**
-***Your Name***
+***Insha Khan***
 
 [LinkedIn](https://www.linkedin.com/in/insha-khan-4087532a4/){ .md-button }
 [GitHub](https://www.github.com/ikcod){ .md-button }

@@ -1,0 +1,175 @@
+text,label
+"I love programming in Python.",positive
+"I hate bugs in my code.",negative
+"Machine learning is fascinating.",positive
+"This is frustrating.",negative
+"I enjoy learning new algorithms.",positive
+"Debugging can be very annoying.",negative
+"Data science is an interesting field.",positive
+"I don't like syntax errors.",negative
+"Natural Language Processing is a complex field.",positive
+"Software crashes are irritating.",negative
+"Python is a versatile language.",positive
+"I dislike runtime errors.",negative
+"Artificial Intelligence is the future.",positive
+"Dealing with legacy code is a pain.",negative
+"Deep learning opens new possibilities.",positive
+"Compilation errors are troublesome.",negative
+"I find joy in coding challenges.",positive
+"Unoptimized code is slow.",negative
+"Exploring new tech is exciting.",positive
+"Unexpected bugs can ruin the day.",negative
+"Cloud computing is a game changer.",positive
+"I get frustrated with merge conflicts.",negative
+"Building models is rewarding.",positive
+"Manual testing is tedious.",negative
+"AI can solve many problems.",positive
+"I dislike waiting for tests to run.",negative
+"Analyzing data is intriguing.",positive
+"Code reviews can be stressful.",negative
+"Learning new frameworks is fun.",positive
+"I hate network issues.",negative
+"Data visualization brings insights.",positive
+"Memory leaks are a nightmare.",negative
+"Training models is satisfying.",positive
+"Race conditions are tricky to debug.",negative
+"Big data is powerful.",positive
+"Resolving dependencies is a hassle.",negative
+"Predictive analytics is impactful.",positive
+"Performance bottlenecks are annoying.",negative
+"AI research is fascinating.",positive
+"Segmentation faults are frustrating.",negative
+"Reinforcement learning is innovative.",positive
+"Version control is essential.",positive
+"Data preprocessing is crucial.",positive
+"Invalid inputs cause errors.",negative
+"Optimization is challenging but fun.",positive
+"Cross-browser compatibility is a pain.",negative
+"Learning SQL is beneficial.",positive
+"Cryptic error messages are frustrating.",negative
+"Automation increases efficiency.",positive
+"Legacy systems are difficult to manage.",negative
+"Model deployment is exciting.",positive
+"Kernel panics are troublesome.",negative
+"Feature engineering is creative.",positive
+"System crashes are annoying.",negative
+"Understanding algorithms is rewarding.",positive
+"Dependency hell is frustrating.",negative
+"Blockchain is revolutionary.",positive
+"Server downtimes are a nuisance.",negative
+"Quantum computing is the next frontier.",positive
+"Troubleshooting can be time-consuming.",negative
+"Big data analytics is powerful.",positive
+"Compiler warnings should be addressed.",negative
+"Graph theory is fascinating.",positive
+"Interrupted connections are frustrating.",negative
+"Text mining reveals hidden patterns.",positive
+"Deadlocks are problematic.",negative
+"APIs make development easier.",positive
+"Stale documentation is unhelpful.",negative
+"Predictive modeling is insightful.",positive
+"Slow internet is frustrating.",negative
+"AI ethics is important.",positive
+"Memory corruption is a serious issue.",negative
+"Text classification is useful.",positive
+"Server misconfigurations cause issues.",negative
+"Computer vision is fascinating.",positive
+"Outdated libraries can cause problems.",negative
+"Speech recognition is impressive.",positive
+"Hotfixes can be risky.",negative
+"Recommender systems are powerful.",positive
+"Intermittent bugs are hard to fix.",negative
+"AI in healthcare is promising.",positive
+"Security vulnerabilities are concerning.",negative
+"Natural language understanding is impressive.",positive
+"Hard disk failures are disruptive.",negative
+"Image recognition is advanced.",positive
+"Permission issues are annoying.",negative
+"AI in finance is transformative.",positive
+"Unintended behaviors are problematic.",negative
+"Robotics combines AI and engineering.",positive
+"Network congestion is troublesome.",negative
+"Machine learning pipelines are essential.",positive
+"File corruption is a serious issue.",negative
+"AI in marketing is effective.",positive
+"Out-of-memory errors are problematic.",negative
+"Ethical AI is necessary.",positive
+"Server overloads are concerning.",negative
+"AI in manufacturing boosts efficiency.",positive
+"Software glitches are frustrating.",negative
+"Text summarization is useful.",positive
+"Packet loss causes issues.",negative
+"AI in transportation is innovative.",positive
+"Application freezes are annoying.",negative
+"Data augmentation improves models.",positive
+"Compatibility issues are troublesome.",negative
+"AI in education is transformative.",positive
+"Blue screen errors are problematic.",negative
+"AI in retail enhances customer experience.",positive
+"Invalid configurations cause problems.",negative
+"Time series forecasting is powerful.",positive
+"Network latency is annoying.",negative
+"AI in agriculture is revolutionary.",positive
+"Disk space issues are frustrating.",negative
+"AI in cybersecurity is critical.",positive
+"Software conflicts cause problems.",negative
+"Sentiment analysis provides insights.",positive
+"Permission denied errors are annoying.",negative
+"AI in entertainment is exciting.",positive
+"Server timeouts are problematic.",negative
+"AI in energy management is impactful.",positive
+"System hangs are troublesome.",negative
+"Reinforcement learning is promising.",positive
+"Invalid pointers cause crashes.",negative
+"Graph neural networks are innovative.",positive
+"Network partitions are concerning.",negative
+"Text generation is creative.",positive
+"Hardware malfunctions are problematic.",negative
+"AI in sports analytics is exciting.",positive
+"Unexpected reboots are annoying.",negative
+"AI in urban planning is beneficial.",positive
+"Corrupt databases are frustrating.",negative
+"Transfer learning is effective.",positive
+"Incorrect settings cause issues.",negative
+"Federated learning is emerging.",positive
+"Browser crashes are annoying.",negative
+"AI in environmental monitoring is crucial.",positive
+"Unresponsive applications are troublesome.",negative
+"AI in logistics optimizes operations.",positive
+"Disk read errors are problematic.",negative
+"AI-driven diagnostics are accurate.",positive
+"Permission errors are frustrating.",negative
+"Collaborative filtering is powerful.",positive
+"DNS issues cause connectivity problems.",negative
+"AI in customer service is efficient.",positive
+"Unexpected shutdowns are annoying.",negative
+"Self-supervised learning is innovative.",positive
+"Invalid arguments cause errors.",negative
+"AI in gaming enhances experience.",positive
+"Configuration mismatches cause problems.",negative
+"AI in language translation is impressive.",positive
+"System instability is concerning.",negative
+"Explainable AI improves transparency.",positive
+"Corrupted installations cause issues.",negative
+"AI in social media analysis is insightful.",positive
+"Browser compatibility issues are annoying.",negative
+"AI in supply chain management is impactful.",positive
+"Software updates can cause disruptions.",negative
+"Graph embeddings are useful.",positive
+"Invalid states cause crashes.",negative
+"Generative models are creative.",positive
+"Network security breaches are concerning.",negative
+"AI in fraud detection is crucial.",positive
+"System errors are frustrating.",negative
+"Zero-shot learning is impressive.",positive
+"Device driver issues are problematic.",negative
+"AI in personalized recommendations is effective.",positive
+"Login failures are annoying.",negative
+"AI in autonomous vehicles is groundbreaking.",positive
+"Application bugs are concerning.",negative
+"Few-shot learning is promising.",positive
+"Memory allocation errors cause issues.",negative
+"AI in medical imaging is revolutionary.",positive
+"Database deadlocks are troublesome.",negative
+"Unsupervised learning reveals patterns.",positive
+"Network drops cause problems.",negative

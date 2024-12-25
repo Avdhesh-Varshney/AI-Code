@@ -1,2 +1,2 @@
-# Welcome to Artificial Intelligence Hub 
+# Welcome to AI Code 
 

@@ -197,7 +197,7 @@ To analyze sentiment in Twitter data using natural language processing technique
 
 ### CONCLUSION 
 
-#### WHAT YOU HAVE LEARNED 
+#### KEY LEARNINGS 
 
 !!! tip "Insights gained from the data"
     - Data Variety: Twitter data provides a rich source of real-time, diverse opinions and sentiments.
@@ -213,7 +213,7 @@ To analyze sentiment in Twitter data using natural language processing technique
 
 --- 
 
-#### USE CASES OF THIS MODEL
+#### USE CASES 
 
 === "Application 1"
 
@@ -226,12 +226,4 @@ To analyze sentiment in Twitter data using natural language processing technique
     **Financial Market Analysis and Investment Decisions**
     
       - This application showcases how Twitter sentiment analysis can be leveraged in the financial sector to gain competitive advantages, improve investment strategies, and manage risks effectively based on public sentiment towards financial markets and specific stocks.
-
---- 
-
-### FEATURES PLANNED BUT NOT IMPLEMENTED 
-
-=== "Feature 1"
-
-    - Couldn't do it with SVM (Support Vector Machine) and Random Forest due to computational/system requirements.
 

@@ -1,11 +1,13 @@
 <!-- REMOVE ALL THE COMMENTED PART AFTER WRITING YOUR DOCUMENTATION. -->
-<!-- IT IS ONLY FOR YOUR HELP AND REQUIREMENTS OF THIS PROJECT. -->
-<!-- TAKE REFRENCE FROM '.\docs\NLP\projects\twitter_sentiment_analysis\README.md' -->
+<!-- THESE COMMENTS ARE PROVIDED SOLELY FOR YOUR ASSISTANCE AND TO OUTLINE THE REQUIREMENTS OF THIS PROJECT. -->
+<!-- YOU CAN ALSO DESIGN YOUR PROJECT DOCUMENTATION AS YOU WISH BUT SHOULD BE UNDERSTANABLE TO A NEWBIE. -->
+<!-- FOR REFERENCE, YOU MAY CONSULT THE FILE LOCATED AT 'docs\nlp\projects\twitter_sentiment_analysis.md'. -->
 
 # Project Title 
+<!-- Write the title of your project here. Keep it precise and clear. -->
 
 ### AIM 
-<!-- In 1 single line -->
+<!-- Describe the main goal or objective of the project. For example: "To classify images of cats and dogs using CNN." -->
 
 
 ### DATASET LINK 
@@ -14,13 +16,13 @@
 
 
 ### NOTEBOOK LINK 
-<!-- Mention your notebook link where you have solve it either on Kaggle or Collab Link or Drive Link. -->
+<!-- Provide the link to the notebook where you solved the project. It could be a Kaggle, Colab, or Drive link. -->
 [link](link)
 
 
 ### LIBRARIES NEEDED
 <!-- Mention it in bullet points either in numbering or simple dots -->
-<!-- List the libraries required for the project -->
+<!-- Mention all the libraries required for the project. You can add more or remove as necessary. -->
 
 ??? quote "LIBRARIES USED"
 
@@ -42,21 +44,29 @@ how is it beneficial and used?,
 how did you start approaching this project?, 
 Any additional resources used like blogs reading, books reading (mention the name of book along with the pages you have read)?
 etc. -->
+<!-- Properly describe the project and answer the following questions: -->
 
 <!-- Provide a comprehensive overview of the project -->
 
 !!! info "What is the requirement of the project?"
-    - write answer here either in bullet points and with tabs 
+<!-- Why did you need to create this project? -->
+    - Write the answer here in simple bullet points. 
 
 ??? info "Why is it necessary?"
-    - write answer here either in bullet points and with tabs 
+<!-- Why is this project important? Mention its significance. -->
+    - Write the answer here in simple bullet points. 
 
 ??? info "How is it beneficial and used?"
-    - write answer here either in bullet points and with tabs 
+<!-- How will this project benefit others or solve problems? -->
+    - Write the answer here in simple bullet points. 
 
 ??? info "How did you start approaching this project? (Initial thoughts and planning)"
+<!-- What were your initial thoughts and strategies for this project? -->
+    - Write the answer here in simple bullet points. 
 
 ??? info "Mention any additional resources used (blogs, books, chapters, articles, research papers, etc.)."
+<!-- Mention any additional resources, such as blogs, books, articles, or research papers, that you used. -->
+    - Write the answer here in simple bullet points. 
 
 
 --- 
@@ -70,10 +80,8 @@ etc. -->
 
 --- 
 
-#### WHAT I HAVE DONE 
-<!-- Write this in steps not in too much long paragraphs. -->
-<!-- Outline the steps taken during the project -->
-<!-- Steps -->
+#### PROJECT WORKFLOW 
+<!-- Clearly define the step-by-step workflow followed in the project. You can add or remove points as necessary. -->
 
 === "Step 1"
 
@@ -114,7 +122,7 @@ etc. -->
 --- 
 
 #### PROJECT TRADE-OFFS AND SOLUTIONS 
-<!-- Explain the trade-offs encountered during the project and how you addressed them and the solutions implemented to manage them -->
+<!-- Explain the trade-offs encountered during the project and the solutions you implemented. -->
 
 === "Trade Off 1"
     - Describe the trade-off encountered (e.g., accuracy vs. computational efficiency).
@@ -127,10 +135,9 @@ etc. -->
 --- 
 
 ### SCREENSHOTS 
-<!-- Attach the screenshots and images of tree diagram of project approaching, Visualization and EDA of different features, etc. -->
-<!-- Include relevant screenshots and images -->
+<!-- Include screenshots, graphs, and visualizations to illustrate your findings and workflow. -->
 
-!!! success "Project structure or tree diagram"
+!!! success "Project workflow"
 
     ``` mermaid
       graph LR
@@ -154,7 +161,7 @@ etc. -->
 --- 
 
 ### MODELS USED AND THEIR EVALUATION METRICS 
-<!-- If you have used any model, Provide this data in tabular form with, Accuracy, MSE, R2 Score -->
+<!-- Summarize the models used and their evaluation metrics in a table. -->
 
 |    Model   | Accuracy |  MSE  | R2 Score |
 |------------|----------|-------|----------|
@@ -163,22 +170,10 @@ etc. -->
 
 --- 
 
-#### MODELS COMPARISON GRAPHS 
-<!-- Attach the images and screenshots of models accuracy and losses graphs. -->
-
-!!! tip "Models Comparison Graphs"
-
-    === "LSTM Accuracy"
-        ![Alt text](images/lstm_accuracy.jpg "a title")
-    === "LSTM Loss"
-        ![Alt text](images/lstm_loss.jpg "a title")
-
---- 
-
 ### CONCLUSION 
 
-#### WHAT YOU HAVE LEARNED 
-<!-- Summarize the key learnings from the project -->
+#### KEY LEARNINGS 
+<!-- Summarize what you learned from this project in terms of data, techniques, and skills. -->
 
 !!! tip "Insights gained from the data"
     - Write from here in bullet points
@@ -191,9 +186,8 @@ etc. -->
 
 --- 
 
-#### USE CASES OF THIS MODEL 
-<!-- At least 2 fields in the real world -->
-<!-- Describe at least two real-world applications of the model -->
+#### USE CASES
+<!-- Mention at least two real-world applications of this project. -->
 
 === "Application 1"
 
@@ -206,24 +200,3 @@ etc. -->
     **Headline**
     
       - Explain your application
-
---- 
-
-### FEATURES PLANNED BUT NOT IMPLEMENTED 
-<!-- Mention any additional features or aspects you wanted to integrate but couldn't due to lack of knowledge or other constraints. -->
-<!-- Describe the features or aspects you intended to implement but couldn't -->
-
-=== "Feature 1"
-
-    - Explain here
-
---- 
-
-### **DEVELOPER**
-***Your Name***
-
-[LinkedIn](https://www.linkedin.com/in/<your-user-name>){ .md-button }
-[GitHub](https://www.github.com/<your-user-name>){ .md-button }
-
-##### Happy Coding 🧑‍💻
-#### Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!

@@ -40,18 +40,17 @@ git push -u origin <your_branch_name>
 
 We want your work to be readable by others; therefore, we encourage you to note the following:
 
-1. Directory & file names should be in `snake_case` letters (e.g., `music_genre_classification_model`, `insurance_cross_sell_prediction`).
-2. Add a `README` file in the project directory and `README` file name to be in capital letters.
-3. Follow the [***PROJECT README TEMPLATE***](./PROJECT-README-TEMPLATE.md).
-4. Add the images/videos/others things organized in `assets` folder.
-5. Don't create more than 3-4 commits until not permitted by Admin and Mentors of the project.
-6. Commit message should be clear. Never write un-necessary things in the commit messages.
+1. File names should be in `snake_case` letters (e.g., `music_genre_classification_model`, `insurance_cross_sell_prediction`).
+2. Follow the [***PROJECT README TEMPLATE***](./PROJECT-README-TEMPLATE.md).
+3. Do not upload images, videos, notebooks, or Python files directly. Use a GitHub raw URL in the documentation.
+4. Don't create more than 3-4 commits until not permitted by Admin and Mentors of the project.
+5. Commit message should be clear. Never write un-necessary things in the commit messages.
 
 ### Pull Requests Review Criteria 🧲 
 
-1. It must required to follow some [do/don't](https://github.com/Avdhesh-Varshney/AI-Code/issues/9) guidelines.
+1. It must required to follow mentioned [do/don't](https://github.com/Avdhesh-Varshney/AI-Code/issues/9) guidelines.
 2. Please fill the ***PR Template*** properly while making a Pull Request.
-3. Never commit in the `main` branch.
+3. Never commit to the `main` branch. Create a new branch for raising PRs.
 4. Your work must be original, written by you not copied from other resources.
 5. You must comment on your code where necessary.
 

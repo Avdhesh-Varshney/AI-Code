@@ -207,7 +207,6 @@
 </table>
 
 ---
-<h2>SCREENSHOTS</h2>
 
 
 <h2>CONCLUSION</h2>

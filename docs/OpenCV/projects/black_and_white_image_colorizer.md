@@ -148,10 +148,10 @@ Model Validation :
 ??? tip "Visualizations of results"
 
     === "Original Image"
-        ![Original Image](https://drive.google.com/file/d/1NWzvtYUW4Q5hSOrDdhSVJmraNuyoV9zW/view?usp=sharing)
+        ![Original Image](https://github.com/user-attachments/assets/98a68022-eb8a-4e2e-b87a-edf5b8a392fa)
     
     === "Colorized Image"
-        ![Colorized Image](https://drive.google.com/file/d/1kuY93h7sTT-WaO7EcgeZfpf3DSTR4Q_L/view?usp=sharing)
+        ![Colorized Image](https://github.com/user-attachments/assets/181f585e-a2de-4bf5-aead-1c3a56ac7f8e)
 
 ---
 

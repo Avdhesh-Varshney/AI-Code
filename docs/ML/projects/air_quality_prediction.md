@@ -5,6 +5,12 @@ The aim of this project is to predict air quality levels based on various featur
 
 ### DATASET LINK 
 [Air Quality Dataset](https://www.kaggle.com/datasets/fedesoriano/air-quality-data-set)
+   Date	      Time	        CO(GT)	   PT08.S1(CO)	NMHC(GT)	C6H6(GT)	PT08.S2(NMHC)	NOx(GT)	PT08.S3(NOx)	NO2(GT)	PT08.S4(NO2)	PT08.S5(O3)	T	RH	AH	Unnamed: 15	Unnamed: 16
+0	10/03/2004	18.00.00	2,6	1360.0	150.0	      11,9	   1046.0	166.0	         1056.0	113.0	         1692.0	1268.0   	13,6	48,9	0,7578	NaN	NaN
+1	10/03/2004	19.00.00	2	   1292.0	112.0	      9,4	   955.0	   103.0	         1174.0	92.0	         1559.0	972.0	      13,3	47,7	0,7255	NaN	NaN
+2	10/03/2004	20.00.00	2,2	1402.0	88.0	      9,0	   939.0	   131.0	         1140.0	114.0	         1555.0	1074.0   	11,9	54,0	0,7502	NaN	NaN
+3	10/03/2004	21.00.00	2,2	1376.0	80.0	      9,2	   948.0	   172.0	         1092.0	122.0	         1584.0	1203.0   	11,0	60,0	0,7867	NaN	NaN
+4	10/03/2004	22.00.00	1,6	1272.0	51.0	      6,5	   836.0	   131.0	         1205.0	116.0	         1490.0	1110.0   	11,2	59,6	0,7888	NaN	NaN
 
 ### NOTEBOOK LINK 
 [Air Quality Prediction Notebook](https://www.kaggle.com/code/disha520/air-quality-predictor)
@@ -12,9 +18,9 @@ The aim of this project is to predict air quality levels based on various featur
 ### LIBRARIES NEEDED
 - pandas
 - numpy
-- scikit-learn
 - matplotlib
 - seaborn
+- scikit-learn
 
 ---
 

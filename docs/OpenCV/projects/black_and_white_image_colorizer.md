@@ -56,7 +56,6 @@
 - Experimented with sample images to test model outputs. 
 
 ??? info "Mention any additional resources used (blogs, books, chapters, articles, research papers, etc.)."
-
     - [Richzhang's Colorful Image Colorization](https://richzhang.github.io/colorization)
     - [Lab Color space](https://www.xrite.com/blog/lab-color-space)
     - [openCV Documentation ](https://pypi.org/project/opencv-python/)

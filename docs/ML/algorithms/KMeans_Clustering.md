@@ -1,6 +1,33 @@
 # K Means Clustering
+**Overview:**  
+K-means clustering is an unsupervised machine learning algorithm for grouping similar data points together into clusters based on their features.
 
-This module contains an implementation of K-Means Clustering, an unsupervised Machine Learning algorithm, which groups the unlabeled dataset into different clusters.
+---
+### **Advantages of K-means:**  
+- **Simple and Easy to implement**
+- **Efficiency:** K-means is computationally efficient and can handle large datasets with high dimensionality.
+- **Flexibility:** K-means offers flexibility as it can be easily customized for different applications, allowing the use of various distance metrics and 
+   initialization techniques. 
+- **Scalability:**  K-means can handle large datasets with many data points  
+
+---
+**How K-means Works (Scratch Implementation Guide):**  
+### **Algorithm Overview:**
+1. **Initialization**:
+   - Choose `k` initial centroids randomly from the dataset.
+
+2. **Iterative Process**:
+   - **Assign Data Points**: For each data point, calculate the Euclidean distance to all centroids and assign the data point to the nearest centroid.
+   - **Update Centroids**: Recalculate the centroids by averaging the data points assigned to each cluster.
+   - **Check for Convergence**: If the centroids do not change significantly between iterations (i.e., they converge), stop. Otherwise, repeat the process.
+
+3. **Termination**:
+   - The algorithm terminates either when the centroids have converged or when the maximum number of iterations is reached.
+
+4. **Output**:
+   - The final cluster assignments for each data point. 
+
+
 ## Parameters
 
 - `num_clusters`: Number of clusters to form.

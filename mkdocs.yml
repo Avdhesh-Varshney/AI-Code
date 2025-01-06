@@ -8,6 +8,8 @@ theme:
   features:
     - navigation.sections
     - navigation.footer
+    - header.autohide
+    - content.code.copy
   palette:
     # Dark Mode
     - scheme: slate

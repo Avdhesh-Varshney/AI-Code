@@ -8,22 +8,24 @@ theme:
   features:
     - navigation.sections
     - navigation.footer
+    - header.autohide
+    - tabs
+    - content.code.copy
   palette:
     # Dark Mode
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: green
-      accent: deep purple
-
+      primary: "#4CAF50" # Softer green
+      accent: "#673AB7" # Muted deep purple
     # Light Mode
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: blue
-      accent: deep orange
+      primary: "#2196F3" # Vibrant blue
+      accent: "#FF5722" # Complementary deep orange
 
 markdown_extensions:
   - attr_list
@@ -47,6 +49,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.blocks.caption
+  - pymdownx.tasklist
+  - pymdownx.magiclink
 
 extra:
   social:
@@ -56,5 +60,26 @@ extra:
       link: https://linkedin.com/in/avdhesh-varshney/
     - icon: simple/github
       link: https://github.com/Avdhesh-Varshney/AI-Code
-
-copyright: Copyright &copy; 2024 Avdhesh Varshney
+  footer:
+    navigation:
+      - title: About
+        links:
+          - title: About Me
+            url: /about/
+          - title: Contact
+            url: /contact/
+      - title: Resources
+        links:
+          - title: Documentation
+            url: /docs/
+          - title: Tutorials
+            url: /tutorials/
+      - title: Legal
+        links:
+          - title: Privacy Policy
+            url: /privacy-policy/
+          - title: Terms of Use
+            url: /terms-of-use/
+copyright: |
+  <p>Copyright &copy; 2024 Avdhesh Varshney</p>
+  <p>Powered by <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank">Material for MkDocs</a></p>

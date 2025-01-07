@@ -1,4 +1,4 @@
-### **AdaBoost: A Comprehensive Guide to Scratch Implementation**  
+# AdaBoost 
 
 **Overview:**  
 AdaBoost (Adaptive Boosting) is one of the most popular ensemble methods for boosting weak learners to create a strong learner. It works by combining multiple "weak" models, typically decision stumps, and focusing more on the errors from previous models. This iterative process improves accuracy and reduces bias.

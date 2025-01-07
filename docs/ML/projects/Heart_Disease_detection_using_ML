@@ -34,7 +34,7 @@ Heart disease is one of the leading causes of death worldwide. Early detection o
 This project uses a publicly available heart disease dataset from [Kaggle](https://www.kaggle.com/) or [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/45/heart+disease). Ensure you download the dataset and place it in the `data` folder.
 
 ## Notebook
-This is notebook of the following project [Kaggle](https://www.kaggle.com/code/nandagopald2004/notebookc2da436efa)
+This is notebook of the following project [Kaggle](https://www.kaggle.com/code/nandagopald2004/heart-disease-detection-using-ml)
 
 ## Usage
 

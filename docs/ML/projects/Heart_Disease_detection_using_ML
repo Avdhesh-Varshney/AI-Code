@@ -1,8 +1,3 @@
-<!-- REMOVE ALL THE COMMENTED PART AFTER WRITING YOUR DOCUMENTATION. -->
-<!-- THESE COMMENTS ARE PROVIDED SOLELY FOR YOUR ASSISTANCE AND TO OUTLINE THE REQUIREMENTS OF THIS PROJECT. -->
-<!-- YOU CAN ALSO DESIGN YOUR PROJECT DOCUMENTATION AS YOU WISH BUT SHOULD BE UNDERSTANABLE TO A NEWBIE. -->
-<!-- FOR REFERENCE, YOU MAY CONSULT THE FILE LOCATED AT 'docs\nlp\projects\twitter_sentiment_analysis.md'. -->
-
 # Project Title 
 Heart-Disease-Detection-using-ML
 
@@ -19,10 +14,7 @@ This is notebook of the following project [Kaggle](https://www.kaggle.com/code/n
 
 
 ### LIBRARIES NEEDED
-<!-- Mention it in bullet points either in numbering or simple dots -->
-<!-- Mention all the libraries required for the project. You can add more or remove as necessary. -->
 
-??? quote "LIBRARIES USED"
 
     - pandas
     - numpy
@@ -33,7 +25,7 @@ This is notebook of the following project [Kaggle](https://www.kaggle.com/code/n
 --- 
 
 ### DESCRIPTION 
-<!-- Properly describe the project. Provide the answer of all the questions,
+
 what is the requirement of the project?, 
 The project requires a dataset containing patient health records, including attributes like age, cholesterol levels, blood pressure, and medical history. Additionally, it needs machine learning tools and frameworks (e.g., Python, scikit-learn) for building and evaluating predictive models.
 
@@ -49,33 +41,6 @@ The project begins by collecting and preprocessing a heart disease dataset, ensu
 Any additional resources used like blogs reading, books reading (mention the name of book along with the pages you have read)?
 Kaggle kernels and documentation for additional dataset understanding.
 Tutorials on machine learning regression techniques, particularly for Random Forest, SVR, and Decision Trees.
-etc. -->
-<!-- Properly describe the project and answer the following questions: -->
-
-<!-- Provide a comprehensive overview of the project -->
-
-!!! info "What is the requirement of the project?"
-<!-- Why did you need to create this project? -->
-    - Write the answer here in simple bullet points. 
-
-??? info "Why is it necessary?"
-<!-- Why is this project important? Mention its significance. -->
-    - Write the answer here in simple bullet points. 
-
-??? info "How is it beneficial and used?"
-<!-- How will this project benefit others or solve problems? -->
-    - Write the answer here in simple bullet points. 
-
-??? info "How did you start approaching this project? (Initial thoughts and planning)"
-<!-- What were your initial thoughts and strategies for this project? -->
-    - Write the answer here in simple bullet points. 
-
-??? info "Mention any additional resources used (blogs, books, chapters, articles, research papers, etc.)."
-<!-- Mention any additional resources, such as blogs, books, articles, or research papers, that you used. -->
-    - Write the answer here in simple bullet points. 
-
-
---- 
 
 ### EXPLANATION 
 
@@ -126,7 +91,7 @@ Target: Diagnosis of heart disease (0 = no disease; 1 = disease).
 --- 
 
 #### PROJECT WORKFLOW 
-<!-- Clearly define the step-by-step workflow followed in the project. You can add or remove points as necessary. -->
+
 ### 1.Problem Definition
 
 Identify the objective: To predict the presence or absence of heart disease based on patient data.
@@ -189,7 +154,7 @@ Address feedback and optimize the system based on real-world performance.
 
 
 #### PROJECT TRADE-OFFS AND SOLUTIONS 
-<!-- Explain the trade-offs encountered during the project and the solutions you implemented. -->
+
 
 === "Trade Off 1"
     - Accuracy vs. Interpretability
@@ -200,28 +165,6 @@ Address feedback and optimize the system based on real-world performance.
 --- 
 
 
-!!! success "Project workflow"
-
-    ``` mermaid
-      graph LR
-        A[Start] --> B{Error?};
-        B -->|Yes| C[Hmm...];
-        C --> D[Debug];
-        D --> B;
-        B ---->|No| E[Yay!];
-    ```
-
-??? tip "Visualizations and EDA of different features"
-
-    === "Image Topic"
-        ![img](images/<selected_image>.png "a title")
-
-??? example "Model performance graphs"
-
-    === "Image Topic"
-        ![img](images/<selected_image>.png "a title")
-
---- 
 
 ### MODELS USED AND THEIR EVALUATION METRICS 
 <!-- Summarize the models used and their evaluation metrics in a table. -->
@@ -237,7 +180,7 @@ Address feedback and optimize the system based on real-world performance.
 ### CONCLUSION 
 
 #### KEY LEARNINGS 
-<!-- Summarize what you learned from this project in terms of data, techniques, and skills. -->
+
 
 1. Data Insights
 Understanding Healthcare Data: Learned how medical attributes (e.g., age, cholesterol, chest pain type) influence heart disease risk.
@@ -266,7 +209,7 @@ Real-World Challenges: Understood the complexities of translating machine learni
 Continuous Learning: Learned that model development is iterative, requiring continuous refinement based on feedback and new data. 
 
 #### USE CASES
-<!-- Mention at least two real-world applications of this project. -->
+
 
 === "Application 1"
 

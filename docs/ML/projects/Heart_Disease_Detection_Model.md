@@ -1,5 +1,4 @@
-# Project Title 
-Heart-Disease-Detection-using-ML
+# Heart Disease Detection Model
 
 ### AIM 
 The aim of this project is to develop a reliable and efficient machine learning-based system for the early detection and diagnosis of heart disease. By leveraging advanced algorithms, the system seeks to analyze patient data, identify significant patterns, and predict the likelihood of heart disease, thereby assisting healthcare professionals in making informed decisions.

@@ -10,7 +10,7 @@ To predict the next word using LSTM.
 [Dataset](https://www.kaggle.com/datasets/muhammadbilalhaneef/sherlock-holmes-next-word-prediction-corpus)
 
 ### NOTEBOOK LINK 
-[Code](https://colab.research.google.com/drive/1o-BopyfKWovtQVFe2zCoXS-iZPtkcqh_)
+[Code](https://colab.research.google.com/drive/1Y1icIR8ZViZzRn6LV-ZSuGvXHde8T7yA)
 
 
 ### LIBRARIES NEEDED

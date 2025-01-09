@@ -59,11 +59,6 @@ Colorization of Black and White Images using OpenCV and pre-trained caffe models
 
 ### EXPLANATION
 
-#### DETAILS OF THE DIFFERENT FEATURES 
-
-
---- 
-
 #### WHAT I HAVE DONE 
 
 === "Step 1"

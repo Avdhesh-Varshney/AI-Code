@@ -112,13 +112,13 @@ Colorization of Black and White Images using OpenCV and pre-trained caffe models
 !!! success "Project structure or tree diagram"
 
     ``` mermaid
-    graph LR
-      A[Start] --> B{Error?};
-      B -->|Yes| C[Check Dependencies];
-      C --> D[Debug];
-      D --> B;
-      B ---->|No| E[Colorize Image];
-      E ----> F[Yay!]
+      graph LR  
+        A[Load Grayscale Image] --> B[Preprocess Image];  
+        B --> C[Load Pre-trained Model];  
+        C --> D[Predict A and B Channels];  
+        D --> E[Combine with L Channel];  
+        E --> F[Convert to RGB];  
+        F --> G[Display/Save Colorized Image];
     ```
 
 ??? tip "Visualizations of results"

@@ -64,6 +64,13 @@ CNNs are composed of the following layers:
 
 Here’s a Python example of a CNN using **TensorFlow/Keras**:
 
+* Sequential:   Used to stack layers to create a neural network model.
+* Conv2D:       Implements the convolutional layers to extract features from input images.
+* MaxPooling2D: Reduces the size of feature maps while retaining important features.
+* Flatten:      Converts 2D feature maps into a 1D vector to pass into fully connected layers.
+* Dense:        Implements fully connected (dense) layers, responsible for decision-making.
+
+
 ```python
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense

@@ -1,4 +1,4 @@
-# Air Quality Prediction Using Machine Learning
+# Poker Hand Prediction Using Machine Learning
 
 ### AIM
 The aim of this project is to develop a machine learning model using a Multi-Layer Perceptron (MLP) classifier to accurately classify different types of poker hands based on the suit and rank of five cards.
@@ -60,16 +60,16 @@ This project involves building a classification model to predict poker hands usi
 | Poker Hand | Type of Card in Hand | Ordinal | (0-9) types* |
 
 **Poker Hands**
-- 0: Nothing in hand; not a recognized poker hand
-- 1: One pair; one pair of equal ranks within five cards
-- 2: Two pairs; two pairs of equal ranks within five cards
-- 3: Three of a kind; three equal ranks within five cards
-- 4: Straight; five cards, sequentially ranked with no gaps
-- 5: Flush; five cards with the same suit
-- 6: Full house; pair + different rank three of a kind
-- 7: Four of a kind; four equal ranks within five cards
-- 8: Straight flush; straight + flush
-- 9: Royal flush; {Ace, King, Queen, Jack, Ten} + flush
+- 0: Nothing in hand, not a recognized poker hand
+- 1: One pair, one pair of equal ranks within five cards
+- 2: Two pairs, two pairs of equal ranks within five cards
+- 3: Three of a kind, three equal ranks within five cards
+- 4: Straight, five cards, sequentially ranked with no gaps
+- 5: Flush, five cards with the same suit
+- 6: Full house, pair + different rank three of a kind
+- 7: Four of a kind, four equal ranks within five cards
+- 8: Straight flush, straight + flush
+- 9: Royal flush, {Ace, King, Queen, Jack, Ten} + flush
 
 ---
 
@@ -134,15 +134,14 @@ The project outcomes are summarized, practical applications are discussed, and s
         A[Start] --> B{Is data clean?};
         B -->|Yes| C[Explore Data];
         C --> D[Data Preprocessing];
-        D --> E[Handle Class Imbalance];
-        E --> F[Define Models];
-        F --> G[Train the Model];
-        G --> H[Evaluate Performance];
-        H --> I[Visualize Evaluation Metrics];
-        I --> J[Model Testing];
-        J --> K[Conclusion and Observations];
-        B ---->|No| L[Clean Data];
-        L --> C;
+        D --> E[Define Models];
+        E --> F[Train the Model];
+        F --> G[Evaluate Performance];
+        G --> H[Visualize Evaluation Metrics];
+        H --> I[Model Testing];
+        I --> J[Conclusion and Observations];
+        B ---->|No| K[Clean Data];
+        K --> C;
       ```
 
 ??? tip "Model Evaluation Metrics"

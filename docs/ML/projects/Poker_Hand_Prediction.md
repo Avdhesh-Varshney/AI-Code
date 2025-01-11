@@ -60,16 +60,16 @@ This project involves building a classification model to predict poker hands usi
 | Poker Hand | Type of Card in Hand | Ordinal | (0-9) types* |
 
 **Poker Hands**
-0: Nothing in hand; not a recognized poker hand
-1: One pair; one pair of equal ranks within five cards
-2: Two pairs; two pairs of equal ranks within five cards
-3: Three of a kind; three equal ranks within five cards
-4: Straight; five cards, sequentially ranked with no gaps
-5: Flush; five cards with the same suit
-6: Full house; pair + different rank three of a kind
-7: Four of a kind; four equal ranks within five cards
-8: Straight flush; straight + flush
-9: Royal flush; {Ace, King, Queen, Jack, Ten} + flush
+- 0: Nothing in hand; not a recognized poker hand
+- 1: One pair; one pair of equal ranks within five cards
+- 2: Two pairs; two pairs of equal ranks within five cards
+- 3: Three of a kind; three equal ranks within five cards
+- 4: Straight; five cards, sequentially ranked with no gaps
+- 5: Flush; five cards with the same suit
+- 6: Full house; pair + different rank three of a kind
+- 7: Four of a kind; four equal ranks within five cards
+- 8: Straight flush; straight + flush
+- 9: Royal flush; {Ace, King, Queen, Jack, Ten} + flush
 
 ---
 
@@ -114,9 +114,11 @@ The project outcomes are summarized, practical applications are discussed, and s
 === "Trade Off 1"
    - **Trade-off**: Accuracy vs. Complexity.
       - **Solution**: Using a Multi-Layer Perceptron (MLP) introduces complexity due to its hidden layers and numerous parameters. While this improves accuracy, it requires more computational resources and training time compared to simpler models like decision trees or logistic regression.
+
 === "Trade Off 2"
    - **Trade-off**: Bias vs. Variance
       - **Solution**: The project's hyperparameter tuning (e.g., learning rate, number of hidden layers) aims to reduce bias and variance. However, achieving a perfect balance is a trade-off, as overly complex models may increase variance (overfitting), while overly simplified models may increase bias (underfitting).
+
 === "Trade Off 3"
    - **Trade-off**: Generalization vs. Overfitting
       - **Solution**:The model's flexibility with complex hyperparameters (e.g., hidden layers, activation functions) risks overfitting, especially on small or imbalanced datasets. Regularization techniques like adjusting 'alpha' help mitigate this but may compromise some accuracy.

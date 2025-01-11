@@ -21,22 +21,22 @@ The aim of this project is to develop a machine learning model using a Multi-Lay
 ### DESCRIPTION 
 This project involves building a classification model to predict poker hands using a Multi-Layer Perceptron (MLP) classifier. The dataset consists of features representing the suit and rank of five cards, with the target variable being the type of poker hand (e.g., one pair, two pair, royal flush). The model is trained on a standardized dataset, with class weights computed to address class imbalance. Performance is evaluated using metrics such as accuracy, classification report, confusion matrix, prediction error, ROC curve, and AUC, providing a comprehensive analysis of the model's effectiveness in classifying poker hands.
 
-**What is the requirement of the project?**
+**What is the requirement of the project?** <br>
 - To accurately predict the Poker Hand type.
 
-**Why is it necessary?**
+**Why is it necessary?** <br>
 - The project demonstrates how machine learning can solve structured data problems, bridging the gap between theoretical knowledge and practical implementation.
 
-**How is it beneficial and used?**
-- The project automates the classification of poker hands, enabling players to quickly and accurately identify the type of hand they have, such as a straight, flush, or royal flush, without manual effort.
+**How is it beneficial and used?** <br>
+- The project automates the classification of poker hands, enabling players to quickly and accurately identify the type of hand they have, such as a straight, flush, or royal flush, without manual effort. <br>
 - By understanding the probabilities and patterns of certain hands appearing, players can make informed decisions on whether to bet, raise, or fold, improving their gameplay strategy.
 
-**How did you start approaching this project?**
-- Analyzed the poker hand classification problem, reviewed the dataset structure (suits, ranks, and hand types), and identified the multi-class nature of the target variable. Studied the class imbalance issue and planned data preprocessing steps, including scaling and class weight computation.
+**How did you start approaching this project?** <br>
+- Analyzed the poker hand classification problem, reviewed the dataset structure (suits, ranks, and hand types), and identified the multi-class nature of the target variable. Studied the class imbalance issue and planned data preprocessing steps, including scaling and class weight computation. <br>
 - Chose the Multi-Layer Perceptron (MLP) Classifier for its capability to handle complex patterns in data. Defined model hyperparameters, trained the model using standardized features, and evaluated its performance using metrics like accuracy, ROC-AUC, and confusion matrix
 
-**Mention any additional resources used:**
-- Kaggle kernels and documentation for additional dataset understanding.
+**Mention any additional resources used:** <br>
+- Kaggle kernels and documentation for additional dataset understanding. <br>
 - Tutorials on machine learning regression techniques, particularly for MLP
 
 ---
@@ -142,7 +142,7 @@ The project outcomes are summarized, practical applications are discussed, and s
         I --> J[Conclusion and Observations];
         B ---->|No| K[Clean Data];
         K --> C;
-      ```
+    ```
 
 ??? tip "Model Evaluation Metrics"
 
@@ -186,14 +186,17 @@ The project outcomes are summarized, practical applications are discussed, and s
 - Realized how important feature engineering and data preprocessing are for enhancing model performance.
 
 **Insights gained from the data:**
+
 - Class imbalance can bias the model, requiring class weighting for fair performance.
 - Suits and ranks of cards are crucial features, necessitating preprocessing for better model input.
 
 **Improvements in understanding machine learning concepts:**
+
 - Learned how to effectively implement and optimize machine learning models using libraries like scikit-learn.
 - Learned how to effectively use visualizations (e.g., ROC curves, confusion matrices, and heatmaps) to interpret and communicate model performance.
 
 **Challenges faced and how they were overcome:**
+
 - Some features had different scales, which could affect model performance. This was overcome by applying standardization to the features, ensuring they were on a similar scale for better convergence during training.
 - Some rare hands, such as "royal_flush" and "straight_flush," had very low prediction accuracy. This was mitigated by analyzing misclassification patterns and considering potential improvements like generating synthetic samples or using other models.
 
@@ -203,11 +206,11 @@ The project outcomes are summarized, practical applications are discussed, and s
 
 === "Application 1"
 
-**Poker Strategy Development and Simulation**
-    - Developers or researchers studying poker strategies can use this model to simulate various hand combinations and evaluate strategic decisions. The model's classification can help assess the strength of different hands and optimize strategies.
+**Poker Strategy Development and Simulation** <br>
+    Developers or researchers studying poker strategies can use this model to simulate various hand combinations and evaluate strategic decisions. The model's classification can help assess the strength of different hands and optimize strategies.
 
 === "Application 2"
 
-**Real-time Poker Hand Evaluation for Mobile Apps**
-    - Mobile apps that allow users to practice or play poker could incorporate this model to provide real-time hand evaluation, helping users understand the strength of their hands during gameplay.
+**Real-time Poker Hand Evaluation for Mobile Apps** <br>
+    Mobile apps that allow users to practice or play poker could incorporate this model to provide real-time hand evaluation, helping users understand the strength of their hands during gameplay.
 

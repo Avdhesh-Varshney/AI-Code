@@ -7,10 +7,10 @@
 To develop a chatbot using Natural Language Processing (NLP) and a Naive Bayes classifier for intent classification. The chatbot takes user input, predicts the intent, and generates an appropriate response based on predefined intents and responses stored in a CSV file.
 
 ## DATASET LINK
-[https://drive.google.com/file/d/1xqdzfzjXIYpH-Tc3SWiRRfGDHgj3RUWi/view?usp=drive_link]
+[https://drive.google.com/file/d/1J7mGS16EkgCEtN7UJtBlJACeqoDbdS4F/view?usp=drive_link]
 
 ## NOTEBOOK LINK
-[https://colab.research.google.com/drive/1oden__rioqgKRGOy-pYSFtVKFAN3I_mu?usp=sharing]
+[https://colab.research.google.com/drive/1L2LKfbVv4pb4yzczcRnnU4AkEW-kCZSZ?usp=sharing]
 
 ## LIBRARIES NEEDED
 
@@ -50,25 +50,30 @@ A chatbot is required to automate conversations and provide immediate responses 
 | Feature   | Description                                       |
 |-----------|---------------------------------------------------|
 | `intents` | User query categories like greetings, farewells.  |
-| `patterns`| Example user sentences for each category.        |
 | `responses`| Predefined chatbot responses for each intent.    |
 
 ### Steps and Implementation
 
 1. **Data Preprocessing:**
     - Loaded the intents from CSV files.
-    - Tokenized and lemmatized words to ensure uniformity.
+    -  Clean data: remove duplicates and handle nulls
+
 
 2. **Vectorization:**
-    - Used `TfidfVectorizer` to convert text into vectors.
+    - Used `TfidfVectorizer` to convert text into vectors
+    - Split data into training and testing sets.
 
 3. **Model Training:**
     - Trained a Naive Bayes classifier on the preprocessed data.
     - Saved the model for future use with `pickle`.
+    -Create intent-response mapping
+
 
 4. **Prediction and Response Generation:**
     - The chatbot predicts the intent based on user input.
     - The appropriate response is fetched and returned.
+5.  **Test the chatbot:**
+     - Live Interaction with chatbot.
 
 
 
@@ -80,8 +85,8 @@ A chatbot is required to automate conversations and provide immediate responses 
 Example chatbot interaction:
 
 ```text
-User: Hello
-Bot: Hi! How can I help you today?
+you: Hello
+Bot: Hi, How I can assist you?
 ```
 
 ---
@@ -108,23 +113,37 @@ Bot: Hi! How can I help you today?
 ### Use Cases of this Model:
 1. Customer Support Automation: Provide 24/7 automated support for customers.
 2. FAQ Automation: Automatically respond to frequently asked questions on websites or apps.
-   # NLP Chatbot Flow
+   
+### Screenshots ###
+![Screenshot](https://github.com/salmasyed1909/chatb/blob/main/Screenshot%20(255).png)
 
+Flow Chart
 ```mermaid
-graph LR
-    A[Start] --> B[User Input];
-    B --> C[Text Preprocessing];
-    C --> D[Intent Classification];
-    D -->|Greeting| E[Greeting Intent];
-    D -->|Question| F[Question Intent];
-    D -->|Command| G[Command Intent];
-    D -->|Fallback| H[Fallback Intent];
-    E --> I[Send Greeting Response];
-    F --> J[Answer Question];
-    G --> K[Execute Command];
-    H --> L[Ask for Clarification];
-    I --> M[End];
-    J --> M;
-    K --> M;
-    L --> B;
+graph TD
+    A[Data Preprocessing] --> B[Vectorization]
+    B --> C[Model Training]
+    C --> D[Prediction and Response Generation]
+    D --> E[Test the chatbot]
+
+    A1[Load intents from CSV] --> A2[Clean data: remove duplicates and handle nulls]
+    A --> A1
+    A --> A2
+
+    B1[Use TfidfVectorizer to convert text into vectors] --> B2[Split data into training and testing sets]
+    B --> B1
+    B --> B2
+
+    C1[Train Naive Bayes classifier] --> C2[Save model with pickle] --> C3[Create intent-response mapping]
+    C --> C1
+    C --> C2
+    C --> C3
+
+    D1[Chatbot predicts intent] --> D2[Fetch appropriate response based on intent] --> D3[Return response to user]
+    D --> D1
+    D --> D2
+    D --> D3
+
+    E1[Live interaction with chatbot] --> E2[Test accuracy and responses]
+    E --> E1
+    E --> E2
 '''

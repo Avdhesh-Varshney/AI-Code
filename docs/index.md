@@ -1,4 +1,4 @@
-# 👋 Welcome to AI Code 
+# Welcome to AI Code 👋 
 
 <div align="center">
   <p>
@@ -45,6 +45,7 @@ AI-Code is an open-source project designed to help individuals learn and underst
 ### 🛠️ **Tech Stack**
 
 - Python 3.9+
+- Mk Docs (A Python Package)
 - Markdown
 - Git/GitHub
 - VS Code

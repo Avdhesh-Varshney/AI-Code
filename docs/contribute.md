@@ -1,4 +1,4 @@
-# 🚀 Setup the Project
+# How to Contribute? 🚀
 
 Welcome to the **AI-Code** project! Follow these easy steps to get started. Let's build some awesome AI projects together! 😄
 

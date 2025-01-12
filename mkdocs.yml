@@ -1,14 +1,20 @@
 site_name: AI Code
 site_url: https://avdhesh-varshney.github.io/AI-Code/
+
+nav:
+  - 🏠 Home: index.md
+  - 🔷 Algorithms: algorithms/index.md
+  - 🎉 Projects: projects/index.md
+  - 📝 Contribute: contribute.md
+
 theme:
   name: material
   font:
-    text: Merriweather Sans
+    text: IBM Plex Mono
     code: Red Hat Mono
   features:
     - navigation.sections
     - navigation.footer
-    - header.autohide
     - content.code.copy
   palette:
     # Dark Mode
@@ -16,16 +22,14 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: green
-      accent: deep purple
+      accent: blue grey
 
     # Light Mode
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: blue
-      accent: deep orange
+      accent: grey
 
 markdown_extensions:
   - attr_list
@@ -52,11 +56,18 @@ markdown_extensions:
 
 extra:
   social:
-    - icon: simple/youtube
-      link: https://youtube.com/@Code_A2Z
+    - icon: simple/github
+      link: https://github.com/Avdhesh-Varshney
+    - icon: simple/x
+      link: https://twitter.com/__Avdhesh__
     - icon: simple/linkedin
       link: https://linkedin.com/in/avdhesh-varshney/
-    - icon: simple/github
-      link: https://github.com/Avdhesh-Varshney/AI-Code
+    - icon: simple/youtube
+      link: https://youtube.com/@Code_A2Z
+    - icon: simple/discord
+      link: https://discord.gg/tSqtvHUJzE
+
+extra_css:
+  - customs/extra.css
 
 copyright: Copyright &copy; 2024 Avdhesh Varshney

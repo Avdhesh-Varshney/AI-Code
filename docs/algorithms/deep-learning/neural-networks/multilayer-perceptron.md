@@ -6,7 +6,7 @@
 
 ## **What is a Multilayer Perceptron (MLP)?**
 
-A **Multilayer Perceptron (MLP)** is a type of **artificial neural network (ANN)** that consists of multiple layers of neurons, designed to learn and map relationships between input data and output predictions. It is a foundational building block of deep learning.
+A **Multilayer Perceptron (MLP)** is a type of **artificial neural network (ANN)** that consists of multiple layers of neurons, designed to learn and map relationships between input data and output predictions. It is  foundational building block for Deep Learning.
 
 ### **Key Characteristics of MLP**:
 - **Fully Connected Layers**: Each neuron in one layer is connected to every neuron in the next layer.
@@ -21,7 +21,7 @@ An MLP consists of three main types of layers:
 
 1. **Input Layer**:
    - Accepts the input features (e.g., pixels of an image, numerical data).
-   - Each neuron corresponds to one input feature.
+   - Every neuron corresponds to one input feature .
 
 2. **Hidden Layers**:
    - Perform intermediate computations to learn the patterns and relationships in data.
@@ -49,7 +49,7 @@ An MLP consists of three main types of layers:
 
 ### **Regression**:
 - Predicting house prices based on features like area, location, etc.
-- Forecasting time-series data like stock prices or weather.
+- Forecasting time series data like stock prices or weather, etc.
 
 ### **Healthcare**:
 - Disease diagnosis based on patient records.
@@ -68,14 +68,14 @@ An MLP consists of three main types of layers:
 ## **Key Concepts in MLP**
 
 ### **1. Activation Functions**:
-- Introduce non-linearity to the model, enabling it to learn complex patterns.
+- Introduced non linearity to model, enabling it to learn complex patterns.
 - Commonly used:
   - **ReLU (Rectified Linear Unit)**: \( f(x) = \max(0, x) \)
   - **Sigmoid**: \( f(x) = \frac{1}{1 + e^{-x}} \)
   - **Tanh**: \( f(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \)
 
 ### **2. Loss Functions**:
-- Measures the difference between predicted and actual values.
+- It measures the difference between predicted and actual values.
 - Common examples:
   - **Mean Squared Error (MSE)**: Used for regression.
   - **Categorical Crossentropy**: Used for classification.
@@ -88,7 +88,7 @@ An MLP consists of three main types of layers:
   3. **Weight update**: Optimize weights using an optimizer.
 
 ### **4. Optimizers**:
-- Algorithms that adjust weights to minimize the loss function.
+- Algorithms that adjusts weights to minimize the loss function to improve model.
 - Examples: **SGD**, **Adam**, **RMSprop**.
 
 ---

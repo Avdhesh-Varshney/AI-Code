@@ -40,7 +40,7 @@ git push -u origin <your_branch_name>
 
 We want your work to be readable by others; therefore, we encourage you to note the following:
 
-1. File names should be in `snake_case` letters (e.g., `music_genre_classification_model`, `insurance_cross_sell_prediction`).
+1. File names should be in `kebab-case` letters (e.g., `music-genre-classification-model`, `insurance-cross-sell-prediction`).
 2. Follow the [***PROJECT README TEMPLATE***](./PROJECT-README-TEMPLATE.md).
 3. Do not upload images, videos, notebooks, or Python files directly. Use a GitHub raw URL in the documentation.
 4. Don't create more than 3-4 commits until not permitted by Admin and Mentors of the project.

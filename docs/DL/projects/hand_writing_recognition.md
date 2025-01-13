@@ -4,11 +4,11 @@
 To develop a system that recognizes handwritten digits using the MNIST dataset, leveraging deep learning techniques for high accuracy.
 
 ### DATASET LINK 
-[Dataset](https://www.kaggle.com/datasets/hojjatk/mnist-dataset)
+[https://www.kaggle.com/datasets/hojjatk/mnist-dataset](https://www.kaggle.com/datasets/hojjatk/mnist-dataset)
 
 ### NOTEBOOK LINK 
 
-[Colab Notebook](https://colab.research.google.com/drive/1IPZ8Yy0UG_5NdcbwlgHhwMu4vr5fBaqu?usp=sharing)
+[https://colab.research.google.com/drive/1IPZ8Yy0UG_5NdcbwlgHhwMu4vr5fBaqu?usp=sharing](https://colab.research.google.com/drive/1IPZ8Yy0UG_5NdcbwlgHhwMu4vr5fBaqu?usp=sharing)
 
 ### LIBRARIES NEEDED 
 

@@ -48,9 +48,9 @@ To develop a system that recognizes handwritten digits using the MNIST dataset, 
     - **Optimizers :** Experimented with different architectures to optimize accuracy such as SGD[Stochastic Gradient Descent] and Adam[Adaptive Moment Estimation]. 
 
 ??? info "Mention any additional resources used (blogs, books, chapters, articles, research papers, etc.)"
-    - [Great Learning Blog](https://www.mygreatlearning.com/blog/how-to-recognise-handwriting-with-machine-learning/)
-    - [Handwritten Text Recognition using Deep Learning - Stanford](https://cs231n.stanford.edu/reports/2017/pdfs/810.pdf)
-    - [Youtube Video](https://youtu.be/iqQgED9vV7k?si=PRcpO-Fx4HeqFXuz)
+    - [https://www.mygreatlearning.com/blog/how-to-recognise-handwriting-with-machine-learning/](https://www.mygreatlearning.com/blog/how-to-recognise-handwriting-with-machine-learning/)
+    - [https://cs231n.stanford.edu/reports/2017/pdfs/810.pdf](https://cs231n.stanford.edu/reports/2017/pdfs/810.pdf)
+    - [https://youtu.be/iqQgED9vV7k?si=PRcpO-Fx4HeqFXuz](https://youtu.be/iqQgED9vV7k?si=PRcpO-Fx4HeqFXuz)
 
 --- 
 

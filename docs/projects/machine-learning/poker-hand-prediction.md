@@ -1,5 +1,9 @@
 # Poker Hand Prediction Using Machine Learning
 
+<div align="center">
+    <img src="https://cdn.britannica.com/73/244173-050-13235B84/Royal-Flush-poker-card-game-gambling.jpg" />
+</div>
+
 ### AIM
 The aim of this project is to develop a machine learning model using a Multi-Layer Perceptron (MLP) classifier to accurately classify different types of poker hands based on the suit and rank of five cards.
 

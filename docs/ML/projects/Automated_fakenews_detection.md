@@ -1,5 +1,4 @@
 # Fake News Detection Project  
-
 ---
 
 ### AIM
@@ -16,7 +15,7 @@ To build a machine learning model that classifies news articles as either *True*
 
 ### NOTEBOOK LINK  
 
-[Notebook](https://www.kaggle.com/code/disha520/fake-new-prediction-model)  
+[Fake news Predictor Notebook](https://www.kaggle.com/code/disha520/fake-new-prediction-model)  
 
 ---
 

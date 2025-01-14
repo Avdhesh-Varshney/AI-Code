@@ -1,7 +1,3 @@
-Here is the completed documentation written in accordance with the table of contents shown in your screenshot:
-
----
-
 # Fake News Detection Project  
 
 ---
@@ -133,9 +129,6 @@ Fake news has become a pressing issue in today's information-driven world. Detec
    - Visualize confusion matrices for individual models.
 
 ---
-
-This workflow provides a structured and reproducible process for tackling fake news detection with machine learning.
-
 
 ### PROJECT TRADE-OFFS AND SOLUTIONS
 

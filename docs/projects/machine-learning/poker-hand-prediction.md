@@ -175,7 +175,9 @@ The project outcomes are summarized, practical applications are discussed, and s
 | three_of_a_kind | 0.95 | 0.00 | 0.00 | 21121 |
 | two_pair | 1.00 | 1.00 | 1.00 | 47622 |
 | zilch | 0.99 | 1.00 | 1.00 | 501209 |
-<br>
+
+---
+
 | Model | Accuracy |
 |-------|----------|
 | Random Forest Regression | 0.6190 |
@@ -183,6 +185,7 @@ The project outcomes are summarized, practical applications are discussed, and s
 | MLP Classifier | 0.9924 |
 | StackingClassifier | 0.9382 |
 
+---
 ---
 
 ### CONCLUSION

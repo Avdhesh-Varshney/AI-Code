@@ -1,4 +1,4 @@
-# Poker Hand Prediction Using Machine Learning
+# Poker Hand Prediction
 
 <div align="center">
     <img src="https://cdn.britannica.com/73/244173-050-13235B84/Royal-Flush-poker-card-game-gambling.jpg" />

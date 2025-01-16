@@ -3,8 +3,8 @@
 <!-- YOU CAN ALSO DESIGN YOUR PROJECT DOCUMENTATION AS YOU WISH BUT SHOULD BE UNDERSTANABLE TO A NEWBIE. -->
 <!-- FOR REFERENCE, YOU MAY CONSULT THE FILE LOCATED AT 'docs\nlp\projects\twitter_sentiment_analysis.md'. -->
 
-# Project Title 
-Face Detection using OpenCV
+# Face Detection using OpenCV
+
 
 ### AIM 
 The goal of this project is to build a face detection system using OpenCV, which identifies faces in static images using Haar Cascades.

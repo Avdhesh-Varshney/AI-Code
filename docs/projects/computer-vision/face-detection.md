@@ -1,9 +1,4 @@
-<!-- REMOVE ALL THE COMMENTED PART AFTER WRITING YOUR DOCUMENTATION. -->
-<!-- THESE COMMENTS ARE PROVIDED SOLELY FOR YOUR ASSISTANCE AND TO OUTLINE THE REQUIREMENTS OF THIS PROJECT. -->
-<!-- YOU CAN ALSO DESIGN YOUR PROJECT DOCUMENTATION AS YOU WISH BUT SHOULD BE UNDERSTANABLE TO A NEWBIE. -->
-<!-- FOR REFERENCE, YOU MAY CONSULT THE FILE LOCATED AT 'docs\nlp\projects\twitter_sentiment_analysis.md'. -->
-
-# Face Detection using OpenCV
+# Face Detection
 
 
 ### AIM 
@@ -12,21 +7,20 @@ The goal of this project is to build a face detection system using OpenCV, which
 
 ### DATASET LINK 
 For this project we are going to use the pretrained Haar Cascade XML file for face detection from OpenCV's Github repository. 
-[Click here to view the dataset](https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml)
+
+[https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml](https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml)
 
 
 ### NOTEBOOK LINK 
-[Click here to view the notebook](https://colab.research.google.com/drive/1upcl9sa5cL5fUuVLBG5IVuU0xPYs3Nwf#scrollTo=94ggAdg5AnUk)
+[https://colab.research.google.com/drive/1upcl9sa5cL5fUuVLBG5IVuU0xPYs3Nwf#scrollTo=94ggAdg5AnUk](https://colab.research.google.com/drive/1upcl9sa5cL5fUuVLBG5IVuU0xPYs3Nwf#scrollTo=94ggAdg5AnUk)
 
 
 ### LIBRARIES NEEDED
-<!-- Mention it in bullet points either in numbering or simple dots -->
-<!-- Mention all the libraries required for the project. You can add more or remove as necessary. -->
 
 ??? quote "LIBRARIES USED"
 
     - OpenCV
-    - Numpy
+    - Random
     - Matplotlib
 
 --- 
@@ -70,7 +64,6 @@ This project involves building a face detection model using OpenCV's pre-trained
 --- 
 
 #### PROJECT WORKFLOW 
-<!-- Clearly define the step-by-step workflow followed in the project. You can add or remove points as necessary. -->
 
 === "Step 1"
 
@@ -117,7 +110,6 @@ This project involves building a face detection model using OpenCV's pre-trained
 --- 
 
 #### PROJECT TRADE-OFFS AND SOLUTIONS 
-<!-- Explain the trade-offs encountered during the project and the solutions you implemented. -->
 
 === "Trade Off 1"
     - Accuracy vs. computational efficiency.
@@ -130,7 +122,6 @@ This project involves building a face detection model using OpenCV's pre-trained
 --- 
 
 ### SCREENSHOTS 
-<!-- Include screenshots, graphs, and visualizations to illustrate your findings and workflow. -->
 
 !!! success "Project workflow"
 
@@ -163,7 +154,6 @@ This project involves building a face detection model using OpenCV's pre-trained
 --- 
 
 #### USE CASES
-<!-- Mention at least two real-world applications of this project. -->
 
 === "Application 1"
 

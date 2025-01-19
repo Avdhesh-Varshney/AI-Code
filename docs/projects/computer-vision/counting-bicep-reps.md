@@ -1,4 +1,4 @@
-# Counting Bicep Reps Using OpenCV and Mediapipe  
+# Counting Bicep Reps
 
 
 ### AIM 

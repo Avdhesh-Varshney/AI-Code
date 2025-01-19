@@ -148,13 +148,13 @@ The dataset contains features like sentence importance, word frequency, and ling
 ??? example "Confusion Matrix"
 
     === "TF-IDF Confusion Matrix"
-        (https://github.com/)
+        ![tfidf](https://github.com/user-attachments/assets/28f257e1-2529-48f1-81e5-e058a50fb351)
         
     === "TextRank Confusion Matrix"
-        ![confusion_matrix_logistic_regression](https://github.com/)
+        ![textrank](https://github.com/user-attachments/assets/cb748eff-e4f3-4096-ab2b-cf2e4b40186f)
 
     === "Transformers Confusion Matrix"
-        ![confusion_matrix_logistic_regression](https://github.com/)
+        ![trans](https://github.com/user-attachments/assets/7e99887b-e225-4dd0-802d-f1c2b0e89bef)
 
 
 ### CONCLUSION 

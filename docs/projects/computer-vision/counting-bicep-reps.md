@@ -1,72 +1,48 @@
-<!-- REMOVE ALL THE COMMENTED PART AFTER WRITING YOUR DOCUMENTATION. -->
-<!-- THESE COMMENTS ARE PROVIDED SOLELY FOR YOUR ASSISTANCE AND TO OUTLINE THE REQUIREMENTS OF THIS PROJECT. -->
-<!-- YOU CAN ALSO DESIGN YOUR PROJECT DOCUMENTATION AS YOU WISH BUT SHOULD BE UNDERSTANABLE TO A NEWBIE. -->
-<!-- FOR REFERENCE, YOU MAY CONSULT THE FILE LOCATED AT 'docs\nlp\projects\twitter_sentiment_analysis.md'. -->
+# Counting Bicep Reps Using OpenCV and Mediapipe  
 
-# Project Title 
-<!-- Write the title of your project here. Keep it precise and clear. -->
 
 ### AIM 
-<!-- Describe the main goal or objective of the project. For example: "To classify images of cats and dogs using CNN." -->
-
+To track and count bicep curls in real time using computer vision techniques with OpenCV and Mediapipe's Pose module.
 
 ### DATASET LINK 
-<!-- Attach the link of the Dataset -->
-[link](link)
+This project does not use a specific dataset as it works with real-time video from a webcam.
 
 
 ### NOTEBOOK LINK 
-<!-- Provide the link to the notebook where you solved the project. It could be a Kaggle, Colab, or Drive link. -->
-[link](link)
+[https://drive.google.com/file/d/13Omm8Zy0lmtjmdHgfQbraBu3NJf3wknw/view?usp=sharing](https://drive.google.com/file/d/13Omm8Zy0lmtjmdHgfQbraBu3NJf3wknw/view?usp=sharing)
 
 
 ### LIBRARIES NEEDED
-<!-- Mention it in bullet points either in numbering or simple dots -->
-<!-- Mention all the libraries required for the project. You can add more or remove as necessary. -->
 
 ??? quote "LIBRARIES USED"
 
-    - pandas
-    - numpy
-    - scikit-learn
-    - matplotlib
-    - seaborn
-    - tensorflow
-    - keras
+    - OpenCV
+    - Mediapipe
+    - NumPy
 
 --- 
 
 ### DESCRIPTION 
-<!-- Properly describe the project. Provide the answer of all the questions,
-what is the requirement of the project?, 
-why is it necessary?, 
-how is it beneficial and used?, 
-how did you start approaching this project?, 
-Any additional resources used like blogs reading, books reading (mention the name of book along with the pages you have read)?
-etc. -->
-<!-- Properly describe the project and answer the following questions: -->
-
-<!-- Provide a comprehensive overview of the project -->
 
 !!! info "What is the requirement of the project?"
-<!-- Why did you need to create this project? -->
-    - Write the answer here in simple bullet points. 
+    - The project aims to provide a computer vision-based solution for tracking fitness exercises like bicep curls without the need for wearable devices or sensors. 
 
 ??? info "Why is it necessary?"
-<!-- Why is this project important? Mention its significance. -->
-    - Write the answer here in simple bullet points. 
+    - Helps fitness enthusiasts monitor their workouts in real time.
+    - Provides an affordable and accessible alternative to wearable fitness trackers.
 
 ??? info "How is it beneficial and used?"
-<!-- How will this project benefit others or solve problems? -->
-    - Write the answer here in simple bullet points. 
+    - Real-time feedback on workout form and repetition count.
+    - Can be extended to other fitness exercises and integrated into fitness apps
 
 ??? info "How did you start approaching this project? (Initial thoughts and planning)"
-<!-- What were your initial thoughts and strategies for this project? -->
-    - Write the answer here in simple bullet points. 
+    - Explored Mediapipe's Pose module for pose landmark detection.
+    - Integrated OpenCV for video frame processing and real-time feedback.
+    - Planned the logic for detecting curls based on elbow angle thresholds.
 
 ??? info "Mention any additional resources used (blogs, books, chapters, articles, research papers, etc.)."
-<!-- Mention any additional resources, such as blogs, books, articles, or research papers, that you used. -->
-    - Write the answer here in simple bullet points. 
+    - Mediapipe official documentation.
+    - OpenCV tutorials on video processing. 
 
 
 --- 
@@ -74,129 +50,101 @@ etc. -->
 ### EXPLANATION 
 
 #### DETAILS OF THE DIFFERENT FEATURES 
-<!-- Elaborate the features as mentioned in the issues, perfoming any googling to learn about the features -->
-<!-- Describe the key features of the project, explaining each one in detail. -->
+    - Pose Estimation: Utilized Mediapipe's Pose module to detect key landmarks on the human body.
+    - Angle Calculation: Calculated angles at the elbow joints to determine curl movement.
+    - Rep Tracking: Incremented rep count when alternating between full curl and relaxed positions.
+    - Real-Time Feedback: Displayed the remaining curl count on the video feed.
 
 
 --- 
 
 #### PROJECT WORKFLOW 
-<!-- Clearly define the step-by-step workflow followed in the project. You can add or remove points as necessary. -->
 
 === "Step 1"
+    Initial setup:
+- Installed OpenCV and Mediapipe.
+- Set up a webcam feed for video capture.  
 
-    Initial data exploration and understanding:
-
-      - Start Writing from here in bullet points.
 
 === "Step 2"
+    Pose detection:
+- Used Mediapipe's Pose module to identify body landmarks.
 
-    Data cleaning and preprocessing:
-
-      - Start Writing from here in bullet points.
 
 === "Step 3"
+    Angle calculation:
+- Implemented a function to calculate the angle between shoulder, elbow, and wrist.
 
-    Feature engineering and selection:
-
-      - Start Writing from here in bullet points.
 
 === "Step 4"
+    Rep detection:
+- Monitored elbow angles to track upward and downward movements.
 
-    Model training and evaluation:
-
-      - Start Writing from here in bullet points.
 
 === "Step 5"
+    Real-time feedback:
+- Displayed the remaining number of curls on the video feed using OpenCV.
 
-    Model optimization and fine-tuning:
-
-      - Start Writing from here in bullet points.
 
 === "Step 6"
+    Completion:
+- Stopped the program when the target reps were completed or on manual exit.
 
-    Validation and testing:
-
-      - Start Writing from here in bullet points.
 
 --- 
 
 #### PROJECT TRADE-OFFS AND SOLUTIONS 
-<!-- Explain the trade-offs encountered during the project and the solutions you implemented. -->
 
 === "Trade Off 1"
-    - Describe the trade-off encountered (e.g., accuracy vs. computational efficiency).
-      - Explain how you addressed this trade-off (e.g., by optimizing hyperparameters, using a more efficient algorithm, etc.).
+    - Accuracy vs. Simplicity:
+        - Using elbow angles alone may not handle all body postures but ensures simplicity.
+        - Solution: Fine-tuned angle thresholds and added tracking for alternating arms.
 
 === "Trade Off 2"
-    - Describe another trade-off (e.g., model complexity vs. interpretability).
-      - Explain the solution (e.g., by selecting a model that balances both aspects effectively).
+    - Real-Time Performance vs. Model Complexity:
+        - Mediapipe's lightweight solution ensured smooth processing over heavier models.
 
 --- 
 
 ### SCREENSHOTS 
-<!-- Include screenshots, graphs, and visualizations to illustrate your findings and workflow. -->
-
 !!! success "Project workflow"
 
-    ``` mermaid
-      graph LR
-        A[Start] --> B{Error?};
-        B -->|Yes| C[Hmm...];
-        C --> D[Debug];
-        D --> B;
-        B ---->|No| E[Yay!];
-    ```
-
-??? tip "Visualizations and EDA of different features"
-
-    === "Image Topic"
-        ![img](images/<selected_image>.png "a title")
-
-??? example "Model performance graphs"
-
-    === "Image Topic"
-        ![img](images/<selected_image>.png "a title")
-
---- 
-
-### MODELS USED AND THEIR EVALUATION METRICS 
-<!-- Summarize the models used and their evaluation metrics in a table. -->
-
-|    Model   | Accuracy |  MSE  | R2 Score |
-|------------|----------|-------|----------|
-| Model Name |    95%   | 0.022 |   0.90   |
-| Model Name |    93%   | 0.033 |   0.88   |
+    ```mermaid  
+    graph LR  
+    A[Webcam Feed] --> F[Enter No of Biceps Reps]
+    F --> B[Mediapipe Pose Detection]  
+    B --> C[Elbow Angle Calculation]  
+    C --> D[Rep Count Decrement]  
+    D --> E[Real-Time Update on Frsame]  
+    ```  
 
 --- 
 
 ### CONCLUSION 
 
 #### KEY LEARNINGS 
-<!-- Summarize what you learned from this project in terms of data, techniques, and skills. -->
 
 !!! tip "Insights gained from the data"
-    - Write from here in bullet points
+    - Real-time video processing using OpenCV.
+    - Pose detection and landmark analysis with Mediapipe.
 
 ??? tip "Improvements in understanding machine learning concepts"
-    - Write from here in bullet points
+    - Understanding geometric computations in pose analysis.
+    - Effective use of pre-trained models like Mediapipe Pose.
 
 ??? tip "Challenges faced and how they were overcome"
-    - Write from here in bullet points
+    - Challenge: Handling incorrect postures.
+        - Solution: Fine-tuning angle thresholds.
 
 --- 
 
 #### USE CASES
-<!-- Mention at least two real-world applications of this project. -->
-
 === "Application 1"
 
-    **Headline**
-    
-      - Explain your application
+    **Personal Fitness Tracker**  
+    - Helps users track their workouts without additional equipment.  
 
 === "Application 2"
 
-    **Headline**
-    
-      - Explain your application
+    **Fitness App Integration**  
+    - Can be integrated into fitness apps for real-time exercise tracking.  

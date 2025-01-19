@@ -42,6 +42,15 @@
   </div>
 </a>
 
+<!-- Info GAN -->
+<a href="info-gan" style="padding: 0 2px 0 16px; background-color: rgba(39, 39, 43, 0.4); border: 1px solid rgba(76, 76, 82, 0.4); border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.2s; display: flex; align-items: center;">
+  <img src="https://www.researchgate.net/publication/340884113/figure/fig3/AS:883691647684610@1587699915907/Structure-and-operation-of-InfoGAN-Information-maximizing-Generative-Adversarial.png" alt="" style="width: 300px; height: 150px; object-fit: cover; border-radius: 10px;" />
+  <div style="padding: 15px;">
+    <h2 style="margin: 0; font-size: 20px;">Information Maximizing Generative Adversarial Network</h2>
+    <p style="font-size: 16px;">Empowering Data-Driven Insights with Generative Adversarial Networks for Advanced Information Synthesis.</p>
+    <p style="font-size: 12px;">📅 2025-01-15 | ⏱️ 4 mins</p>
+  </div>
+</a>
 
 
 </div>

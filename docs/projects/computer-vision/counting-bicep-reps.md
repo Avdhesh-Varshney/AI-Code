@@ -107,6 +107,16 @@ This project does not use a specific dataset as it works with real-time video fr
 --- 
 
 ### SCREENSHOTS 
+
+1. Entering no of reps you want to perform
+   ![Screenshot 2025-01-19 184454](https://github.com/user-attachments/assets/afac56f4-c0ce-45ec-8f41-1b7effc02e5a)
+
+
+3. Performing reps
+   ![Screenshot 2025-01-19 184607](https://github.com/user-attachments/assets/667b3e10-22b0-48a0-8e9b-42c3dcfc9f66)
+
+    
+
 !!! success "Project workflow"
 
     ```mermaid  

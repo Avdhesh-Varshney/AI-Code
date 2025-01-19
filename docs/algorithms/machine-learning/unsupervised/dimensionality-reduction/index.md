@@ -1,4 +1,4 @@
-# Classification Algorithms 🤖 
+# Dimensionality Reduction 🤖 
 
 <div style="display: flex; flex-direction: column; align-items: center; text-align: center; background-color: rgba(39, 39, 43, 0.4); border: 1px dashed rgba(76, 76, 82, 0.4); border-radius: 8px; padding: 24px; box-sizing: border-box;">
   <div style="margin-bottom: 24px; font-size: 32px; color: #6b7280;">

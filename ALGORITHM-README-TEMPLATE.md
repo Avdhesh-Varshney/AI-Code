@@ -92,21 +92,7 @@ print(result)
 ```
 
 
-### CONCLUSION 
-
-#### KEY LEARNINGS 
-<!-- Summarize what you learned from this project in terms of data, techniques, and skills. -->
-
-!!! tip "Insights gained from the data"
-    - Write from here in bullet points
-
-??? tip "Improvements in understanding machine learning concepts"
-    - Write from here in bullet points
-
-??? tip "Challenges faced and how they were overcome"
-    - Write from here in bullet points
-
-#### USE CASES
+## APPLICATIONS 
 <!-- Mention at least two real-world applications of this project. -->
 
 === "Application 1"

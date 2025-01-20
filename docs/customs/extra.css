@@ -1,0 +1,49 @@
+body {
+    background-image: url('https://github.com/user-attachments/assets/70330a16-a16d-4228-b389-b1af64c03972');
+}
+
+.md-header,
+.md-footer {
+    background: transparent;
+}
+
+.md-header {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* Light Mode Styling */
+[data-md-color-scheme="default"] {
+    --text-color: black;
+    --border-color: #12151e;
+}
+
+[data-md-color-scheme="default"] * {
+    color: var(--text-color);
+}
+
+[data-md-color-scheme="default"] .md-header {
+    border-bottom: 1px solid var(--border-color);
+}
+
+[data-md-color-scheme="default"] .md-footer {
+    border-top: 1px solid var(--border-color);
+}
+
+/* Dark Mode Styling */
+[data-md-color-scheme="slate"] {
+    --text-color: white;
+    --border-color: #53535b;
+}
+
+[data-md-color-scheme="slate"] * {
+    color: var(--text-color);
+}
+
+[data-md-color-scheme="slate"] .md-header {
+    border-bottom: 1px solid var(--border-color);
+}
+
+[data-md-color-scheme="slate"] .md-footer {
+    border-top: 1px solid var(--border-color);
+}

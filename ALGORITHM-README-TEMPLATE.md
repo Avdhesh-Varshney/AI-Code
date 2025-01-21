@@ -8,6 +8,15 @@
 <!-- Provide the name of the algorithm. Keep it concise and descriptive. -->
 
 
+<!-- Uncomment the code block below to display the poster on your webpage. 
+     This section uses an HTML <div> element to center-align the image on the page.
+     The <img> tag within this <div> references a URL to the image, which will be displayed when the code is uncommented. The image should represent relevant content or a visual representation of the algorithm in question. 
+     Ensure the 'src' attribute of the <img> tag points to a valid image URL for the poster to appear as intended. -->
+     
+<!-- <div align="center">
+    <img src="https://static.toiimg.com/thumb/msid-88446922,width-1280,height-720,resizemode-4/88446922.jpg" />
+</div> -->
+
 ## Objectives
 <!-- Describe the main goals or objectives of the algorithm. For example, "To optimize sorting operations in large datasets." -->
 

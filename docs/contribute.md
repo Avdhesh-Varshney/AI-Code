@@ -1,30 +1,26 @@
-# How to Contribute? 🚀
+# 📝 How to Contribute?
 
-Welcome to the **AI-Code** project! Follow these easy steps to get started. Let's build some awesome AI projects together! 😄
-
----
-
-### 🌟 [Star](https://github.com/Avdhesh-Varshney/AI-Code) this Repository
-
-Help us grow by starring the project! 🌟 This lets others discover and contribute to the repository.
+Welcome to the **AI-Code** project! Whether you're a seasoned developer or just starting, this guide will help you contribute systematically and effectively. Let's build amazing AI projects together! 🚀
 
 ---
 
-### 🍴 Fork this Repository
+## Getting Started
 
-Click the **Fork** button in the top right corner of this page to create a personal copy of this repository.
+### 🌟 Star This Repository
 
----
+Show your support by starring the project! 🌟 This helps others discover and contribute. Click [here](https://github.com/Avdhesh-Varshney/AI-Code) to star.
 
-### 📥 Clone the Forked Repository
+### 🍴 Fork the Repository
 
-Once you've forked the repository, clone it to your local system:
+Create a personal copy of the repository by clicking the **Fork** button at the top right corner of the GitHub page.
+
+### 📥 Clone Your Forked Repository
+
+Clone your forked repository to your local machine using:
 
 ```bash
 git clone https://github.com/<your-github-username>/AI-Code.git
 ```
-
----
 
 ### 📂 Navigate to the Project Directory
 
@@ -34,11 +30,9 @@ Move into the directory where you've cloned the project:
 cd AI-Code
 ```
 
----
-
 ### 🌱 Create a New Branch
 
-It's best to work on a new branch for your changes:
+Create a separate branch for your changes to keep the `main` branch clean:
 
 ```bash
 git checkout -b <your_branch_name>
@@ -46,101 +40,126 @@ git checkout -b <your_branch_name>
 
 ---
 
-### 🛠️ Create a Virtual Environment
+### 🛠️ Set Up the Development Environment
 
-Creating a virtual environment helps manage dependencies and avoid conflicts:
+#### 1. Create a Virtual Environment
+
+To isolate dependencies, create a virtual environment:
 
 ```bash
 python -m venv myenv
 ```
 
----
-
-### ⚡ Activate the Virtual Environment
-
-Activate the environment to install the required dependencies.
+#### 2. Activate the Virtual Environment
 
 - **Windows:**
-
-```bash
-myenv\Scripts\activate
-```
-
+  ```bash
+  myenv\Scripts\activate
+  ```
 - **macOS/Linux:**
+  ```bash
+  source myenv/bin/activate
+  ```
+
+#### 3. Install Required Dependencies
+
+Install all dependencies listed in the `requirements.txt` file:
 
 ```bash
-source myenv/bin/activate
+pip install -r requirements.txt
 ```
 
----
+#### 4. Preview Locally 
 
-### 📦 Install Required Python Packages
-
-Install all necessary dependencies using pip:
-
-```bash
-pip install mkdocs-material
-```
-
----
-
-### 🚀 Start the Development Server
-
-Run the following command to start the server locally:
+Use MkDocs to start the development server and preview the project:
 
 ```bash
 mkdocs serve
 ```
 
-Open your browser and go to:
+Access the site locally at:
 
 ```
 http://127.0.0.1:8000/AI-Code/
 ```
 
-This will allow you to preview the website locally. You're ready to start contributing!
-
 ---
+
+## Making Contributions
 
 ### ✏️ Make Changes
 
-Make any changes or improvements you want to the code or documentation. Be sure to follow the project's guidelines!
+Make your desired code edits, add features, or improve documentation. Follow the project's coding standards and contribution guidelines for consistency.
 
----
+### 💾 Stage and Commit Changes
 
-### 💾 Stage Your Changes and Commit
-
-Once you're satisfied with your changes, stage and commit them:
+#### 1. Stage All Changes:
 
 ```bash
 git add .
+```
+
+#### 2. Commit Changes with a Descriptive Message:
+
+```bash
 git commit -m "<your_commit_message>"
 ```
 
----
-
 ### 🚀 Push Your Changes
 
-Push your local commits to your forked repository:
+Push your branch to your forked repository:
 
 ```bash
 git push -u origin <your_branch_name>
 ```
 
----
-
 ### 📝 Create a Pull Request
 
-Go to your forked repository on GitHub, and click the **Create Pull Request** button. Describe your changes and submit the PR.
+1. Navigate to your forked repository on GitHub.
+2. Click Pull Requests, then New Pull Request.
+3. Select your branch and describe your changes clearly before submitting.
 
 ---
 
-### 🎉 Congratulations!
+## Contribution Guidelines
 
-You've made your first contribution to **AI-Code**! 🎉 Thank you for helping improve the project! Keep it up and happy coding! 🚀
+### 📂 File Naming Conventions
+
+- Use `kebab-case` for file names (e.g., `ai-code-example`).
+
+### 📚 Documentation Standards
+
+- Follow the [PROJECT README TEMPLATE](./project-readme-template.md) and [ALGORITHM README TEMPLATE](./algorithm-readme-template.md).
+- Use raw URLs for images and videos rather than direct uploads.
+
+### 💻 Commit Best Practices
+
+- Keep commits concise and descriptive.
+- Group related changes into a single commit.
+
+### 🔀 Pull Request Guidelines
+
+- Do not commit directly to the `main` branch.
+- Use the PR Template and provide all requested details.
+- Include screenshots, video demonstrations, or work samples for UI/UX changes.
+
+### 🧑‍💻 Code Quality Standards
+
+- Write clean, maintainable, and well-commented code.
+- Ensure originality and adherence to project standards.
 
 ---
 
-### 💬 Need Help?
+## 📘 Learning Resources
 
-If you run into any issues, feel free to open an issue on [GitHub Issues](https://github.com/Avdhesh-Varshney/AI-Code/issues). We're here to help! 🤗
+### 🧑‍💻 Git & GitHub Basics
+
+- [Forking a Repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+- [Cloning a Repository](https://help.github.com/en/desktop/contributing-to-projects/creating-an-issue-or-pull-request)
+- [Creating a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
+- [GitHub Learning Lab](https://lab.github.com/githubtraining/introduction-to-github)
+
+### 💻 General Programming
+
+- [Learn Python](https://www.learnpython.org/)
+- [MkDocs Documentation](https://www.mkdocs.org/)

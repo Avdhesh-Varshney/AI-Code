@@ -1,5 +1,4 @@
-# Natural Language Processing 🗣️ 
-# Chatbot Implementation 🤖 
+# Natural Language Processing 🗣️
 
 <div style="display: flex; flex-direction: column; gap: 10px;">
 

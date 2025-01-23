@@ -1,11 +1,12 @@
 # Classification Algorithms 🤖 
 
-<div style="display: flex; flex-direction: column; align-items: center; text-align: center; background-color: rgba(39, 39, 43, 0.4); border: 1px dashed rgba(76, 76, 82, 0.4); border-radius: 8px; padding: 24px; box-sizing: border-box;">
-  <div style="margin-bottom: 24px; font-size: 32px; color: #6b7280;">
-    <img src="https://github.com/user-attachments/assets/6fc75189-7775-40b3-8de2-b824e0e093f9" alt="" style="width: 80px; height: 80px;" />
+<div style="display: flex; flex-direction: column; gap: 10px;">
+
+<a href="logistic-regression" style="padding: 0 2px 0 16px; background-color: rgba(39, 39, 43, 0.4); border: 1px solid rgba(76, 76, 82, 0.4); border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.2s; display: flex; align-items: center;">
+  <img src="https://static.javatpoint.com/tutorial/machine-learning/images/logistic-regression-in-machine-learning.png" alt="" style="width: 300px; height: 150px; object-fit: cover; border-radius: 10px;" />
+  <div style="padding: 15px;">
+    <h2 style="margin: 0; font-size: 20px;">Logistic Regression</h2>
+    <p style="font-size: 16px;">Classifying data into discrete categories.</p>
+    <p style="font-size: 12px;">📅 2025-01-19 | ⏱️ 2 mins</p>
   </div>
-  <h3 style="font-weight: bold; font-size: 1.25rem; margin-bottom: 12px; letter-spacing: -0.015em;">No Items Found</h3>
-  <p style="font-size: 0.875rem; color: #6b7280; margin-bottom: 24px; margin-left: 16px; max-width: 24rem; line-height: 1.5;">
-    There are no items available at this time. Check back again later.
-  </p>
-</div>
+</a>

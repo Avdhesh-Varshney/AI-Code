@@ -12,7 +12,7 @@ No dataset used
 
 ## 📓 NOTEBOOK LINK 
 <!-- Provide the link to the notebook where you solved the project. It must be only Kaggle public notebook link. -->
-[https://drive.google.com/file/d/1q7kraajGykfc2Kb6-84dCOjkrDGhIQcy/view?usp=sharing](https://www.google.chttps://drive.google.com/file/d/1q7kraajGykfc2Kb6-84dCOjkrDGhIQcy/view?usp=sharingom)
+[https://drive.google.com/file/d/1q7kraajGykfc2Kb6-84dCOjkrDGhIQcy/view?usp=sharing](https://drive.google.com/file/d/1q7kraajGykfc2Kb6-84dCOjkrDGhIQcy/view?usp=sharing)
 
 
 ## ⚙️ TECH STACK

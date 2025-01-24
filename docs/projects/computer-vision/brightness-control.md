@@ -12,7 +12,7 @@ No dataset used
 
 ## 📓 NOTEBOOK LINK 
 <!-- Provide the link to the notebook where you solved the project. It must be only Kaggle public notebook link. -->
-[https://www.google.com](https://www.google.com)
+[https://drive.google.com/file/d/1q7kraajGykfc2Kb6-84dCOjkrDGhIQcy/view?usp=sharing](https://www.google.chttps://drive.google.com/file/d/1q7kraajGykfc2Kb6-84dCOjkrDGhIQcy/view?usp=sharingom)
 
 
 ## ⚙️ TECH STACK
@@ -122,6 +122,8 @@ No dataset used
 ??? tip "Working of the model"
 
     === "Image Topic"
+<img width="485" alt="image" src="https://github.com/user-attachments/assets/4b7ea465-a916-4592-9026-9bfa41711763" />
+
 
 
 --- 

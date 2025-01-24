@@ -1,18 +1,14 @@
-# 📜 Brightness control  <!-- Write the title of your project here. Keep it precise and clear. -->
-
-<!-- Attach a poster related to your project. It should send a clear message in mind. -->
+# 📜 Brightness control  
 <div align="center">
     <img src="https://user-images.githubusercontent.com/59369441/116009572-1542a280-a638-11eb-9d94-2a2d38b856a5.PNG" />
 </div>
 
 ## 🎯 AIM 
-<!-- Describe the main goal or objective of the project. For example: "To classify images of cats and dogs using CNN." -->
+To develop a real-time brightness control system using hand gestures, leveraging OpenCV and MediaPipe for hand detection and brightness adjustment.
 
 
 ## 📊 DATASET LINK 
-<!-- Attach the link of the Dataset. If no, Mention "NOT USED" -->
-[https://www.google.com](https://www.google.com)
-
+No dataset used
 
 ## 📓 NOTEBOOK LINK 
 <!-- Provide the link to the notebook where you solved the project. It must be only Kaggle public notebook link. -->
@@ -23,42 +19,29 @@
 
 | **Category**             | **Technologies**                            |
 |--------------------------|---------------------------------------------|
-| **Languages**            | Python, JavaScript                          |
-| **Libraries/Frameworks** | TensorFlow, Keras, Flask                    |
-| **Databases**            | MongoDB, PostgreSQL                         |
-| **Tools**                | Docker, Git, Jupyter, VS Code               |
-| **Deployment**           | AWS, Heroku                                 |
+| **Languages**            | Python                          |
+| **Libraries/Frameworks** | OpenCV, NumPy, MediaPipe, cvzone                    |
+| **Tools**                | Jupyter Notebook, Local Python IDE               |
 
 
 --- 
 
 ## 📝 DESCRIPTION 
-<!-- Properly describe the project. Provide the answer of all the questions,
-what is the requirement of the project?, 
-why is it necessary?, 
-how is it beneficial and used?, 
-how did you start approaching this project?, 
-Any additional resources used like blogs reading, books reading (mention the name of book along with the pages you have read)?
-etc. -->
-<!-- Properly describe the project and answer the following questions: -->
-
-<!-- Provide a comprehensive overview of the project -->
-
-<!-- Why did you need to create this project? -->
 !!! info "What is the requirement of the project?"
-    - Write the answer here in simple bullet points. 
+    - The project requires a webcam to capture real-time video and detect hand gestures for brightness control.
 
-<!-- How will this project benefit others or solve problems? -->
 ??? info "How is it beneficial and used?"
-    - Write the answer here in simple bullet points. 
+     - Allows users to control screen brightness without physical touch, making it useful for touchless interfaces. 
+     - Ideal for applications in smart home systems and assistive technologies. 
 
-<!-- What were your initial thoughts and strategies for this project? -->
 ??? info "How did you start approaching this project? (Initial thoughts and planning)"
-    - Write the answer here in simple bullet points. 
+    - Identified the need for a touchless brightness control system. 
+    - Selected OpenCV for video processing and MediaPipe for efficient hand tracking. 
+    - Developed a prototype to calculate brightness based on hand distance. 
 
-<!-- Mention any additional resources, such as blogs, books, articles, or research papers, that you used. -->
 ??? info "Mention any additional resources used (blogs, books, chapters, articles, research papers, etc.)."
-    - Write the answer here in simple bullet points. 
+    - OpenCV documentation for video processing. 
+    - MediaPipe's official guide for hand tracking. 
 
 
 --- 
@@ -66,145 +49,98 @@ etc. -->
 ## 🔍 EXPLANATION 
 
 ### 🧩 DETAILS OF THE DIFFERENT FEATURES 
-<!-- Elaborate the features as mentioned in the issues, performing any googling to learn about the features -->
-<!-- Describe the key features of the project, explaining each one in detail. -->
-<!-- Use h4 heading to highlight the name of the dataset with its extension. Example, #### houses.csv -->
 
-#### 📂 dataset.csv 
-
-| Feature Name | Description |
-|--------------|-------------|
-| feature 1    | explain 1   |
-
-
-<!-- Display those features which are developed to build the model -->
 #### 🛠 Developed Features 
 
 | Feature Name | Description | Reason   |
 |--------------|-------------|----------|
-| feature 1    | explain 1   | reason 1 |
+| Hand Detection  | Detects hand gestures in real-time   | To control brightness with gestures |
+| Distance Calculation    | Calculates distance between fingers   | To adjust brightness dynamically |
+| Brightness Mapping    | Maps hand distance to brightness levels   | Ensures smooth adjustment of brightness |
 
 
 --- 
 
 ### 🛤 PROJECT WORKFLOW 
-<!-- Draft a visualization graph of your project workflow using mermaid -->
 
 !!! success "Project workflow"
 
     ``` mermaid
       graph LR
-        A[Start] --> B{Error?};
-        B -->|Yes| C[Hmm...];
-        C --> D[Debug];
-        D --> B;
-        B ---->|No| E[Yay!];
+    A[Start] --> B[Initialize Webcam];
+    B --> C[Detect Hand Gestures];
+    C --> D[Calculate Distance];
+    D --> E[Adjust Brightness];
+    E --> F[Display Output];
     ```
 
-<!-- Clearly define the step-by-step workflow followed in the project. You can add or remove points as necessary. -->
 === "Step 1"
-    - Explanation
+- Initialize the webcam using OpenCV.
 
 
 === "Step 2"
-    - Explanation
+- Use MediaPipe to detect hands in the video feed.
 
 === "Step 3"
-    - Explanation
+- Calculate the distance between two fingers (e.g., thumb and index).
 
 === "Step 4"
-    - Explanation
+- Map the distance to a brightness range.
 
 === "Step 5"
-    - Explanation
-
-=== "Step 6"
-    - Explanation
+- Display the adjusted brightness on the video feed.
 
 --- 
 
 ### 🖥 CODE EXPLANATION 
-<!-- Provide an explanation for your essential code, highlighting key sections and their functionalities. -->
-<!-- This will help beginners understand the core components and how they contribute to the overall project. -->
 
-=== "Section 1"
-    - Explanation
+=== "Section 1: Import Libraries" 
+- Import essential libraries like OpenCV, NumPy, and cvzone's HandDetector for hand tracking.
+
+=== "Section 2: Webcam Initialization" 
+- Set up the webcam with predefined width and height.
+
+=== "Section 3: Hand Detection" 
+- Use MediaPipe via cvzone's HandDetector to detect hands and calculate distances.
+
 
 --- 
 
 ### ⚖️ PROJECT TRADE-OFFS AND SOLUTIONS 
-<!-- Explain the trade-offs encountered during the project and the solutions you implemented. -->
 
-=== "Trade Off 1"
-    - Describe the trade-off encountered (e.g., accuracy vs. computational efficiency).
-      - Explain how you addressed this trade-off (e.g., by optimizing hyperparameters, using a more efficient algorithm, etc.).
 
-=== "Trade Off 2"
-    - Describe another trade-off (e.g., model complexity vs. interpretability).
-      - Explain the solution (e.g., by selecting a model that balances both aspects effectively).
+=== "Trade Off 1" 
+    - Real-time processing vs. computational efficiency: Optimized hand detection by limiting the maximum number of detectable hands to 1.
+
+
+=== "Trade Off 2" 
+    - Precision in brightness control vs. usability: Adjusted mapping function to ensure smooth transitions.
 
 --- 
 
 ## 🖼 SCREENSHOTS 
-<!-- Include screenshots, graphs, and visualizations to illustrate your findings and workflow. -->
-
-??? tip "Visualizations and EDA of different features"
+??? tip "Working of the model"
 
     === "Image Topic"
-        ![img](images/<selected_image>.png "a title")
 
-??? example "Model performance graphs"
-
-    === "Image Topic"
-        ![img](images/<selected_image>.png "a title")
-
---- 
-
-## 📉 MODELS USED AND THEIR EVALUATION METRICS 
-<!-- Summarize the models used and their evaluation metrics in a table. -->
-
-|    Model   | Accuracy |  MSE  | R2 Score |
-|------------|----------|-------|----------|
-| Model Name |    95%   | 0.022 |   0.90   |
-| Model Name |    93%   | 0.033 |   0.88   |
 
 --- 
 
 ## ✅ CONCLUSION 
 
 ### 🔑 KEY LEARNINGS 
-<!-- Summarize what you learned from this project in terms of data, techniques, and skills. -->
+!!! tip "Insights gained from the data" 
+- Improved understanding of real-time video processing. 
+- Learned to integrate gesture detection with hardware functionalities.
 
-!!! tip "Insights gained from the data"
-    - Write from here in bullet points
-
-??? tip "Improvements in understanding machine learning concepts"
-    - Write from here in bullet points
+??? tip "Improvements in understanding machine learning concepts" 
+- Gained insights into MediaPipe's efficient hand detection algorithms.
 
 --- 
 
 ### 🌍 USE CASES
-<!-- Mention at least two real-world applications of this project. -->
+=== "Smart Homes" 
+- Touchless brightness control for smart home displays.
 
-=== "Headline 1"
-    - Explain your application
-
-=== "Headline 2"
-    - Explain your application
-
-### 🔗 USEFUL LINKS 
-<!-- Mention all the links, if present, otherwise remove this part. (Optional) -->
-
-=== "Deployed Model"
-    - [https://www.google.com](https://www.google.com)
-    <!-- Link of streamlit, heroku, etc. -->
-
-=== "GitHub Repository"
-    - [https://www.google.com](https://www.google.com)
-    <!-- Attach the link of your project github repo. -->
-
-=== "Binary Model File"
-    - [https://www.google.com](https://www.google.com)
-    <!-- Attach the link of your pickle/joblib/hdf5 or any other model binary file link to download. -->
-
-<!-- AFTER COMPLETEING THE DOCUMENTATION, UPDATE THE `index.md` file of the domian of which your project is a part of.  -->
+=== "Assistive Technologies" 
+- Brightness adjustment for users with limited mobility.

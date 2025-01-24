@@ -122,7 +122,7 @@ No dataset used
 ??? tip "Working of the model"
 
     === "Image Topic"
-<img width="485" alt="image" src="https://github.com/user-attachments/assets/4b7ea465-a916-4592-9026-9bfa41711763" />
+    <img width="485" alt="image" src="https://github.com/user-attachments/assets/4b7ea465-a916-4592-9026-9bfa41711763" />
 
 
 

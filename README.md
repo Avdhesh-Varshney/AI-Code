@@ -57,6 +57,7 @@
 - **Git/GitHub**
 - **VS Code**
 
+---
 
 ### 👥 **Contributors**
 

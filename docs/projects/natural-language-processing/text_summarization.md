@@ -1,17 +1,17 @@
 
-# Text Summarization
+# 📜Text Summarization
 
-### AIM
+### 🎯 AIM
 Develop a model to summarize long articles into short, concise summaries.
 
-### DATASET LINK
+### 📊 DATASET LINK
 [CNN DailyMail News Dataset](https://www.kaggle.com/datasets/gowrishankarp/newspaper-text-summarization-cnn-dailymail/)
 
-### NOTEBOOK LINK
+### 📓 NOTEBOOK LINK
 ??? Abstract "Kaggle Notebook"
 
     <iframe src="https://www.kaggle.com/embed/piyushchakarborthy/text-summary-via-textrank-transformers-tf-idf?kernelSessionId=219171135" height="800" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Text Summary Via TextRank, Transformers, TF-IDF"></iframe>
-### LIBRARIES NEEDED
+### ⚙️ LIBRARIES NEEDED
 ??? quote "LIBRARIES USED"
 
     - pandas
@@ -26,7 +26,7 @@ Develop a model to summarize long articles into short, concise summaries.
     - Transformer (Bart)
 --- 
 
-### DESCRIPTION
+### 📝 DESCRIPTION
 
 ??? info "What is the requirement of the project?"
     - A robust system to summarize text efficiently is essential for handling large volumes of information.
@@ -50,9 +50,21 @@ Develop a model to summarize long articles into short, concise summaries.
     - Blog: "Introduction to NLP-based Summarization Techniques"
 
 ---
+## 🔍 EXPLANATION
 
-#### DETAILS OF THE DIFFERENT FEATURES
+#### 🧩 DETAILS OF THE DIFFERENT FEATURES
+
+#### 📂 dataset.csv 
+
 The dataset contains features like sentence importance, word frequency, and linguistic structures that help in generating meaningful summaries.
+
+| Feature Name | Description |
+|--------------|-------------|
+| Id           | A unique Id for each row                   |
+| Article      | Entire article written on CNN Daily mail   |
+| Highlights   | Key Notes of the article                   |
+
+#### 🛠 Developed Features 
 
 | Feature              | Description                                     |
 |----------------------|-------------------------------------------------|
@@ -63,6 +75,18 @@ The dataset contains features like sentence importance, word frequency, and ling
 | `generated_summary`    | AI-generated condensed version of the original text |
 
 ---
+### 🛤 PROJECT WORKFLOW 
+!!! success "Project flowchart"
+
+    ``` mermaid
+      graph LR
+    A[Start] --> B[Load Dataset]
+    B --> C[Preprocessing]
+    C --> D[TextRank + TF-IDF / Transformer Models]
+    D --> E{Compare Performance}
+    E -->|Best Model| F[Deploy]
+    E -->|Retry| C;
+    ```
 
 #### PROCEDURE
 
@@ -107,7 +131,44 @@ The dataset contains features like sentence importance, word frequency, and ling
       - Plotted confusion matrices to visualize True Positives, False Positives, and False Negatives, ensuring effective model performance.
 ---
 
-#### PROJECT TRADE-OFFS AND SOLUTIONS 
+### 🖥 CODE EXPLANATION 
+<!-- Provide an explanation for your essential code, highlighting key sections and their functionalities. -->
+<!-- This will help beginners understand the core components and how they contribute to the overall project. -->
+
+=== "TextRank algorithm"
+    
+    Steps:
+        
+        - Preprocessing: Tokenize the article into sentences and preprocess the text by removing stopwords and special characters.
+        - Similarity Matrix: Compute the similarity between sentences using Jaccard Similarity.
+        - Graph Construction: Build a graph where sentences are nodes and edges represent similarity scores.
+        - Ranking: Use the PageRank algorithm to rank sentences based on their importance.
+        - Summary Generation: Select the top-ranked sentences to form the summary.
+        - Evaluation: Compare the generated summary with the reference summary using a confusion matrix.
+
+
+=== "Transformers"
+    
+    Steps:
+        
+        - Preprocessing: Tokenize the article and preprocess the text.
+        - Model Application: Use the pipeline function from the transformers library to generate a summary.
+        - Evaluation: Compare the generated summary with the reference summary using a confusion matrix.
+
+
+=== "TTF-IDF Algorithm"
+    
+    Steps:
+        
+        - Preprocessing: Tokenize the article and preprocess the text.
+        - TF-IDF Calculation: Compute the Term Frequency-Inverse Document Frequency (TF-IDF) scores for words in the article.
+        - Sentence Scoring: Score sentences based on the TF-IDF values of the words they contain.
+        - Summary Generation: Select the top-scored sentences to form the summary.
+        - Evaluation: Compare the generated summary with the reference summary using a confusion matrix.
+
+--- 
+
+#### ⚖️ PROJECT TRADE-OFFS AND SOLUTIONS 
 
 === "Trade-off 1"
 
@@ -130,19 +191,7 @@ The dataset contains features like sentence importance, word frequency, and ling
 
 --- 
 
-### SCREENSHOTS
-
-!!! success "Project flowchart"
-
-    ``` mermaid
-      graph LR
-    A[Start] --> B[Load Dataset]
-    B --> C[Preprocessing]
-    C --> D[TextRank + TF-IDF / Transformer Models]
-    D --> E{Compare Performance}
-    E -->|Best Model| F[Deploy]
-    E -->|Retry| C;
-    ```
+### 🖼 SCREENSHOTS
 
 ??? example "Confusion Matrix"
 
@@ -156,9 +205,9 @@ The dataset contains features like sentence importance, word frequency, and ling
         ![trans](https://github.com/user-attachments/assets/7e99887b-e225-4dd0-802d-f1c2b0e89bef)
 
 
-### CONCLUSION 
+### ✅CONCLUSION 
 
-#### KEY LEARNINGS 
+#### 🔑 KEY LEARNINGS 
 
 !!! tip "Insights gained from the data"
     - Data Complexity: News articles vary in length and structure, requiring different summarization techniques.
@@ -174,7 +223,7 @@ The dataset contains features like sentence importance, word frequency, and ling
 
 --- 
 
-#### USE CASES 
+#### 🌍 USE CASES 
 
 === "Application 1"
 

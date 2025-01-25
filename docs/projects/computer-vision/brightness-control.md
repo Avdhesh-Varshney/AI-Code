@@ -94,14 +94,52 @@ No dataset used
 
 ### 🖥 CODE EXPLANATION 
 
-=== "Section 1: Import Libraries" 
-- Import essential libraries like OpenCV, NumPy, and cvzone's HandDetector for hand tracking.
+=== "Section 1: Webcam Initialization" 
+- The program begins by setting up the webcam to capture frames with a resolution of 640x480 pixels. This ensures consistent processing and visualization of the video stream.
 
-=== "Section 2: Webcam Initialization" 
-- Set up the webcam with predefined width and height.
+    ```python
+    cap = cv2.VideoCapture(0)  
+    cap.set(3, 640)  # Set width  
+    cap.set(4, 480)  # Set height 
+    ```
 
-=== "Section 3: Hand Detection" 
-- Use MediaPipe via cvzone's HandDetector to detect hands and calculate distances.
+=== "Section 2: Hand Detection and Brightness Control" 
+- Using the `HandDetector` from `cvzone`, the program tracks one hand (maxHands=1). The brightness of the video frame is dynamically adjusted based on the distance between the thumb and index finger.
+
+    ```python
+    detector = HandDetector(detectionCon=0.8, maxHands=1)  
+    brightness = 1.0  # Default brightness level  
+    ```
+
+- The HandDetector detects hand landmarks in each frame with a confidence threshold of 0.8. The initial brightness is set to 1.0 (normal).
+
+    ```python
+    hands, img = detector.findHands(frame, flipType=False)  
+
+    if hands:  
+        hand = hands[0]  
+        lm_list = hand['lmList']  
+        if len(lm_list) > 8:  
+            thumb_tip = lm_list[4]  
+            index_tip = lm_list[8]  
+            distance = int(((thumb_tip[0] - index_tip[0]) ** 2 + (thumb_tip[1] - index_tip[1]) ** 2) ** 0.5)  
+            brightness = np.interp(distance, [20, 200], [0, 1])  
+    ```
+
+- The program calculates the distance between the thumb tip (`lmList[4]`) and index finger tip (`lmList[8]`). This distance is mapped to a brightness range of 0 to 1 using np.interp.
+
+=== "Section 3: Brightness Adjustment and Display " 
+
+- The captured frame's brightness is modified by scaling the value (V) channel in the HSV color space according to the calculated brightness level.
+
+    ```python
+    hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)  
+    hsv[..., 2] = np.clip(hsv[..., 2] * brightness, 0, 255).astype(np.uint8)  
+    frame_bright = cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)  
+    cv2.imshow("Brightness Controller", frame_bright)  
+    ```
+
+- This technique ensures smooth, real-time brightness adjustments based on the user's hand gestures. The output frame is displayed with the adjusted brightness level.
 
 
 --- 

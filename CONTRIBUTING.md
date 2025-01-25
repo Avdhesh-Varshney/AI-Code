@@ -43,7 +43,7 @@ We want your work to be readable by others; therefore, we encourage you to note 
 1. File names should be in `kebab-case` letters (e.g., `music-genre-classification-model`, `insurance-cross-sell-prediction`).
 2. Follow the [***PROJECT README TEMPLATE***](./docs/project-readme-template.md) and [***ALGORITHM README TEMPLATE***](./docs/algorithm-readme-template.md) for refrence.
 3. Do not upload images or video files directly. Use a GitHub raw URL in the documentation.
-4. Upload your notebook to Kaggle, make it public, and share the Kaggle link only. Other links are not accepted.
+4. Upload your notebook to Kaggle, make it public, and share the Kaggle embed link only. Other links are not accepted.
 5. Limit commits to 3-4 unless given permission by project Admins or Mentors.
 6. Keep commit messages clear and relevant; avoid unnecessary details.
 

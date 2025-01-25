@@ -18,10 +18,18 @@
 [https://www.google.com](https://www.google.com)
 
 
-## 📓 NOTEBOOK LINK 
-<!-- Provide the link to the notebook where you solved the project. It must be only Kaggle public notebook link. -->
-[https://www.google.com](https://www.google.com)
+## 📓 NOTEBOOK 
+<!-- Attach only Kaggle embed public notebook link. -->
+??? Abstract "Kaggle Notebook"
 
+    <iframe 
+        src="https://www.kaggle.com/embed/avdhesh15/cvd-risk-prediction-system?kernelSessionId=218959248" 
+        height="600" 
+        style="margin: 0 auto; width: 100%; max-width: 950px;" 
+        frameborder="0" 
+        scrolling="auto" 
+        title="cvd-risk-prediction-system">
+    </iframe>
 
 ## ⚙️ TECH STACK
 

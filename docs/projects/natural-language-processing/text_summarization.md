@@ -137,30 +137,61 @@ The dataset contains features like sentence importance, word frequency, and ling
 
 === "TextRank algorithm"
     
-    Steps:
-        
-        - Preprocessing: Tokenize the article into sentences and preprocess the text by removing stopwords and special characters.
-        - sentence_similarity(sent1, sent2) - Computes Jaccard similarity between two sentences.
-        - nx.pagerank(graph) - Computes sentence importance scores using the PageRank algorithm
+    Important Function:
+
+        graph = nx.from_numpy_array(similarity_matrix)
+        scores = nx.pagerank(graph)
+
+        Example Input: 
+        similarity_matrix = np.array([
+            [0.0, 0.2, 0.1],  # Sentence 1
+            [0.2, 0.0, 0.3],  # Sentence 2 
+            [0.1, 0.3, 0.0]]) # Sentence 3 
+
+        graph = nx.from_numpy_array(similarity_matrix)
+        scores = nx.pagerank(graph)
+
+        Output:
+        {0: 0.25, 1: 0.45, 2: 0.30} #That means sentence 2(0.45) has more importance than others
+
 
 
 === "Transformers"
     
-    Steps:
+    Important Function:
         
-        - pipeline("summarization") - Initializes a pre-trained transformer model for summarization.
-        - generated_summary = summarization_pipeline(article, max_length=150, min_length=50, do_sample=False) - Generates a summary using a transformer model.
+        pipeline("summarization") - Initializes a pre-trained transformer model for summarization.
+        generated_summary = summarization_pipeline(article, max_length=150, min_length=50, do_sample=False) 
+        This Generates a summary using a transformer model.
+
+        Example Input:
+        article = "The Apollo program was a NASA initiative that landed humans on the Moon between 1969 and 1972, 
+        with Apollo 11 being the first mission."
+
+        Output:
+        The Apollo program was a NASA initiative that landed humans on the Moon between 1969 and 1972. 
+        Apollo 11 was the first mission.
+
+
 
 
 === "TTF-IDF Algorithm"
     
-    Steps:
+    Important Function:
         
-        - TfidfVectorizer - Converts text into numerical feature vectors based on Term Frequency-Inverse Document Frequency (TF-IDF).
-        - vectorizer.fit_transform(processed_sentences): Transforms the processed text into a sparse matrix representation.
-        - Cosine Similarity (cosine_similarity) - Measures the similarity between text vectors based on their cosine angle.
-        - cosine_similarity(tfidf_matrix): Computes a similarity matrix between sentences.
-        - generate_summary() generates summary.
+        vectorizer = TfidfVectorizer()
+        tfidf_matrix = vectorizer.fit_transform(processed_sentences)
+
+        Example Input:
+        processed_sentences = [
+        "apollo program nasa initiative landed humans moon 1969 1972",
+        "apollo 11 first mission land moon neil armstrong buzz aldrin walked surface",
+        "apollo program significant achievement space exploration cold war space race"]
+
+        Output:
+        ['1969', '1972', 'achievement', 'aldrin', 'apollo', 'armstrong', 'buzz', 'cold', 'exploration', 
+        'first', 'humans', 'initiative', 'land', 'landed', 'moon', 'nasa', 'neil', 'program', 'race', 
+        'significant', 'space', 'surface', 'walked', 'war']
 
 --- 
 

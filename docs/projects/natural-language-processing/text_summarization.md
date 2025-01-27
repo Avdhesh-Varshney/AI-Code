@@ -140,31 +140,27 @@ The dataset contains features like sentence importance, word frequency, and ling
     Steps:
         
         - Preprocessing: Tokenize the article into sentences and preprocess the text by removing stopwords and special characters.
-        - Similarity Matrix: Compute the similarity between sentences using Jaccard Similarity.
-        - Graph Construction: Build a graph where sentences are nodes and edges represent similarity scores.
-        - Ranking: Use the PageRank algorithm to rank sentences based on their importance.
-        - Summary Generation: Select the top-ranked sentences to form the summary.
-        - Evaluation: Compare the generated summary with the reference summary using a confusion matrix.
+        - sentence_similarity(sent1, sent2) - Computes Jaccard similarity between two sentences.
+        - nx.pagerank(graph) - Computes sentence importance scores using the PageRank algorithm
 
 
 === "Transformers"
     
     Steps:
         
-        - Preprocessing: Tokenize the article and preprocess the text.
-        - Model Application: Use the pipeline function from the transformers library to generate a summary.
-        - Evaluation: Compare the generated summary with the reference summary using a confusion matrix.
+        - pipeline("summarization") - Initializes a pre-trained transformer model for summarization.
+        - generated_summary = summarization_pipeline(article, max_length=150, min_length=50, do_sample=False) - Generates a summary using a transformer model.
 
 
 === "TTF-IDF Algorithm"
     
     Steps:
         
-        - Preprocessing: Tokenize the article and preprocess the text.
-        - TF-IDF Calculation: Compute the Term Frequency-Inverse Document Frequency (TF-IDF) scores for words in the article.
-        - Sentence Scoring: Score sentences based on the TF-IDF values of the words they contain.
-        - Summary Generation: Select the top-scored sentences to form the summary.
-        - Evaluation: Compare the generated summary with the reference summary using a confusion matrix.
+        - TfidfVectorizer - Converts text into numerical feature vectors based on Term Frequency-Inverse Document Frequency (TF-IDF).
+        - vectorizer.fit_transform(processed_sentences): Transforms the processed text into a sparse matrix representation.
+        - Cosine Similarity (cosine_similarity) - Measures the similarity between text vectors based on their cosine angle.
+        - cosine_similarity(tfidf_matrix): Computes a similarity matrix between sentences.
+        - generate_summary() generates summary.
 
 --- 
 
@@ -182,7 +178,7 @@ The dataset contains features like sentence importance, word frequency, and ling
 
       - **Solution**: Model Pruning: Used smaller versions of transformer models (e.g., distilBART or distilT5) to reduce the computational load without compromising much on performance.
 
-=== "Trade-off 2"
+=== "Trade-off 3"
 
     TextRank summary might miss nuances and context, leading to less accurate or overly simplistic outputs compared to transformer-based models.
 

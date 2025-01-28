@@ -59,6 +59,13 @@
 
 ---
 
+### 👥 **Contributors**
+
+   A big shoutout and heartfelt thanks to all our amazing contributors for their incredible efforts and dedication! This project wouldn’t be where it is without you. 💖
+   
+   <a href="https://github.com/Avdhesh-Varshney/AI-Code/graphs/contributors" target="_blank" rel="noopener noreferrer"> <img src="https://contrib.rocks/image?repo=Avdhesh-Varshney/AI-Code" alt="Contributors" /> </a>
+   ---
+
 <div align="center">
   <h3>💙 Like the project? &nbsp;🌟 Star it!</h3>
 </div>

@@ -78,7 +78,7 @@
   <td align="center">
     <a href="https://iwoc3.devfolio.co/">
       <img src="https://github.com/user-attachments/assets/c90cfddc-4bfe-4c53-b214-6fb709b2c41d" width=80px height=80px />
-      <br /><sub><b>IWOC 2024</b></sub>
+      <br /><sub><b>IWOC 2025</b></sub>
     </a>
   </td>
   

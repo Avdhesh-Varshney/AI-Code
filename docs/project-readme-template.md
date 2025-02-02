@@ -18,8 +18,10 @@
 [https://www.google.com](https://www.google.com)
 
 
-## 📓 NOTEBOOK 
-<!-- Attach only Kaggle embed public notebook link. -->
+## 📓 KAGGLE NOTEBOOK 
+<!-- Attach both links Kaggle URL/ Embed URL public notebook link. -->
+[https://www.google.com](https://www.google.com)
+
 ??? Abstract "Kaggle Notebook"
 
     <iframe 
@@ -31,7 +33,7 @@
         title="cvd-risk-prediction-system">
     </iframe>
 
-## ⚙️ TECH STACK
+## ⚙️ TECH STACK 
 
 | **Category**             | **Technologies**                            |
 |--------------------------|---------------------------------------------|
@@ -75,26 +77,28 @@ etc. -->
 
 --- 
 
-## 🔍 EXPLANATION 
+## 🔍 PROJECT EXPLANATION 
 
-### 🧩 DETAILS OF THE DIFFERENT FEATURES 
+### 🧩 DATASET OVERVIEW & FEATURE DETAILS 
 <!-- Elaborate the features as mentioned in the issues, performing any googling to learn about the features -->
 <!-- Describe the key features of the project, explaining each one in detail. -->
 <!-- Use h4 heading to highlight the name of the dataset with its extension. Example, #### houses.csv -->
 
-#### 📂 dataset.csv 
+??? example "📂 dataset.csv"
 
-| Feature Name | Description |
-|--------------|-------------|
-| feature 1    | explain 1   |
+    - There are X features in the dataset.csv
+
+    | Feature Name | Description |   Datatype   |
+    |--------------|-------------|:------------:|
+    | feature 1    | explain 1   | int64/object |
 
 
 <!-- Display those features which are developed to build the model -->
-#### 🛠 Developed Features 
+??? example "🛠 Developed Features from dataset.csv"
 
-| Feature Name | Description | Reason   |
-|--------------|-------------|----------|
-| feature 1    | explain 1   | reason 1 |
+    | Feature Name | Description | Reason   |   Datatype   |
+    |--------------|-------------|----------|:------------:|
+    | feature 1    | explain 1   | reason 1 | int64/object |
 
 
 --- 
@@ -116,7 +120,6 @@ etc. -->
 <!-- Clearly define the step-by-step workflow followed in the project. You can add or remove points as necessary. -->
 === "Step 1"
     - Explanation
-
 
 === "Step 2"
     - Explanation
@@ -160,15 +163,15 @@ etc. -->
 ## 🖼 SCREENSHOTS 
 <!-- Include screenshots, graphs, and visualizations to illustrate your findings and workflow. -->
 
-??? tip "Visualizations and EDA of different features"
+!!! tip "Visualizations and EDA of different features"
 
     === "Image Topic"
-        ![img](images/<selected_image>.png "a title")
+        ![img](https://assets.ltkcontent.com/images/103034/line-graph-example_27c5571306.jpg)
 
 ??? example "Model performance graphs"
 
     === "Image Topic"
-        ![img](images/<selected_image>.png "a title")
+        ![img](https://assets.ltkcontent.com/images/103029/bar-graph-example_27c5571306.jpg)
 
 --- 
 
@@ -195,7 +198,7 @@ etc. -->
 
 --- 
 
-### 🌍 USE CASES
+### 🌍 USE CASES 
 <!-- Mention at least two real-world applications of this project. -->
 
 === "Headline 1"

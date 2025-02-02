@@ -1,46 +1,47 @@
-# Bangladesh Premier League Analysis 
+# 📜 Bangladesh Premier League Analysis 
 
 <div align="center">
     <img src="https://static.toiimg.com/thumb/msid-88446922,width-1280,height-720,resizemode-4/88446922.jpg" />
 </div>
 
-### AIM 
+## 🎯 AIM 
 
-The main goal of the project is to analyze the performance of the bangladesh players in their premier league and obtaining the top 5 players in all of them in different fields like bowling, batting, toss_winner, highest runner, man of the match, etc.
+To analyze player performances in the Bangladesh Premier League by extracting insights from batsmen, bowlers, and match data—ranging from toss outcomes to overall match results.
 
-### DATASET LINK 
+## 📊 DATASET LINK 
 
 [https://www.kaggle.com/abdunnoor11/bpl-data](https://www.kaggle.com/abdunnoor11/bpl-data)
 
-### MY NOTEBOOK LINK 
+## 📓 KAGGLE NOTEBOOK 
 
-[https://colab.research.google.com/drive/1equud2jwKnmE1qbbTJLsi2BbjuA7B1Si?usp=sharing](https://colab.research.google.com/drive/1equud2jwKnmE1qbbTJLsi2BbjuA7B1Si?usp=sharing)
+[https://www.kaggle.com/code/avdhesh15/bpl-analysis](https://www.kaggle.com/code/avdhesh15/bpl-analysis)
 
-### LIBRARIES NEEDED 
+??? Abstract "Kaggle Notebook"
 
-??? quote "LIBRARIES USED"
+    <iframe 
+        src="https://www.kaggle.com/embed/avdhesh15/bpl-analysis?kernelSessionId=220268450" 
+        height="600" 
+        style="margin: 0 auto; width: 100%; max-width: 950px;" 
+        frameborder="0" 
+        scrolling="auto" 
+        title="bpl-analysis">
+    </iframe>
 
-    - matplotlib
-	- pandas
-	- sklearn
-	- seaborn
-	- numpy
-	- scipy
-	- xgboost
-	- Tensorflow
-	- Keras
+## ⚙️ TECH STACK 
+
+| **Category**             | **Technologies**                            |
+|--------------------------|---------------------------------------------|
+| **Languages**            | Python                          |
+| **Libraries/Frameworks** | Matplotlib, Pandas, Seaborn, Numpy |
+| **Tools**                | Git, Jupyter, VS Code               |
 
 --- 
 
-### DESCRIPTION 
+## 📝 DESCRIPTION 
 
 !!! info "What is the requirement of the project?"
     - This project aims to analyze player performance data from the Bangladesh Premier League (BPL) to classify players into categories such as best, good, average, and poor based on their performance.
     - The analysis provides valuable insights for players and coaches, highlighting who needs more training and who requires less, which can aid in strategic planning for future matches.
-
-??? info "Why is it necessary?"
-    - Analyzing player performance helps in understanding strengths and weaknesses, which can significantly reduce the chances of losing and increase the chances of winning future matches.
-    - It aids in making informed decisions about team selection and match strategies.
 
 ??? info "How is it beneficial and used?"
     - **For Players:** Provides feedback on their performance, helping them to improve specific aspects of their game.
@@ -60,265 +61,246 @@ The main goal of the project is to analyze the performance of the bangladesh pla
 
 --- 
 
-### EXPLANATION 
+## 🔍 PROJECT EXPLANATION 
 
-#### DETAILS OF THE DIFFERENT FEATURES 
+### 🧩 DATASET OVERVIEW & FEATURE DETAILS 
 
-	There are 3 different types of the datasets.
+??? example "📂 bpl.csv"
 
-	- Batsman Dataset
-	- Bowler Dataset
-	- BPL (Bangladesh Premier League) Dataset
+    - There are 19 features in `BPL Dataset`
 
-- There are 12 features in `Batsman Dataset`
+    | Feature Name | Description | Datatype |
+    |--------------|-------------|:--------:|
+    | id | All matches unique id | int64 |
+    | season | Season of the match (20XX-XX) | object |
+    | match_no | Number of matches (For eg, Round 1st, 3rd, Final) | object |
+    | date | Date of the match | object |
+    | team_1 | Name of the first team | object |
+    | team_1_score | Scoreboard of the team 1 (runs/wickets) | object |
+    | team_2 | Second Team | object |
+    | team_2_score | Scoreboard of the team 2 (runs/wickets) | object |
+    | player_of_match | Player of the match | object |
+    | toss_winner | Which team won the toss? | object |
+    | toss_decision | Toss winner team decision took either 'field first' or 'bat first' | object |
+    | winner | Name of the team who won the match | object |
+    | venue | Venue of the match | object |
+    | city | City of the match | object |
+    | win_by_wickets | Team win by how many wickets | int64 |
+    | win_by_runs | Team win by how many runs | int64 |
+    | result | Conclusion of `win_by_wickets` & `win_by_runs` | object |
+    | umpire_1 | Name of the first umpire | object |
+    | umpire_2 | Name of the second umpire | object |
 
-| Feature Name | Description|
-|--------------|------------|
-| id | All matches unique id |
-| season | Season |
-| match_no | Number of matches |
-| date | Date of Play |
-| player_name | Player Name |
-| comment | How did the batsman get out? |
-| R | Batsman's run |
-| B | How many balls faced the batsman? |
-| M | How long their innings was in minutes? |
-| fours | Fours |
-| sixs | Sixes |
-| SR | Strike rate |
+??? example "🛠 Developed Features from bpl.csv"
 
-- There are 12 features in `Bowler Dataset`
+    | Feature Name | Description | Reason   | Datatype |
+    |--------------|-------------|----------|:--------:|
+    | team_1_run | Run scored by the team 1 | To covert `team_1_score` categorical feature into numerical feature | int64 |
+    | team_1_wicket | Wickets losed by the team 1 | To covert `team_1_score` categorical feature into numerical feature | int64 |
+    | team_2_run | Run scored by the team 2 | To covert `team_2_score` categorical feature into numerical feature | int64 |
+    | team_2_wicket | Wickets losed by the team 2 | To covert `team_1_score` categorical feature into numerical feature | int64 |
 
-| Feature Name | Description|
-|--------------|------------|
-| id | All matches unique id |
-| season | Season |
-| match_no | Number of matches |
-| date | Date of Play |
-| player_name | Player Name |
-| O | Overs |
-| M | middle overs |
-| R | Runs |
-| W | Wickets |
-| ECON | The average number of runs they have conceded per over bowled |
-| WD | Wide balls |
-| NB | No balls |
+??? example "📂 batsman.csv"
 
-- There are 19 features in `BPL Dataset`
+    - There are 12 features in `Batsman Dataset`
 
-| Feature Name | Description|
-|--------------|------------|
-| id | All matches unique id |
-| season | Season |
-| match_no | Number of matches |
-| date | Date of Play |
-| team_1 | First Team |
-| team_1_score | First Team Score |
-| team_2 | Second Team |
-| team_2_score | Second Team Score |
-| player_of_match | Which team won the toss? |
-| toss_winner | Which team won the toss? |
-| toss_decision | Toss winner team decision |
-| winner | Match Winner |
-| venue | Venue |
-| city | City |
-| win_by_wickets | Win by wickets. |
-| win_by_runs | Win by runs |
-| result | Result of the winner |
-| umpire_1 | First Umpire Name |
-| umpire_2 | Second Umpire Name |
+    | Feature Name | Description| Datatype |
+    |--------------|------------|:--------:|
+    | id | All matches unique id | int64 |
+    | season | Season of the match (20XX-XX) | object |
+    | match_no | Number of matches (For eg, Round 1st, 3rd, Final) | object |
+    | date | Date of the match | object |
+    | player_name | Player Name | object |
+    | comment | How did the batsman get out? | object |
+    | R | Batsman's run | int64 |
+    | B | How many balls faced the batsman? | int64 |
+    | M | How long their innings was in minutes? | int64 |
+    | fours | No. of fours | int64 |
+    | sixs | No. of sixes | int64 |
+    | SR | Strike rate `(R/B)*100` | float64 |
 
---- 
+??? example "📂 bowler.csv"
 
-#### WHAT I HAVE DONE 
+    - There are 12 features in `Bowler Dataset`
 
-=== "Step 1"
-
-    - Performed Exploratory Data Analysis on data.
-
-=== "Step 2"
-
-    - Created data visualisations to understand the data in a better way.
-
-=== "Step 3"
-
-    - Found strong relationships between independent features and dependent feature using correlation.
-
-=== "Step 4"
-
-    - Handled missing values using strong correlations,dropping unnecessary ones.
-
-=== "Step 5"
-
-    - Used different Regression techniques like Linear Regression,Ridge Regression,Lasso Regression and deep neural networks to predict the dependent feature in most suitable manner.
-
-=== "Step 6"
-
-    - Compared various models and used best performance model to make predictions.
-
-=== "Step 7"
-
-    - Used Mean Squared Error and R2 Score for evaluating model's performance.
-
-=== "Step 8"
-
-    - Visualized best model's performance using matplotlib and seaborn library.
+    | Feature Name | Description| Datatype |
+    |--------------|------------|:--------:|
+    | id | All matches unique id | int64 |
+    | season | Season of the match (20XX-XX) | object |
+    | match_no | Number of matches (For eg, Round 1st, 3rd, Final) | object |
+    | date | Date of the match | object |
+    | player_name | Player Name | object |
+    | O | No. of overs bowled | float64 |
+    | M | No. of middle overs bowled | int64 |
+    | R | No. of runs losed | int64 |
+    | W | No. of wickets secured | int64 |
+    | ECON | The average number of runs they have conceded per over bowled | float64 |
+    | WD | No. of wide balls | int64 |
+    | NB | No. of No balls | int64 |
 
 --- 
 
-#### PROJECT TRADE-OFFS AND SOLUTIONS 
-
-=== "Trade Off 1"
-
-	Handling missing and inconsistent data entries.
-
-     - **Solution**
-       - **Data Imputation**: For missing numerical values, I used techniques such as mean, median, or mode imputation based on the distribution of the data.
-       - **Data Cleaning**: For inconsistent entries, I standardized the data by removing duplicates, correcting typos, and ensuring uniform formatting.
-       - **Dropping Irrelevant Data**: In cases where the missing data was extensive and could not be reliably imputed, I decided to drop those rows/columns to maintain data integrity.
-
-=== "Trade Off 2"
-
-	Extracting target variables from the dataset.
-
-     - **Solution**
-       - **Feature Engineering**: Created new features that could serve as target variables, such as aggregating player statistics to determine top performers.
-       - **Domain Knowledge**: Utilized cricket domain knowledge to identify relevant metrics (e.g., strike rate, economy rate) and used them to define target variables.
-       - **Label Encoding**: For categorical target variables (e.g., player categories like best, good, average, poor), I used label encoding techniques to convert them into numerical format for analysis.
-
-=== "Trade Off 3"
-
-	Creating clear and informative visualizations that effectively communicate the findings.
-
-     - **Solution**
-       - **Tool Selection**: Used powerful visualization tools like Matplotlib and Seaborn in Python, which provide a wide range of customization options.
-       - **Visualization Best Practices**: Followed best practices such as using appropriate chart types (e.g., bar charts for categorical data, scatter plots for correlations), adding labels and titles, and ensuring readability.
-       - **Iterative Refinement**: Iteratively refined visualizations based on feedback and self-review to enhance clarity and informativeness.
-
-=== "Trade Off 4"
-
-	Correctly interpreting the results to provide actionable insights.
-
-     - **Solution**
-       - **Cross-validation**: Used cross-validation techniques to ensure the reliability and accuracy of the analysis results.
-       - **Collaboration with Experts**: Engaged with cricket experts and enthusiasts to validate the findings and gain additional perspectives.
-       - **Contextual Understanding**: Interpreted results within the context of the game, considering factors such as player roles, match conditions, and historical performance to provide meaningful and actionable insights.
-
---- 
-
-### SCREENSHOTS 
+### 🛤 PROJECT WORKFLOW 
 
 !!! success "Project workflow"
 
     ``` mermaid
-      graph LR
-        A[Start] --> B{Error?};
-        B -->|Yes| C[Hmm...];
-        C --> D[Debug];
-        D --> B;
-        B ---->|No| E[Yay!];
+      graph TD
+        A[Start] --> B[Load Dataset]
+        B -->|BPL Data| C[Preprocess BPL Data]
+        B -->|Batsman Data| D[Preprocess Batsman Data]
+        B -->|Bowler Data| E[Preprocess Bowler Data]
+        
+        C --> F{Generate Queries?}
+        D --> F
+        E --> F
+
+        F -->|Yes| G[Graphical Visualizations]
+        G --> H[Insights & Interpretation]
+        H --> I[End]
+        
+        F -->|No| I[End]
     ```
 
-??? tip "Visualizations and EDA of different features"
+=== "Step 1"
+    - Read and explore all datasets individually.
+    - Started with `bpl.csv`, analyzing its structure and features.
+    - Researched dataset attributes through Google and Bangladesh cricket series data.
+    - Reviewed relevant Kaggle notebooks to gain insights from existing work.
 
-    === "Top 5 Player Of Match"
-        ![top-5-_player-of-_match](https://github.com/user-attachments/assets/c66af648-4077-4711-9a00-1ffc359967de)
+=== "Step 2"
+    - Performed basic EDA to understand data distribution.
+    - Identified and handled missing values.
+    - Converted categorical features into numerical representations to enrich analysis.
+    - Examined dataset properties using `info()` and `describe()` functions.
 
-    === "Top 5 Batsman Runners"
-        ![top-5-_batsman-_runners](https://github.com/user-attachments/assets/6736644a-4418-44bd-9d1b-8500ecc1fe27)
+=== "Step 3"
+    - Developed a custom function `plotValueCounts(df, col, size=(10,5))` to visualize feature distributions.
+    - This function, built using Seaborn and Matplotlib, plays a key role in extracting insights.
+    - Generates count plots with labeled bar values for better interpretability.
 
-    === "Top 5 Four Runners"
-        ![top-5-_four-_runners](https://github.com/user-attachments/assets/bea19872-7ef3-49f2-926b-3a13fed06285)
+=== "Step 4"
+    - Refined `bpl.csv` by merging teams with their respective divisions to prevent duplicate counting.
+    - Addressed inconsistencies:
+        - Resolved two tie matches recorded in the dataset.
+        - Extracted team runs and wickets from match scoreboards and transformed them into numerical features.
 
-    === "Top 5 Overs"
-        ![top-5-_overs](https://github.com/user-attachments/assets/f1d60b20-260f-4479-a936-4f1eca17c070)
+=== "Step 5"
+    - Implemented automated querying using the `plotValueCounts()` function.
+    - Performed grouped analysis of winners by seasons.
 
-    === "Top 5 Runs"
-        ![top-5-_runs](https://github.com/user-attachments/assets/9183378e-7dd1-453d-8249-b3dd27c9e9bd)
+#### ❓ KEY QUERIES 
 
-    === "Top 5 Umpires"
-        ![top-5-_umpires](https://github.com/user-attachments/assets/eeb84b39-8aca-409e-9eb9-c9fefc9d7ecd)
-
-    === "Top 5 Wickets"
-        ![top-5-_wickets](https://github.com/user-attachments/assets/ff1c9f02-2939-4fd5-a958-fb218b10294e)
-
-    === "Toss Winners"
-        ![toss-_winners](https://github.com/user-attachments/assets/247da229-e3d1-4451-8f25-9992c9d92db8)
-
---- 
-
-### MODELS USED AND THEIR ACCURACIES 
-
-| Model                        | MSE        | R2         |
-|------------------------------|------------|------------|
-| Random Forest Regression     | 19.355984  | 0.371316   |
-| Gradient Boosting Regression | 19.420494  | 0.369221   |
-| XG Boost Regression          | 21.349168  | 0.306577   |
-| Ridge Regression             | 26.813981  | 0.129080   |
-| Linear Regression            | 26.916888  | 0.125737   |
-| Deep Neural Network          | 27.758216  | 0.098411   |
-| Decision Tree Regression     | 29.044533  | 0.056631   |
-
---- 
-
-#### MODELS COMPARISON GRAPHS 
-
-!!! tip "Models Comparison Graphs"
-
-    === "RF Regression Plot"
-        ![r_f_regression_plot](https://github.com/user-attachments/assets/efac32ae-cfd9-49f6-9f3a-a37f2dde1645)
-
-    === "Conclusion Graph"
-        ![conclusion-_graph](https://github.com/user-attachments/assets/68eac80b-1acf-4eff-8460-5c3fb83906bd)
+- **Key Queries on `bpl.csv` Dataset:**
+    - *Won the toss, took the bat first and won the match.*
+    - *Won the toss, took the bat first.*
+    - *Winning rate by taking `bat first` vs `field first`.*
+- **Key Queries on `batsman.csv` Dataset:**
+    - *Batsman who scored more than 1 century or more in a match.*
+    - *Batsman who faced 50 balls or more in a match.*
+    - *Batsman hit more than 10 fours.*
+- **Key Queries on `bowler.csv` Dataset:**
+    - *Bowler conceded 50 runs or more*
+    - *Bowler took more than 4 wickets*
+    - *Bowler delivered 4 wide or more*
 
 --- 
 
-### CONCLUSION 
+### 🖥 CODE EXPLANATION 
 
-    We can see that R2 Score and Mean Absolute Error is best for Random Forest Regression.
-    By Using Neural network, We cannot get the minimum Mean Squared Error value possible.
-    Random Forest Regression model can predict most accurate results for predicting bangladesh premier league winning team which is the highest model performance in comparison with other Models.
+=== "plotValueCounts() function"
 
-#### WHAT YOU HAVE LEARNED 
+    ```py
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+
+    def plotValueCounts(df, col, size=(10, 5)):
+        val_counts = df[col].value_counts()
+        plt.figure(figsize=size)
+        ax = sns.countplot(y=col, data=df, order=val_counts.index, palette="pastel")
+        for container in ax.containers:
+            ax.bar_label(container, fmt='%d', label_type='edge', padding=3, fontsize=10, color='black')
+        plt.title(f"Value Counts of {col}")
+        plt.show()
+    ```
+
+    - It displays the visualization graph of value counts of any feature of the dataset.
+
+--- 
+
+### ⚖️ PROJECT TRADE-OFFS AND SOLUTIONS 
+
+=== "Trade Off 1"
+    - **Trade-off:** The dataset includes multiple sources, but some features required external validation (e.g., team names, score formats).
+    - **Solution:** Standardized team names and resolved inconsistencies by merging duplicate team entries based on divisions.
+
+=== "Trade Off 2"
+    - **Trade-off:** Performing detailed feature engineering (e.g., extracting runs, wickets, and match insights) can increase computational overhead.
+    - **Solution:** Optimized preprocessing by transforming scoreboard data into structured numerical features, reducing redundant calculations.
+
+=== "Trade Off 3"
+    - **Trade-off:** Count plots with high-cardinality features could lead to cluttered or unreadable visualizations.
+    - **Solution:** Implemented `plotValueCounts()` with bar labels and sorting to enhance clarity while retaining key insights.
+
+=== "Trade Off 4"
+    - **Trade-off:** Writing fixed queries could limit adaptability when new data is introduced.
+    - **Solution:** Developed a function-based querying approach (e.g., `plotValueCounts(df, col)`) to enable flexible, real-time insights.
+
+--- 
+
+## 🖼 SCREENSHOTS 
+
+!!! tip "Visualizations and EDA of different features"
+
+    === "Toss Winner"
+        ![toss_winner](https://github.com/user-attachments/assets/bf2eb957-1a6c-4c00-8189-5eb26f6c0af6)
+
+    === "Winner Teams"
+        ![winner](https://github.com/user-attachments/assets/f7eef68c-b2a8-40e1-bec5-b7cdff040b3e)
+
+    === "Win Match By Wickets"
+        ![win_match_by_wickets](https://github.com/user-attachments/assets/5f1363ce-4812-45f2-b218-1dece5c8a227)
+
+    === "Win Match By Runs"
+        ![win_match_by_runs](https://github.com/user-attachments/assets/6da68090-3e33-4a9a-9200-d07d7dd6e067)
+
+    === "winners By Season"
+        ![winners_by_season](https://github.com/user-attachments/assets/c21bc48b-69e9-4c67-aa82-571644202ef6)
+
+    === "Venue of Match"
+        ![venue_of_match](https://github.com/user-attachments/assets/76dce847-3347-48b5-956a-041b3b166b4e)
+
+    === "Top 10 Player of Match"
+        ![top_10_player_of_match](https://github.com/user-attachments/assets/feba3f7e-3fd3-47a5-8ec3-6c676b4119f3)
+
+    === "Winning Rate By Toss Decision"
+        ![winning_rate_by_toss_decision](https://github.com/user-attachments/assets/2868decc-62a3-4d79-84d8-4bdb9aad27c9)
+    
+    === "Batsman scored more than 1 century"
+        ![batsman_more_than_1_century](https://github.com/user-attachments/assets/fe5c81ce-909d-4d9f-a796-5f6a86e0df81)
+    
+    === "Bowler took more than 4 wickets"
+        ![bowler_took_more_4_wickets](https://github.com/user-attachments/assets/6cf04e8a-76e1-401a-b0b0-0a8fc4a25a65)
+
+--- 
+
+## ✅ CONCLUSION 
+
+### 🔑 KEY LEARNINGS 
 
 !!! tip "Insights gained from the data"
-    - Identified key performance indicators for players in the Bangladesh Premier League, such as top scorers, best bowlers, and players with the most man of the match awards.
-    - Discovered trends and patterns in player performances that could inform future strategies and training programs.
-    - Gained a deeper understanding of the distribution of player performances across different matches and seasons.
-
-??? tip "Improvements in understanding machine learning concepts"
-    - Enhanced knowledge of data cleaning and preprocessing techniques to handle real-world datasets.
-    - Improved skills in exploratory data analysis (EDA) to extract meaningful insights from raw data.
-    - Learned how to use visualization tools to effectively communicate data-driven findings.
+    - Extracted meaningful player statistics by analyzing batting and bowling performances across multiple seasons.
+    - Identified trends in match outcomes based on factors like toss decisions, innings strategies, and scoring patterns.
+    - Enhanced data visualization techniques to present key insights effectively for better decision-making.
 
 --- 
 
-#### USE CASES OF THIS MODEL 
+### 🌍 USE CASES 
 
 === "Application 1"
-
-	**Team Selection and Strategy Planning**
-
-     - Coaches and team managers can use the model to analyze player performance data and make informed decisions about team selection and match strategies. By identifying top performers and areas for improvement, the model can help optimize team composition and tactics for future matches.
+	**Team Strategy & Selection**
+     - Helps coaches analyze player performance for better team selection and match strategies.
 
 === "Application 2"
-
-	**Player Performance Monitoring and Training**
-
-     - The model can be used to track player performance over time and identify trends in their performance. This information can be used by coaches to tailor training programs to address specific weaknesses and enhance overall player development. By monitoring performance metrics, the model can help ensure that players are continuously improving.
-
---- 
-
-#### FEATURES PLANNED BUT NOT IMPLEMENTED 
-
-=== "Feature 1"
-
-	**Real-time Performance Tracking**
-
-    - Implementing a real-time tracking system to update player performance metrics during live matches.
-
-=== "Feature 2"
-
-	**Advanced Predictive Analytics**
-    - Using advanced machine learning algorithms to predict future player performances and match outcomes.
-
+	**Player Performance Tracking**
+     - Assists in monitoring player trends to improve training and development.

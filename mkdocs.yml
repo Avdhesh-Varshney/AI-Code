@@ -6,8 +6,8 @@ nav:
   - 🔷 Algorithms: algorithms/index.md
   - 🎉 Projects: projects/index.md
   - 📝 Contribute: contribute.md
-  - 📜 Project Template: project-readme-template.md
   - 🧮 Algorithm Template: algorithm-readme-template.md
+  - 📜 Project Template: project-readme-template.md
 
 theme:
   name: material
@@ -73,7 +73,6 @@ extra_css:
   - customs/extra.css
 
 extra_javascript:
-  - javascripts/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
 
 copyright: Copyright &copy; 2025 Avdhesh Varshney

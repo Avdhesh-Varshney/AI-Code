@@ -58,7 +58,48 @@
 - **VS Code**
 
 ---
+### ❄️ Featured in
+<table>
+<tr>
+  <td align="center">
+    <a href="https://ssocseason3.devfolio.co/">
+      <img src="https://github.com/user-attachments/assets/27134867-4952-4511-be8d-95db42ce6601" width=80px height=80px />
+      <br /><sub><b>SSOC 2024</b></sub>
+    </a>
+  </td>
+  
+  <td align="center">
+    <a href="https://www.socialwinterofcode.com/">
+      <img src="https://github.com/user-attachments/assets/a343c7eb-55c0-4f06-a3e3-eb6c67a90f29" width=80px height=80px />
+      <br /><sub><b>SWOC 2025</b></sub>
+    </a>
+  </td>
+  
+  <td align="center">
+    <a href="https://iwoc3.live/">
+      <img src="https://github.com/user-attachments/assets/c90cfddc-4bfe-4c53-b214-6fb709b2c41d" width=80px height=80px />
+      <br /><sub><b>IWOC 2025</b></sub>
+    </a>
+  </td>
+  
+  <td align="center">
+    <a href="https://kwoc.kossiitkgp.org/">
+      <img src="https://github.com/user-attachments/assets/371aeff1-36df-418c-9848-5bb0fa262f87" width=80px height=80px />
+      <br /><sub><b>KWOC 2024</b></sub>
+    </a>
+  </td>
+</tr>
+<tr>
+  <td align="center">
+    <a href="https://vidyayanin.github.io/vsoc/index.html">
+      <img src="https://github.com/user-attachments/assets/f5076a23-e77c-492e-8e66-5f1d23a23a31" width=80px height=80px />
+      <br /><sub><b>VSOC 2024</b></sub>
+    </a>
+  </td>
+</tr>
+</table>
 
+---
 ### 👥 **Contributors**
 
    A big shoutout and heartfelt thanks to all our amazing contributors for their incredible efforts and dedication! This project wouldn’t be where it is without you. 💖

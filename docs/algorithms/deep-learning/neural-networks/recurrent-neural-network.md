@@ -120,7 +120,3 @@ for epoch in range(10):
 - Stock price prediction
 - Weather forecasting
 - Healthcare monitoring (e.g., ECG signals)
-
----
-
-

@@ -21,4 +21,14 @@
     <p style="font-size: 12px;">📅 2025-01-10 | ⏱️ 3 mins</p>
   </div>
 </a>
+  <!-- long short term memory -->
+<a href="long-short-term-memory" style="padding: 0 2px 0 16px; background-color: rgba(39, 39, 43, 0.4); border: 1px solid rgba(76, 76, 82, 0.4); border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.2s; display: flex; align-items: center;">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*eEIAtVm41hnA7Sb9O3z1xg.png" alt="" style="width: 300px; height: 150px; object-fit: cover; border-radius: 10px;" />
+  <div style="padding: 15px;">
+    <h2 style="margin: 0; font-size: 20px;">Long Short-Term Memory (LSTM)</h2>
+    <p style="font-size: 16px;">A recurrent neural network architecture for sequence learning.</p>
+    <p style="font-size: 12px;">📅 2025-02-07 | ⏱️ 3 mins</p>
+  </div>
+</a>
+  
 </div>

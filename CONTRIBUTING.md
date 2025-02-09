@@ -36,29 +36,6 @@ git push -u origin <your_branch_name>
 
 --- 
 
-### Important Points to remember while submitting your work 📍 
-
-We want your work to be readable by others; therefore, we encourage you to note the following:
-
-1. File names should be in `kebab-case` letters (e.g., `music-genre-classification-model`, `insurance-cross-sell-prediction`).
-2. Follow the [***PROJECT README TEMPLATE***](./docs/project-readme-template.md) and [***ALGORITHM README TEMPLATE***](./docs/algorithm-readme-template.md) for refrence.
-3. Do not upload images or video files directly. Use a GitHub raw URL in the documentation.
-4. Upload your notebook to Kaggle, make it public, and share the Kaggle embed link only. Other links are not accepted.
-5. Limit commits to 3-4 unless given permission by project Admins or Mentors.
-6. Keep commit messages clear and relevant; avoid unnecessary details.
-
-### Pull Requests Review Criteria 🧲 
-
-1. It must required to follow mentioned [do/don't](https://github.com/Avdhesh-Varshney/AI-Code/issues/9) guidelines.
-2. Please fill the ***PR Template*** properly while making a Pull Request.
-3. Do not commit directly to the `main` branch, or your PR will be instantly rejected.
-4. Ensure all work is original and not copied from other sources.
-5. Add comments to your code wherever necessary for clarity.
-6. Include a working video and show integration with `AI-Code MkDocs Documentation` website as part of your PR.
-7. For frontend updates, share screenshots and work samples before submitting a PR.
-
---- 
-
 ### Communication and Support 💬
 - Join the project's communication channels to interact with other contributors and seek assistance.
 - If you have any questions or need help, don't hesitate to ask in the project's communication channels or comment on the relevant issue.

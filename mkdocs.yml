@@ -5,6 +5,7 @@ nav:
   - 🏠 Home: index.md
   - 🔷 Algorithms: algorithms/index.md
   - 🎉 Projects: projects/index.md
+  - 📚 Libraries/Packages: libraries/index.md
   - 📝 Contribute: contribute.md
   - 🧮 Algorithm Template: algorithm-readme-template.md
   - 📜 Project Template: project-readme-template.md

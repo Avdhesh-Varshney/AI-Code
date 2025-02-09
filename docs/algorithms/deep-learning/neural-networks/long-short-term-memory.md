@@ -33,12 +33,30 @@ Long Short-Term Memory (LSTM) networks are a specialized type of Recurrent Neura
   - **Cell State**: Maintains long-term dependencies.
   - **Output Gate**: Controls the final output of the cell.
 - The update equations are:
-  $$ f_t = \sigma(W_f [h_{t-1}, x_t] + b_f) $$
-  $$ i_t = \sigma(W_i [h_{t-1}, x_t] + b_i) $$
-  $$ \tilde{C}_t = \tanh(W_C [h_{t-1}, x_t] + b_C) $$
-  $$ C_t = f_t * C_{t-1} + i_t * \tilde{C}_t $$
-  $$ o_t = \sigma(W_o [h_{t-1}, x_t] + b_o) $$
-  $$ h_t = o_t * \tanh(C_t) $$
+$$
+f_t = \sigma(W_f \cdot \begin{bmatrix} h_{t-1} \\ x_t \end{bmatrix} + b_f)
+$$
+
+$$
+i_t = \sigma(W_i \cdot \begin{bmatrix} h_{t-1} \\ x_t \end{bmatrix} + b_i)
+$$
+
+$$
+\tilde{C}_t = \tanh(W_C \cdot \begin{bmatrix} h_{t-1} \\ x_t \end{bmatrix} + b_C)
+$$
+
+$$
+C_t = f_t \cdot C_{t-1} + i_t \cdot \tilde{C}_t
+$$
+
+$$
+o_t = \sigma(W_o \cdot \begin{bmatrix} h_{t-1} \\ x_t \end{bmatrix} + b_o)
+$$
+
+$$
+h_t = o_t \cdot \tanh(C_t)
+$$
+
 
 ## 🏅 Training Process
 - The model is trained using **Backpropagation Through Time (BPTT)**.

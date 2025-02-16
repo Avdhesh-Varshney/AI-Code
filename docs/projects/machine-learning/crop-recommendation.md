@@ -14,7 +14,7 @@ It is an AI-powered Crop Recommendation System that helps farmers and agricultur
 
 ## 📓 NOTEBOOK 
 
-[https://www.kaggle.com/code/kashishkhurana1204/recommendation-system](https://www.kaggle.com/code/kashishkhurana1204/recommendation-system)
+[https://www.kaggle.com/code/kashishkhurana1204/crop-recommendation-system](https://www.kaggle.com/code/kashishkhurana1204/crop-recommendation-system)
 
 ??? Abstract "Kaggle Notebook"
 
@@ -29,18 +29,16 @@ It is an AI-powered Crop Recommendation System that helps farmers and agricultur
 
 ## ⚙️ TECH STACK
 
-| **Category**             | **Technologies**                            |
-|--------------------------|---------------------------------------------|
-| **Languages**            | Python                          |
-| **Libraries/Frameworks** | Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn |
-| **Tools**                | Github, Jupyter, VS Code               |
+| **Category**             | **Technologies**                        |
+|--------------------------|-----------------------------------------|
+| **Languages**            | Python                                  |
+| **Libraries/Frameworks** | Pandas, Numpy, Matplotlib, Scikit-learn |
+| **Tools**                | Github, Jupyter, VS Code                |
 
 --- 
 
 ## 📝 DESCRIPTION 
 
-The project focuses on predicting air quality levels based on the features of air pollutants and environmental parameters. 
-The objective is to test various regression models to see which one gives the best predictions for CO (Carbon Monoxide) levels.
 
 !!! info "What is the requirement of the project?"
     - To provide accurate crop recommendations based on environmental conditions.
@@ -52,9 +50,15 @@ The objective is to test various regression models to see which one gives the be
     
 
 ??? info "How did you start approaching this project? (Initial thoughts and planning)"
-    - Data collection and preprocessing.
-    - Model selection and training.
-    - Flask integration for web-based recommendations.
+    - Initial thoughts : The goal is to help farmers determine the most suitable crops based on their field’s environmental conditions.
+
+    - Dataset Selection : I searched for relevant datasets on Kaggle that include soil properties, weather conditions, and nutrient levels such as nitrogen (N), phosphorus (P), and potassium (K).
+
+    - Initial Data Exploration : I analyzed the dataset structure to understand key attributes like soil pH, humidity, rainfall, and nutrient values, which directly impact crop suitability.
+
+    - Feature Analysis : Studied how different environmental factors influence crop growth and identified the most significant parameters for prediction.
+
+    - Model Selection & Implementation : Researched various ML models and implemented algorithms like Naïve Bayes, Decision Trees, and Random Forest to predict the best-suited crops.
     
 ??? info "Mention any additional resources used (blogs, books, chapters, articles, research papers, etc.)."
     - Research papers on crop prediction models.
@@ -67,15 +71,16 @@ The objective is to test various regression models to see which one gives the be
 ### DATASET OVERVIEW & FEATURE DETAILS
 
 📂 dataset.csv
-
-Contains agricultural parameters and their corresponding crop recommendations.
-
-🛠 Developed Features from dataset.csv
-
-Data cleaning and preprocessing.
-
-Feature selection for improved model accuracy.
-
+| **Feature**| **Description** | **Data Type**  |
+|------------|-----------------|----------------|
+| Soil_pH    | Soil pH level   | float          |
+| Humidity   | Humidity level  | float          |
+| Rainfall   | Rainfall amount | float          |
+| N          | Nitrogen level  | int64          |
+| P          | Phosphorus level| int64          |
+| K          | Potassium level | int64          |
+|Temperature | Temperature     | float          |
+| crop       | Recommended crop| categorical    |
 
 
 
@@ -159,6 +164,52 @@ Feature selection for improved model accuracy.
 
 ### 🖥 CODE EXPLANATION 
 
+=== "Code to compute F1-score, Precision, and Recall"
+
+    ```py
+    from sklearn.metrics import precision_score, recall_score, f1_score, classification_report
+
+    # Initialize a dictionary to store model scores
+    model_scores = {}
+
+    # Iterate through each model and compute evaluation metrics
+    for name, model in models.items():
+        print(f"Evaluating {name}...")
+    
+        # Train the model
+        model.fit(x_train, y_train)
+    
+        # Predict on the test set
+        y_pred = model.predict(x_test)
+    
+        # Compute metrics
+        precision = precision_score(y_test, y_pred, average='weighted')
+        recall = recall_score(y_test, y_pred, average='weighted')
+        f1 = f1_score(y_test, y_pred, average='weighted')
+    
+        # Store results
+        model_scores[name] = {
+            'Precision': precision,
+            'Recall': recall,
+            'F1 Score': f1
+        }
+    
+        # Print results for each model
+        print(f"Precision: {precision:.4f}")
+        print(f"Recall: {recall:.4f}")
+        print(f"F1 Score: {f1:.4f}")
+        print("\nClassification Report:\n")
+        print(classification_report(y_test, y_pred))
+        print("-" * 50)
+
+    # Print a summary of all model scores
+    print("\nSummary of Model Performance:\n")
+    for name, scores in model_scores.items():
+        print(f"{name}: Precision={scores['Precision']:.4f}, Recall={scores['Recall']:.4f}, F1 Score={scores['F1 Score']:.4f}")
+
+    ```
+
+    - This code evaluates multiple machine learning models and displays performance metrics such as Precision, Recall, F1 Score, and a Classification Report for each model.
 
 --- 
 
@@ -189,11 +240,11 @@ Feature selection for improved model accuracy.
 
 ## 📉 MODELS USED AND THEIR EVALUATION METRICS 
 
-| Model                     | Accuracy | 
-|---------------------------|----------|
-| Naive Bayes               | 99.5%    |
-| Random Forest Regressor   | 99.3%    |
-| Decision Tree Regressor   | 98.6%    |           |
+| Model                     | Accuracy | Precision | Recall |F1-score|
+|---------------------------|----------|-----------|--------|--------|
+| Naive Bayes               | 99.54%   | 99.58%    | 99.55% | 99.54% |
+| Random Forest Regressor   | 99.31%   | 99.37%    | 99.32% | 99.32% |
+| Decision Tree Regressor   | 98.63%   | 98.68%    | 98.64% | 98.63% |
 
 --- 
 
@@ -217,6 +268,7 @@ Feature selection for improved model accuracy.
     **Application of FarmSmart in precision farming.**
 
     - FarmSmart helps optimize resource allocation, enabling farmers to make data-driven decisions for sustainable and profitable crop production.
+    [https://github.com/Kashishkh/FarmSmart](https://github.com/Kashishkh/FarmSmart)
 
 === "Application 2"
     **Use in government agricultural advisory services.**

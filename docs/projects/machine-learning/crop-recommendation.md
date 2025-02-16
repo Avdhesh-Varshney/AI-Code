@@ -61,8 +61,8 @@ It is an AI-powered Crop Recommendation System that helps farmers and agricultur
     - Model Selection & Implementation : Researched various ML models and implemented algorithms like Naïve Bayes, Decision Trees, and Random Forest to predict the best-suited crops.
     
 ??? info "Mention any additional resources used (blogs, books, chapters, articles, research papers, etc.)."
-    - Research papers on crop prediction models.
-    - Kaggle datasets and tutorials.
+    - [https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset/data](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset/data)
+    
 
 --- 
 

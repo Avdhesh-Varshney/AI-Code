@@ -126,13 +126,13 @@ To detect anomalies in time-series data using Long Short-Term Memory (LSTM) netw
 !!! tip "Visualizations and EDA of different features"
 
     === "Synthetic Data Plot"
-     ![img](https://github.com/user-attachments/assets/4ff144a9-756a-43e3-aba2-609d92cbacd2)
+     ![img](https://github.com/user-attachments/assets/e33a0537-9e23-4e21-b0e5-153a78ac4000)
    
 
 ??? example "Model performance graphs"
 
     === "Reconstruction Error Plot"
-     ![img](https://github.com/user-attachments/assets/e33a0537-9e23-4e21-b0e5-153a78ac4000)
+     ![img](https://github.com/user-attachments/assets/4ff144a9-756a-43e3-aba2-609d92cbacd2)
 --- 
 
 ## 📉 MODELS USED AND THEIR EVALUATION METRICS 

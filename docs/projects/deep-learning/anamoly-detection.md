@@ -1,28 +1,34 @@
-# Time-Series Anomaly Detection
+# 📜 Time-Series Anomaly Detection
 
-### AIM 
+<div align="center">
+    <img src="https://fr.mathworks.com/help/examples/nnet/win64/TimeSeriesAnomalyDetectionUsingDeepLearningExample_08.png" />
+</div>
 
+## 🎯 AIM 
 To detect anomalies in time-series data using Long Short-Term Memory (LSTM) networks.
 
-### DATASET 
+## 📊 DATASET LINK 
+[NOT USED]
 
-Synthetic time-series data generated using sine wave with added noise.
-
-### KAGGLE NOTEBOOK
+## 📓 KAGGLE NOTEBOOK 
 [https://www.kaggle.com/code/thatarguy/lstm-anamoly-detection/notebook](https://www.kaggle.com/code/thatarguy/lstm-anamoly-detection/notebook)
 
-### LIBRARIES NEEDED 
+??? Abstract "Kaggle Notebook"
 
-    - numpy
-    - pandas
-    - yfinance
-    - matplotlib
-    - tensorflow
-    - scikit-learn
+    </iframe>
+    <iframe src="https://www.kaggle.com/embed/thatarguy/lstm-anamoly-detection?kernelSessionId=222020820" height="800" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="lstm anamoly detection"></iframe>
+
+## ⚙️ TECH STACK 
+
+| **Category**             | **Technologies**                            |
+|--------------------------|---------------------------------------------|
+| **Languages**            | Python                                     |
+| **Libraries/Frameworks** | TensorFlow, Keras, scikit-learn, numpy, pandas, matplotlib |
+| **Tools**                | Jupyter Notebook, VS Code                  |
 
 --- 
 
-### DESCRIPTION 
+## 📝 DESCRIPTION 
 
 !!! info "What is the requirement of the project?"
     - The project focuses on identifying anomalies in time-series data using an LSTM autoencoder. The model learns normal patterns and detects deviations indicating anomalies.
@@ -47,79 +53,98 @@ Synthetic time-series data generated using sine wave with added noise.
 
 --- 
 
-### Model Architecture
-    - The LSTM autoencoder learns normal time-series behavior and reconstructs it. Any deviation is considered an anomaly.
-    - Encoder: Extracts patterns using LSTM layers.
-    - Bottleneck: Compresses the data representation.
-    - Decoder: Reconstructs the original sequence.
-    - The reconstruction error determines anomalies.
+## 🔍 PROJECT EXPLANATION 
 
-### Model Structure
-    - Input: Time-series sequence (50 time steps)
-    - LSTM Layers for encoding
-    - Repeat Vector to retain sequence information
-    - LSTM Layers for decoding
-    - TimeDistributed Dense Layer for reconstruction
-    - Loss Function: Mean Squared Error (MSE)
+### 🧩 DATASET OVERVIEW & FEATURE DETAILS 
+
+??? example "📂 Synthetic dataset"
+
+    - The dataset consists of a sine wave with added noise.
+
+    | Feature Name | Description |   Datatype   |
+    |--------------|-------------|:------------:|
+    | time         | Timestamp   |   int64      |
+    | value        | Sine wave value with noise | float64 |
 
 --- 
 
-#### WHAT I HAVE DONE 
+### 🛤 PROJECT WORKFLOW 
+
+!!! success "Project workflow"
+
+    ``` mermaid
+      graph LR
+        A[Start] --> B{Generate Data};
+        B --> C[Normalize Data];
+        C --> D[Create Sequences];
+        D --> E[Train LSTM Autoencoder];
+        E --> F[Compute Reconstruction Error];
+        F --> G[Identify Anomalies];
+    ```
 
 === "Step 1"
-
-    Exploratory Data Analysis
-
     - Generate synthetic data (sine wave with noise)
     - Normalize data using MinMaxScaler
     - Split data into training and validation sets
 
 === "Step 2"
-
-    Data Cleaning and Preprocessing
-
     - Create sequential data using a rolling window approach
     - Reshape data for LSTM compatibility
 
 === "Step 3"
-
-    Feature Engineering and Selection
-
-    - Use LSTM layers for sequence modeling
-    - Implement autoencoder-based reconstruction
+    - Implement LSTM autoencoder for anomaly detection
+    - Optimize model using Adam optimizer
 
 === "Step 4"
-
-    Modeling
-
-    - Train an LSTM autoencoder
-    - Optimize loss function using Adam optimizer
-    - Monitor validation loss for overfitting prevention
-
-=== "Step 5"
-
-    Result Analysis
-
     - Compute reconstruction error for anomaly detection
     - Identify threshold for anomalies using percentile-based method
+
+=== "Step 5"
     - Visualize detected anomalies using Matplotlib
 
 --- 
 
-#### PROJECT TRADE-OFFS AND SOLUTIONS 
+### 🖥 CODE EXPLANATION 
 
-=== "Trade Off 1"
+=== "LSTM Autoencoder"
+    - The model consists of an encoder, bottleneck, and decoder.
+    - It learns normal time-series behavior and reconstructs it.
+    - Deviations from normal patterns are considered anomalies.
 
-    **Reconstruction Error Threshold Selection:**
-    Setting a high threshold may miss subtle anomalies, while a low threshold might increase false positives.
+--- 
 
+### ⚖️ PROJECT TRADE-OFFS AND SOLUTIONS 
+
+=== "Reconstruction Error Threshold Selection"
+    - Setting a high threshold may miss subtle anomalies, while a low threshold might increase false positives.
     - **Solution**: Use the 95th percentile of reconstruction errors as the threshold to balance false positives and false negatives.
 
 --- 
 
-### CONCLUSION 
+## 🖼 SCREENSHOTS 
 
-#### WHAT YOU HAVE LEARNED 
+!!! tip "Visualizations and EDA of different features"
+
+    === "Synthetic Data Plot"
+        
+
+??? example "Model performance graphs"
+
+    === "Reconstruction Error Plot"
+
+--- 
+
+## 📉 MODELS USED AND THEIR EVALUATION METRICS 
+
+|    Model          | Reconstruction Error (MSE) |
+|------------------|---------------------------|
+| LSTM Autoencoder |           0.015           |
+
+--- 
+
+## ✅ CONCLUSION 
+
+### 🔑 KEY LEARNINGS 
 
 !!! tip "Insights gained from the data"
     - Time-series anomalies often appear as sudden deviations from normal patterns.
@@ -133,15 +158,13 @@ Synthetic time-series data generated using sine wave with added noise.
 
 --- 
 
-#### USE CASES OF THIS MODEL 
+### 🌍 USE CASES 
 
-=== "Application 1"
+=== "Financial Fraud Detection"
+    - Detect irregular transaction patterns using anomaly detection.
 
-    - Financial fraud detection through irregular transaction patterns.
+=== "Predictive Maintenance"
+    - Identify equipment failures in industrial settings before they occur.
 
-=== "Application 2"
 
-    - Predictive maintenance in industrial settings by identifying equipment failures.
-
----
 

@@ -1,7 +1,7 @@
 # 🌟 Email Spam Detection
 
 <div align="center">
-    <img src="https://img.freepik.com/free-photo/spam-mail-concept-with-envelopes_23-2149133736.jpg" />
+    <img src="https://github.com/user-attachments/assets/c90bf132-68a6-4155-b191-d2da7e35d0ca" />
 </div>
 
 ## 🎯 AIM

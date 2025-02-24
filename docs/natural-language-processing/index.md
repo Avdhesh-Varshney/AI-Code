@@ -29,7 +29,7 @@
   <!-- Email Spam Detection -->
   <figure style="padding: 1rem; background: rgba(39, 39, 43, 0.5); border-radius: 10px; border: 1px solid rgba(76, 76, 82, 0.4); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.2s ease-in-out; text-align: center; max-width: 320px; margin: auto;">
     <a href="email-spam-detection" style="color: white; text-decoration: none; display: block;">
-      <img src="https://img.freepik.com/free-photo/spam-mail-concept-with-envelopes_23-2149133736.jpg" alt="Email Spam Detection" style="width: 100%; height: 150px; object-fit: cover; border-radius: 8px; transition: transform 0.2s;" />
+      <img src="https://github.com/user-attachments/assets/c90bf132-68a6-4155-b191-d2da7e35d0ca" alt="Email Spam Detection" style="width: 100%; height: 150px; object-fit: cover; border-radius: 8px; transition: transform 0.2s;" />
       <div style="padding: 0.8rem;">
         <h3 style="margin: 0; font-size: 18px;">Email Spam Detection</h3>
         <p style="font-size: 14px; opacity: 0.8;">ML-Based Email Spam Classification</p>

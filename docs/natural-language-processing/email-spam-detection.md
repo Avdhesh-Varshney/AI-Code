@@ -142,13 +142,15 @@ To classify emails as spam or ham using machine learning models, ensuring better
 
 !!! tip "Visualizations and EDA of different features"
 
-    === "Feature Distribution"
-        ![img](https://assets.ltkcontent.com/images/103034/line-graph-example_27c5571306.jpg)
+    === "Confusion Matrix comparision"
+        ![img](https://github.com/user-attachments/assets/94a3b2d8-c7e5-41a5-bba7-8ba4cb1435a7)
+
 
 ??? example "Model performance graphs"
 
-    === "Confusion Matrix Heatmaps"
-        ![img](https://assets.ltkcontent.com/images/103029/bar-graph-example_27c5571306.jpg)
+    === "Meteric comparison"
+        ![img](https://github.com/user-attachments/assets/c2be4340-89c9-4aee-9a27-8c40bf2c0066)
+
 
 ---
 
@@ -183,15 +185,4 @@ To classify emails as spam or ham using machine learning models, ensuring better
 
 === "SMS Spam Detection"
     - Used in mobile networks to block spam messages.
-
-### 📚 USEFUL LINKS
-
-=== "Deployed Model"
-    - [https://www.google.com](https://www.google.com)
-
-=== "GitHub Repository"
-    - [https://github.com/your-repository-url](https://github.com/your-repository-url)
-
-=== "Binary Model File"
-    - [https://www.google.com](https://www.google.com)
 

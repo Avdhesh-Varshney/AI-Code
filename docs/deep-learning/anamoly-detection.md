@@ -15,8 +15,14 @@ To detect anomalies in time-series data using Long Short-Term Memory (LSTM) netw
 
 ??? Abstract "Kaggle Notebook"
 
+    <iframe 
+        src="https://www.kaggle.com/embed/thatarguy/lstm-anamoly-detection?kernelSessionId=222020820" 
+        height="600" 
+        style="margin: 0 auto; width: 100%; max-width: 950px;" 
+        frameborder="0" 
+        scrolling="auto" 
+        title="lstm-anamoly-detection">
     </iframe>
-    <iframe src="https://www.kaggle.com/embed/thatarguy/lstm-anamoly-detection?kernelSessionId=222020820" height="800" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="lstm anamoly detection"></iframe>
 
 ## ⚙️ TECH STACK 
 

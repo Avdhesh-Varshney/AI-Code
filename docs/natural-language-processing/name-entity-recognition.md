@@ -9,8 +9,7 @@ N/A (This project uses text input for NER analysis, not a specific dataset)
 - It uses real time data as input .
 
 ## NOTEBOOK LINK
-[Note book link ]
-(https://colab.research.google.com/drive/1pBIEFA4a9LzyZKUFQMCypQ22M6bDbXM3?usp=sharing)
+[https://colab.research.google.com/drive/1pBIEFA4a9LzyZKUFQMCypQ22M6bDbXM3?usp=sharing](https://colab.research.google.com/drive/1pBIEFA4a9LzyZKUFQMCypQ22M6bDbXM3?usp=sharing)
 
 ## LIBRARIES NEEDED
 - SpaCy

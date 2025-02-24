@@ -2,13 +2,18 @@ site_name: AI Code
 site_url: https://avdhesh-varshney.github.io/AI-Code/
 
 nav:
-  - 🏠 Home: index.md
-  - 🔷 Algorithms: algorithms/index.md
-  - 🎉 Projects: projects/index.md
-  - 📚 Libraries/Packages: libraries/index.md
-  - 📝 Contribute: contribute.md
-  - 🧮 Algorithm Template: algorithm-readme-template.md
-  - 📜 Project Template: project-readme-template.md
+  - Overview: index.md
+  - Projects:
+      - 📊 Data Insights: data-visualization/index.md
+      - 📈 ML Models: machine-learning/index.md
+      - 🧠 Neural Networks: deep-learning/index.md
+      - 📷 Vision Systems: computer-vision/index.md
+      - 🗣️ NLP Tasks: natural-language-processing/index.md
+      - 🌀 GANs: generative-adversarial-networks/index.md
+      - 📚 LLMs: large-language-models/index.md
+  - Get Involved:
+      - ✍️ How to Contribute: contribute.md
+      - 📄 Template Guide: project-readme-template.md
 
 theme:
   name: material
@@ -69,9 +74,6 @@ extra:
       link: https://youtube.com/@Code_A2Z
     - icon: simple/discord
       link: https://discord.gg/tSqtvHUJzE
-
-extra_css:
-  - customs/extra.css
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML

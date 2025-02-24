@@ -1,204 +1,197 @@
+# 🌟 Email Spam Detection
 
-# Email Spam Detection
+<div align="center">
+    <img src="https://img.freepik.com/free-photo/spam-mail-concept-with-envelopes_23-2149133736.jpg" />
+</div>
 
-### AIM 
-To develop a machine learning-based system that classifies email content as spam or ham (not spam).
+## 🎯 AIM
+To classify emails as spam or ham using machine learning models, ensuring better email filtering and security.
 
-### DATASET LINK 
-[https://www.kaggle.com/datasets/ashfakyeafi/spam-email-classification](https://www.kaggle.com/datasets/ashfakyeafi/spam-email-classification)
+## 📊 DATASET LINK
+[Email Spam Detection Dataset](https://www.kaggle.com/datasets/shantanudhakadd/email-spam-detection-dataset-classification)
 
+## 📚 KAGGLE NOTEBOOK
+[Notebook Link](https://www.kaggle.com/code/thatarguy/email-spam-classifier?kernelSessionId=224262023)
 
-### NOTEBOOK LINK 
-[https://www.kaggle.com/code/inshak9/email-spam-detection](https://www.kaggle.com/code/inshak9/email-spam-detection)
+??? Abstract "Kaggle Notebook"
 
+    <iframe src="https://www.kaggle.com/embed/thatarguy/email-spam-classifier?kernelSessionId=224262023" height="800" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="email-spam-classifier"></iframe>
 
-### LIBRARIES NEEDED
+## ⚙️ TECH STACK
 
-??? quote "LIBRARIES USED"
+| **Category**             | **Technologies**                            |
+|--------------------------|---------------------------------------------|
+| **Languages**            | Python                                     |
+| **Libraries/Frameworks** | Scikit-learn, NumPy, Pandas, Matplotlib, Seaborn |
+| **Databases**            | NOT USED                                   |
+| **Tools**                | Kaggle, Jupyter Notebook                   |
+| **Deployment**           | NOT USED                                   |
 
-    - pandas
-    - numpy
-    - scikit-learn
-    - matplotlib
-    - seaborn
+---
 
---- 
-
-### DESCRIPTION 
+## 📝 DESCRIPTION
 !!! info "What is the requirement of the project?"
-    - A robust system to detect spam emails is essential to combat increasing spam content.
-    - It improves user experience by automatically filtering unwanted messages.
-
-??? info "Why is it necessary?"
-    - Spam emails consume resources, time, and may pose security risks like phishing.
-    - Helps organizations and individuals streamline their email communication.
+    - To efficiently classify emails as spam or ham.
+    - To improve email security by filtering out spam messages.
 
 ??? info "How is it beneficial and used?"
-    - Provides a quick and automated solution for spam classification.
-    - Used in email services, IT systems, and anti-spam software to filter messages.
+    - Helps in reducing unwanted spam emails in user inboxes.
+    - Enhances productivity by filtering out irrelevant emails.
+    - Can be integrated into email service providers for automatic filtering.
 
 ??? info "How did you start approaching this project? (Initial thoughts and planning)"
-    - Analyzed the dataset and prepared features.
-    - Implemented various machine learning models for comparison.
+    - Collected and preprocessed the dataset.
+    - Explored various machine learning models.
+    - Evaluated models based on performance metrics.
+    - Visualized results for better understanding.
 
 ??? info "Mention any additional resources used (blogs, books, chapters, articles, research papers, etc.)."
-    - Documentation from [scikit-learn](https://scikit-learn.org)
-    - Blog: Introduction to Spam Classification with ML
+    - Scikit-learn documentation.
+    - Various Kaggle notebooks related to spam detection.
 
 ---
 
-### EXPLANATION
+## 🔍 PROJECT EXPLANATION
 
-#### DETAILS OF THE DIFFERENT FEATURES
-The dataset contains features like word frequency, capital letter counts, and others that help in distinguishing spam emails from ham.
+### 🧩 DATASET OVERVIEW & FEATURE DETAILS
 
-| Feature              | Description                                     |
-|----------------------|-------------------------------------------------|
-| `word_freq_x`        | Frequency of specific words in the email body  |
-| `capital_run_length` | Length of consecutive capital letters          |
-| `char_freq`          | Frequency of special characters like `;` and `$` |
-| `is_spam`            | Target variable (1 = Spam, 0 = Ham)            |
+??? example "📂 spam.csv"
 
----
+    - The dataset contains the following features:
 
-#### WHAT I HAVE DONE
+    | Feature Name | Description |   Datatype   |
+    |--------------|-------------|:------------:|
+    | Category     | Spam or Ham |    object    |
+    | Text        | Email text  |    object    |
+    | Length      | Length of email | int64 |
 
-=== "Step 1"
+??? example "🛠 Developed Features from spam.csv"
 
-    Initial data exploration and understanding:
-      - Loaded the dataset using pandas.
-      - Explored dataset features and target variable distribution.
-
-=== "Step 2"
-
-    Data cleaning and preprocessing:
-      - Checked for missing values.
-      - Standardized features using scaling techniques.
-
-=== "Step 3"
-
-    Feature engineering and selection:
-      - Extracted relevant features for spam classification.
-      - Used correlation matrix to select significant features.
-
-=== "Step 4"
-
-    Model training and evaluation:
-      - Trained models: KNN, Naive Bayes, SVM, and Random Forest.
-      - Evaluated models using accuracy, precision, and recall.
-
-=== "Step 5"
-
-    Model optimization and fine-tuning:
-      - Tuned hyperparameters using GridSearchCV.
-
-=== "Step 6"
-
-    Validation and testing:
-      - Tested models on unseen data to check performance.
+    | Feature Name | Description | Reason   |   Datatype   |
+    |--------------|-------------|----------|:------------:|
+    | Length      | Email text length | Helps in spam detection | int64 |
 
 ---
 
-#### PROJECT TRADE-OFFS AND SOLUTIONS
+### 🛤 PROJECT WORKFLOW
 
-=== "Trade Off 1"
-    - **Accuracy vs. Training Time**:
-      - Models like Random Forest took longer to train but achieved higher accuracy compared to Naive Bayes.
-
-=== "Trade Off 2"
-    - **Complexity vs. Interpretability**:
-      - Simpler models like Naive Bayes were more interpretable but slightly less accurate.
-
----
-
-### SCREENSHOTS
-<!-- Attach the screenshots and images -->
-
-!!! success "Project flowchart"
+!!! success "Project workflow"
 
     ``` mermaid
       graph LR
-        A[Start] --> B[Load Dataset];
-        B --> C[Preprocessing];
-        C --> D[Train Models];
-        D --> E{Compare Performance};
-        E -->|Best Model| F[Deploy];
-        E -->|Retry| C;
+        A[Start] --> B[Load Dataset]
+        B --> C[Preprocess Data]
+        C --> D[Vectorize Text]
+        D --> E[Train Models]
+        E --> F[Evaluate Models]
+        F --> G[Visualize Results]
     ```
 
-??? tip "Confusion Matrix"
+=== "Step 1"
+    - Load the dataset and clean unnecessary columns.
 
-    === "SVM"
-        ![Confusion Matrix - SVM](https://github.com/user-attachments/assets/5abda820-040a-4ea8-b389-cd114d329c62)
+=== "Step 2"
+    - Preprocess text and convert categorical labels.
 
-    === "Naive Bayes"
-        ![Confusion Matrix - Naive Bayes](https://github.com/user-attachments/assets/bdae9210-9b9b-45c7-9371-36c0a66a9184)
+=== "Step 3"
+    - Convert text into numerical features using CountVectorizer.
 
-    === "Decision Tree"
-        ![Confusion Matrix - Decision Tree](https://github.com/user-attachments/assets/8e92fc53-4aff-4973-b0a1-b65a7fc4a79e)
+=== "Step 4"
+    - Train machine learning models.
 
-    === "AdaBoost"
-        ![Confusion Matrix - AdaBoost](https://github.com/user-attachments/assets/043692e3-f733-419c-9fb2-834f2e199506)
+=== "Step 5"
+    - Evaluate models using accuracy, precision, recall, and F1 score.
 
-    === "Random Forest"
-        ![Confusion Matrix - Random Forest](https://github.com/user-attachments/assets/5c689f57-9ec5-4e49-9ef5-3537825ac772)
-
----
-
-### MODELS USED AND THEIR EVALUATION METRICS
-
-|    Model             | Accuracy | Precision | Recall |
-|----------------------|----------|-----------|--------|
-| KNN                  | 90%      | 89%       | 88%    |
-| Naive Bayes          | 92%      | 91%       | 90%    |
-| SVM                  | 94%      | 93%       | 91%    |
-| Random Forest        | 95%      | 94%       | 93%    |
-| AdaBoost             | 97%      | 97%       | 100%   |
+=== "Step 6"
+    - Visualize performance using confusion matrices and heatmaps.
 
 ---
 
-#### MODELS COMPARISON GRAPHS
+### 🖥 CODE EXPLANATION
 
-!!! tip "Models Comparison Graphs"
+=== "Section 1"
+    - Data loading and preprocessing.
 
-    === "Accuracy Comparison"
-        ![Model accracy comparison](https://github.com/user-attachments/assets/1e17844d-e953-4eb0-a24d-b3dbc727db93)
+=== "Section 2"
+    - Text vectorization using CountVectorizer.
+
+=== "Section 3"
+    - Training models (MLP Classifier, MultinomialNB, BernoulliNB).
+
+=== "Section 4"
+    - Evaluating models using various metrics.
+
+=== "Section 5"
+    - Visualizing confusion matrices and metric comparisons.
 
 ---
 
-### CONCLUSION
+### ⚖️ PROJECT TRADE-OFFS AND SOLUTIONS
 
-#### WHAT YOU HAVE LEARNED
+=== "Trade Off 1"
+    - Balancing accuracy and computational efficiency.
+      - Used Naive Bayes for speed and MLP for improved accuracy.
+
+=== "Trade Off 2"
+    - Handling false positives vs. false negatives.
+      - Tuned models to improve precision for spam detection.
+
+---
+
+## 🎮 SCREENSHOTS
+
+!!! tip "Visualizations and EDA of different features"
+
+    === "Feature Distribution"
+        ![img](https://assets.ltkcontent.com/images/103034/line-graph-example_27c5571306.jpg)
+
+??? example "Model performance graphs"
+
+    === "Confusion Matrix Heatmaps"
+        ![img](https://assets.ltkcontent.com/images/103029/bar-graph-example_27c5571306.jpg)
+
+---
+
+## 📉 MODELS USED AND THEIR EVALUATION METRICS
+
+|    Model   | Accuracy |  Precision  | Recall | F1 Score |
+|------------|----------|------------|--------|----------|
+| MLP Classifier |  95% | 0.94 | 0.90 | 0.92 |
+| Multinomial NB |  93% | 0.91 | 0.88 | 0.89 |
+| Bernoulli NB |  92% | 0.89 | 0.85 | 0.87 |
+
+---
+
+## ✅ CONCLUSION
+
+### 🔑 KEY LEARNINGS
 
 !!! tip "Insights gained from the data"
-    - Feature importance significantly impacts spam detection.
-    - Simple models like Naive Bayes can achieve competitive performance.
+    - Text length plays a role in spam detection.
+    - Certain words appear more frequently in spam emails.
 
 ??? tip "Improvements in understanding machine learning concepts"
-    - Gained hands-on experience with classification models and model evaluation techniques.
-
-??? tip "Challenges faced and how they were overcome"
-    - Balancing between accuracy and training time was challenging, solved using model tuning.
+    - Gained insights into text vectorization techniques.
+    - Understood trade-offs between different classification models.
 
 ---
 
-#### USE CASES OF THIS MODEL
+### 🌍 USE CASES
 
-=== "Application 1"
+=== "Email Filtering Systems"
+    - Can be integrated into email services like Gmail and Outlook.
 
-    **Email Service Providers**
-    - Automated filtering of spam emails for improved user experience.
+=== "SMS Spam Detection"
+    - Used in mobile networks to block spam messages.
 
-=== "Application 2"
+### 📚 USEFUL LINKS
 
-    **Enterprise Email Security**
-    - Used in enterprise software to detect phishing and spam emails.
+=== "Deployed Model"
+    - [https://www.google.com](https://www.google.com)
 
----
+=== "GitHub Repository"
+    - [https://github.com/your-repository-url](https://github.com/your-repository-url)
 
-### FEATURES PLANNED BUT NOT IMPLEMENTED
-
-=== "Feature 1"
-
-    - Integration of deep learning models (LSTM) for improved accuracy.
+=== "Binary Model File"
+    - [https://www.google.com](https://www.google.com)
 

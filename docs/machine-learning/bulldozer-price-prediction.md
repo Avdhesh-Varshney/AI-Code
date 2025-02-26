@@ -1,5 +1,5 @@
 
-# 📜 Project Title  Bulldozer-Price-Prediction-using-ML
+# 📜 Project Title:  Bulldozer-Price-Prediction-using-ML
 
 ## 🎯 AIM 
 This project aims to predict the auction prices of bulldozers using machine learning techniques. The dataset used for this project comes from the Kaggle competition "Blue Book for Bulldozers," which provides historical data on bulldozer sales.

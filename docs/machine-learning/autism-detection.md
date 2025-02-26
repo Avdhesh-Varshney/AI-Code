@@ -1,7 +1,7 @@
 # 🌟 Autism Spectrum Disorder (ASD) Detection using Machine Learning
 
 <div align="center">
-    <img src="https://www.slideegg.com/image/catalog/85410-free-project-proposal-powerpoint-template.png" />
+    <img src="https://github.com/user-attachments/assets/62cc5129-b502-4164-849b-8f74da079ee3" />
 </div>
 
 ## 🎯 AIM
@@ -15,7 +15,8 @@ To develop a machine learning model that predicts the likelihood of Autism Spect
 
 ??? Abstract "Kaggle Notebook"
 
-    <iframe src="https://www.kaggle.com/embed/thatarguy/autism-prediction-using-ml?kernelSessionId=224549646" height="800" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="autism prediction using ml"></iframe>
+    <iframe src="https://www.kaggle.com/embed/thatarguy/autism-prediction-using-ml?kernelSessionId=224549646" height="800" style="margin: 0 auto; width: 100%; max-width: 95![autism_wallpaper](https://github.com/user-attachments/assets/75576f25-e284-4584-8646-50280b631277)
+0px;" frameborder="0" scrolling="auto" title="autism prediction using ml"></iframe>
 
 ## ⚙️ TECH STACK
 
@@ -124,12 +125,18 @@ This dataset provides essential features for training a model to detect ASD base
 !!! tip "Visualizations and EDA of different features"
 
     === "Age Distribution"
-        ![img](https://assets.ltkcontent.com/images/103034/line-graph-example_27c5571306.jpg)
+        ![img](https://github.com/user-attachments/assets/412aa82d-0f7a-4c7a-bdca-30a553de36b4)
 
 ??? example "Model performance graphs"
 
     === "Confusion Matrix"
-        ![img](https://assets.ltkcontent.com/images/103029/bar-graph-example_27c5571306.jpg)
+        ![img](https://github.com/user-attachments/assets/71c5773c-fe1f-42bb-ab76-e1150f564507)
+
+??? example "Features Correlation"
+
+    === "Feature Correlation Heatmap"
+        ![img](https://github.com/user-attachments/assets/60d24749-2f2e-4222-9895-c46c29ea596e)
+
 
 ---
 

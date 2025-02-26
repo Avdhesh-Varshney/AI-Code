@@ -15,8 +15,7 @@ To develop a machine learning model that predicts the likelihood of Autism Spect
 
 ??? Abstract "Kaggle Notebook"
 
-    <iframe src="https://www.kaggle.com/embed/thatarguy/autism-prediction-using-ml?kernelSessionId=224549646" height="800" style="margin: 0 auto; width: 100%; max-width: 95![autism_wallpaper](https://github.com/user-attachments/assets/75576f25-e284-4584-8646-50280b631277)
-0px;" frameborder="0" scrolling="auto" title="autism prediction using ml"></iframe>
+    <iframe src="https://www.kaggle.com/embed/thatarguy/autism-prediction-using-ml?kernelSessionId=224549646" height="800" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="autism prediction using ml"></iframe>
 
 ## ⚙️ TECH STACK
 

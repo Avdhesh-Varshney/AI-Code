@@ -11,12 +11,11 @@ To develop a machine learning model that predicts the likelihood of Autism Spect
 [Autism Screening Data](https://www.kaggle.com/code/konikarani/autism-prediction/data)  
 
 ## 📚 KAGGLE NOTEBOOK
-[Autism Detection Kaggle Notebook](https://www.kaggle.com/code/thatarguy/autism-prediction-using-ml?kernelSessionId=224549646)
+[Autism Detection Kaggle Notebook](https://www.kaggle.com/code/thatarguy/autism-prediction-using-ml?kernelSessionId=224830771)
 
 ??? Abstract "Kaggle Notebook"
 
-    <iframe src="https://www.kaggle.com/embed/thatarguy/autism-prediction-using-ml?kernelSessionId=224549646" height="800" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="autism prediction using ml"></iframe>
-
+    <iframe src="https://www.kaggle.com/embed/thatarguy/autism-prediction-using-ml?kernelSessionId=224830771" height="800" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="autism prediction using ml"></iframe>
 ## ⚙️ TECH STACK
 
 | **Category**             | **Technologies**                            |

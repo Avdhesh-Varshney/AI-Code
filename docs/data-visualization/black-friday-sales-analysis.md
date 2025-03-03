@@ -1,4 +1,4 @@
-# 📜 Exploratory Data Analysis
+# 📜 Black Friday Sales Analysis
 
 <div align="center">
     <img src="https://images.app.goo.gl/mf9Dw8GbrQdCsGNq6" alt='' />
@@ -24,7 +24,7 @@ To analyze the Black Friday sales dataset, understand customer purchasing behavi
         style="margin: 0 auto; width: 100%; max-width: 950px;" 
         frameborder="0" 
         scrolling="auto" 
-        title="bpl-analysis">
+        title="black-friday-sales-analysis">
     </iframe>
 
 ## ⚙️ TECH STACK 

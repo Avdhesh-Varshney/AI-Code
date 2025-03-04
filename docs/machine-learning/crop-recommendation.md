@@ -1,7 +1,7 @@
-# Crop-Recommendation-Model 
+# Crop Recommendation Model 
 
 <div align='center'>
-   <img src='https://images.app.goo.gl/DR673P8iCBwThkgk9' alt='' />
+   <img src='https://glu.global/wp-content/uploads/2022/04/AgriTech.jpg' alt='' />
 </div>
 
 ## 🎯 AIM 
@@ -19,7 +19,9 @@ It is an AI-powered Crop Recommendation System that helps farmers and agricultur
 ??? Abstract "Kaggle Notebook"
 
     <iframe 
+
         src="https://www.kaggle.com/code/kashishkhurana1204/recommendation-system" 
+ main
         height="600" 
         style="margin: 0 auto; width: 100%; max-width: 950px;" 
         frameborder="0" 
